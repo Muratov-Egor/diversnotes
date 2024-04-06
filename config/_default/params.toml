@@ -20,14 +20,14 @@ theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
-# google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "" # example: G-XXXXXXXXXX
+#contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/quickstart
+google_tag_manager = "G-5G8B88DZ4P" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "Egor Muratov © 2024"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -50,9 +50,9 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["Scuba diving", "Diving", "Underwater", "Blog"]
+description = "Scuba diving blog"
+author = "Egor Muratov"
 image = "images/og-image.png"
 
 
@@ -70,8 +70,8 @@ mastodon = "" # Your verification code
 [cookies]
 enable = false
 expire_days = 60
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "Этот сайт использует файлы cookie. Продолжая пользоваться этим сайтом, вы соглашаетесь с их использованием."
+button = "Понятно"
 
 ######################## sidebar widgets #########################
 [widgets]
@@ -79,17 +79,17 @@ sidebar = ["categories", "tags"]
 
 
 # google map
-[google_map]
-enable = false
-map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+#[google_map]
+#enable = false
+#map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+#map_latitude = "51.5223477"
+#map_longitude = "-0.1622023"
+#map_marker = "images/marker.png"
 
 
 # Subscription
-[subscription]
-enable = false
-# mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+#[subscription]
+#enable = false
+## mailchimp subsciption
+#mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+#mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
