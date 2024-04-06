@@ -2,24 +2,23 @@
 
 # main menu
 [[main]]
-name = "Главная"
+name = "Home"
 pageRef = "/"
 weight = 1
 
 [[main]]
-weight = 2
-name = "Блог"
-pageRef = "/blog"
-
-[[main]]
-weight = 3
-name = "База данных"
-pageRef = "/fishbase"
-
-[[main]]
-name = "Обо мне"
+name = "About"
 pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Elements"
+pageRef = "/elements"
+weight = 3
+
+[[main]]
 weight = 4
+name = "Pages"
 
 [[main]]
 parent = "Pages"
@@ -49,16 +48,16 @@ pageRef = "/404"
 
 # footer menu
 [[footer]]
-name = "Обо мне"
+name = "About"
 pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Блог"
-pageRef = "/blog"
+name = "Elements"
+pageRef = "/elements"
 weight = 2
 
 [[footer]]
-name = "База данных"
-pageRef = "/fishbase"
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
 weight = 3
