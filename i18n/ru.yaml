@@ -2,10 +2,10 @@
   translation: Главная
 
 - id: read_more
-  translation: Читать больше
+  translation: Читать
 
 - id: send
-  translation: Send
+  translation: Отправить
 
 - id: related_posts
   translation: Похожие посты
