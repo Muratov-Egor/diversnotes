@@ -1,32 +1,32 @@
 - id: home
-  translation: Home
+  translation: Главная
 
 - id: read_more
-  translation: Read More
+  translation: Читать больше
 
 - id: send
   translation: Send
 
 - id: related_posts
-  translation: Related Posts
+  translation: Похожие посты
 
 - id: categories
-  translation: Categories
+  translation: Категории
 
 - id: tags
-  translation: Tags
+  translation: Теги
 
 - id: toc
-  translation: Table of Contents
+  translation: Оглавление
 
 - id: share
-  translation: Share
+  translation: Поделиться
 
 - id: search_input_placeholder
-  translation: Search Post ...
+  translation: Поиск...
 
 - id: no_results_for
-  translation: No results for
+  translation: Нет результатов для
 
 - id: empty_search_results_placeholder
-  translation: Type something to search..
+  translation: Введите что-нибудь для поиска...
