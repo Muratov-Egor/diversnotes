@@ -1,6 +1,6 @@
 <footer class="bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
-    <div class="row items-center py-10">
+    <div class="row items-center py-8">
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
         <!-- navbar brand/logo -->
         <a
@@ -33,7 +33,7 @@
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
           {{ range site.Data.social.main }}
-            <li>
+            <li class="text-2xl">
               <a
                 target="_blank"
                 aria-label="{{ .name }}"
@@ -47,7 +47,7 @@
       </div>
     </div>
   </div>
-  <div class="border-border dark:border-darkmode-border border-t py-7">
+  <div class="border-border dark:border-darkmode-border border-t py-4">
     <div class="text-light dark:text-darkmode-light container text-center">
       <p>
         {{ site.Params.copyright | markdownify }}

@@ -76,6 +76,7 @@ button = "Понятно"
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = ["categories", "tags"]
+sidebar_for_database = ["tags"]
 
 
 # google map
