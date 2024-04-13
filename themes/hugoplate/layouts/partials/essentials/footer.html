@@ -2,12 +2,9 @@
   <div class="container">
     <div class="row items-center py-8">
       <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
-        <!-- navbar brand/logo -->
-        <a
-          class="navbar-brand inline-block"
-          href="{{ site.Home.RelPermalink }}">
-          {{ partial "logo" }}
-        </a>
+        <p>
+          {{ site.Params.copyright | markdownify }}
+        </p>
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
@@ -45,13 +42,6 @@
           {{ end }}
         </ul>
       </div>
-    </div>
-  </div>
-  <div class="border-border dark:border-darkmode-border border-t py-4">
-    <div class="text-light dark:text-darkmode-light container text-center">
-      <p>
-        {{ site.Params.copyright | markdownify }}
-      </p>
     </div>
   </div>
 </footer>
