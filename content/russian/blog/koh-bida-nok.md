@@ -4,7 +4,7 @@ title_meta: "Пхи-Пхи. Кох Бида Нок"
 description: "Дайв сайты архипелага Пхи-Пхи"
 date: 2023-08-05
 image: "/images/kohBidaNok_preview.png"
-categories: ["Дайв сайты", "Пхи-Пхи", "Кох Бида Нок"]
+categories: ["Дайв сайты"]
 tags: ["Дайв сайты", "Пхи-Пхи", "Кох Бида Нок"]
 ---
 
