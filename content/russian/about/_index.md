@@ -1,6 +1,6 @@
 ---
 title: "Всем привет! 🌊"
-meta_title: "About"
+meta_title: "Обо мне"
 description: "Обо мне"
 image: "/images/avatar.png"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Data base"
-meta_title: ""
-description: "this is meta description"
+title: "База данных"
+meta_title: "База данных"
+description: "База данных подводных существ которых я встретил"
 ---
