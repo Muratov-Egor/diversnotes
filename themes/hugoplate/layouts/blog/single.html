@@ -40,7 +40,7 @@
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
               <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
-                <h5 class="mr-3">{{ i18n "tags" }} :</h5>
+                <h5 class="mr-3">{{ i18n "tags" }}:</h5>
                 <ul>
                   {{ range $i,$p:= $tags }}
                     <li class="inline-block">
@@ -54,8 +54,8 @@
                 </ul>
               </div>
             {{ end }}
-            <div class="lg:col-4 flex items-center">
-              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (i18n "share") "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false) }}
+            <div class="lg:col-8 mt-6 flex items-center">
+              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (i18n "share") "Whatsapp" false "Linkedin" false "Pinterest" false "Tumblr" false "Email" false "Reddit" false) }}
             </div>
           </div>
           <!-- comments -->
