@@ -8,12 +8,12 @@ banner:
 
 # Features
 features:
-  - title: "База данных"
-    content: "База данных подводных существ которых я встретил за время погружений."
-    icon: "database"
-    link: "/database/"
   - title: "Блог"
     content: "Статьи о теории дайвинга и описания дайв сайтов, которые я посетил."
-    icon: "blog"
+    image: "/images/blog_promo.png"
     link: "/blog/"
+  - title: "База данных"
+    content: "База данных подводных существ которых я встретил за время погружений."
+    image: "/images/database_promo.png"
+    link: "/database/"
 ---
