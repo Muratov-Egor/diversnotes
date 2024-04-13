@@ -17,20 +17,6 @@
               <i class="fa-regular fa-language mr-2"></i>
               {{ .Params.title_en }}
             </li>
-            {{ $tags:= .Params.tags }}
-            {{ if $tags }}
-              <li class="mr-4 inline-block">
-                <i class="fa-regular fa-search mr-2"></i>
-                {{ range $i,$p:= $tags }}
-                  <b><a
-                    href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
-                    class=""
-                    >{{ . | humanize}}{{ if ne $i (sub (len $tags) 1) }}{{" / "}}
-                    {{ end }}
-                  </a></b>
-                {{ end }}
-              </li>
-            {{ end }}
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
               {{ time.Format ":date_long" .PublishDate }}
@@ -40,6 +26,23 @@
             {{ .Content }}
           </div>
           <div class="row items-start justify-between">
+            {{ $tags:= .Params.tags }}
+            {{ if $tags }}
+            <div class="lg:col-10 mb-4 flex items-center lg:mb-4">
+              <h5 class="mr-4 flex-0">{{ i18n "divesites" }}:</h5>
+              <ul class="flex-1">
+                {{ range $i,$p:= $tags }}
+                <li class="inline-block">
+                  <a
+                    class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                    href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                    {{ . | humanize }}
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
             <div class="lg:col-8 flex items-center">
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (i18n "share") "Whatsapp" false "Email" false "Linkedin" false "Pinterest" false "Tumblr" false "Reddit" false) }}
             </div>

@@ -16,6 +16,9 @@
 - id: tags
   translation: Теги
 
+- id: divesites
+  translation: Дайв-сайты
+
 - id: toc
   translation: Оглавление
 
