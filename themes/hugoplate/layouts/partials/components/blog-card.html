@@ -2,7 +2,7 @@
   <a href="{{ .RelPermalink }}">
     {{ $image:= .Params.image }}
     {{ if $image }}
-      {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
+      {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-3 w-full rounded") }}
     {{ end }}
   </a>
   <h4 class="mb-3">
@@ -14,7 +14,7 @@
   {{ if $categories }}
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
+        <i class="fa-regular fa-tags mr-1"></i>
         {{ range $i,$p:= $categories }}
           <a
             href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
