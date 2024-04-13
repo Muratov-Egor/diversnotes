@@ -1,0 +1,21 @@
+<div class="bg-body dark:bg-darkmode-body">
+  <a href="{{ .RelPermalink }}">
+    {{ $image:= .Params.image }}
+    {{ if $image }}
+      {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-3 w-full rounded") }}
+    {{ end }}
+  </a>
+  <h4 class="mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h4>
+  <li class="mr-4 mb-4 inline-block">
+    <i class="fa-regular fa-language mr-2"></i>
+    {{ .Params.title_en }}
+  </li>
+  <br />
+  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+    {{ i18n "read_more" }}
+  </a>
+</div>

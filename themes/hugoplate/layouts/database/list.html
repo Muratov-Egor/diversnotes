@@ -11,7 +11,7 @@
             {{ $paginator:= .Paginate .RegularPages }}
             {{ range $paginator.Pages }}
               <div class="md:col-6 mb-14">
-                {{ partial "components/blog-card" . }}
+                {{ partial "components/database-card" . }}
               </div>
             {{ end }}
           </div>
