@@ -1,5 +1,6 @@
 ---
 title: "Лангуст синеполосый"
+meta_title: "Лангуст синеполосый"
 title_en: "Panulirus versicolor"
 image: "images/panulirus-versicolor.png"
 date: 2024-03-16

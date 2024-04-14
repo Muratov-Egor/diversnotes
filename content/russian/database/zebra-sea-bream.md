@@ -1,5 +1,6 @@
 ---
 title: "Карась-барабан"
+meta_title: "Карась-барабан"
 title_en: "Zebra sea-bream"
 image: "images/zebra-sea-bream.png"
 date: 2023-12-16

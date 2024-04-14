@@ -1,8 +1,8 @@
 ---
 title: "Гигантская мурена"
+meta_title: "Гигантская мурена"
 title_en: "Giant Moray"
 image: "images/giant-moray.png"
-slug: "giant-moray"
 date: 2024-01-17
 tags: ["Рача Яй", "Рача Ной" ,"Ко Бида Нок", "Шарк Пойнт", "Симиланские острова"]
 ---

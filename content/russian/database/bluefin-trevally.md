@@ -1,5 +1,6 @@
 ---
 title: "Синепёрый каранкс"
+meta_title: "Синепёрый каранкс"
 title_en: "Bluefin trevally"
 image: "images/bluefin-trevally.png"
 date: 2023-12-16

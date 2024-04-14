@@ -1,5 +1,6 @@
 ---
 title: "Большеглазая рыба-солдат"
+meta_title: "Большеглазая рыба-солдат"
 title_en: "Blotcheye soldierfish"
 image: "images/blotcheye-soldierfish.png"
 date: 2024-03-16

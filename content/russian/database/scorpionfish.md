@@ -1,5 +1,6 @@
 ---
 title: "Рыба-скорпион"
+meta_title: "Рыба-скорпион"
 title_en: "Scorpionfish"
 image: "images/scorpionfish.png"
 date: 2024-01-08

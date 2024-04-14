@@ -1,5 +1,6 @@
 ---
 title: "Бабочка пакистанская"
+meta_title: "Бабочка пакистанская"
 title_en: "Redtail butterflyfish"
 image: "images/redtail-butterflyfish.png"
 date: 2023-12-15

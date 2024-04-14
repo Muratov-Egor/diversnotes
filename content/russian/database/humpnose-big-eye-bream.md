@@ -1,5 +1,6 @@
 ---
 title: "Большеглазый окунь"
+meta_title: "Большеглазый окунь"
 title_en: "Humpnose big-eye bream"
 image: "images/humpnose-big-eye-bream.png"
 date: 2023-12-16

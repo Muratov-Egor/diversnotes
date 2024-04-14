@@ -1,5 +1,6 @@
 ---
 title: "Короткошипая рыба ёж"
+meta_title: "Короткошипая рыба ёж"
 title_en: "Black blotched porcupinefish"
 image: "images/black-blotched-porcupinefish.png"
 date: 2023-07-01

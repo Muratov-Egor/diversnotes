@@ -1,5 +1,6 @@
 ---
 title: "Фараоновая каракатица"
+meta_title: "Фараоновая каракатица"
 title_en: "Pharaoh cuttlefish"
 image: "images/pharaoh-cuttlefish.png"
 date: 2024-03-16

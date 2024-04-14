@@ -1,5 +1,6 @@
 ---
 title: "Полосатая рыба-бабочка"
+meta_title: "Полосатая рыба-бабочка"
 title_en: "Diagonal-lined butterflyfish"
 image: "images/diagonal-lined-butterflyfish.png"
 date: 2023-12-15

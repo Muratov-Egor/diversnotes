@@ -1,5 +1,6 @@
 ---
 title: "Бабочка-фантом"
+meta_title: "Бабочка-фантом"
 title_en: "Phantom Bannerfish"
 image: "images/phantom-banerfish.png"
 date: 2024-01-08

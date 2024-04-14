@@ -1,5 +1,6 @@
 ---
 title: "Зебровая акула"
+meta_title: "Зебровая акула"
 title_en: "Zebra shark"
 image: "images/zebra-shark.png"
 date: 2023-12-19

@@ -1,5 +1,6 @@
 ---
 title: "Черноточечный тетрадон"
+meta_title: "Черноточечный тетрадон"
 title_en: "Blackspotted puffer"
 image: "images/blackspotted-puffer.png"
 date: 2023-07-01

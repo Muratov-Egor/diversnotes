@@ -1,5 +1,6 @@
 ---
 title: "Зелёная черепаха"
+meta_title: "Зелёная черепаха"
 title_en: "Green sea turtle"
 image: "images/green-sea-turtle.png"
 date: "2024-03-16"

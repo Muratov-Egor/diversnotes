@@ -1,5 +1,6 @@
 ---
 title: "Белопёрая кабуба"
+meta_title: "Белопёрая кабуба"
 title_en: "Longfin bannerfish"
 image: "images/longfin-bannerfish.png"
 date: 2024-03-16

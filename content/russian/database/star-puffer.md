@@ -1,5 +1,6 @@
 ---
 title: "Звёздчатый иглобрюх"
+meta_title: "Звёздчатый иглобрюх"
 title_en: "Star puffer"
 image: "images/star-puffer.png"
 date: 2023-07-01
