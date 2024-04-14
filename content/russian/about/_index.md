@@ -17,4 +17,4 @@ draft: false
 
 <i class="fab fa-instagram" style="color: #fb65a1;"></i> [Instagram](https://www.instagram.com/diver_egor?igshid=OGQ5ZDc2ODk2ZA%3D%3D) - Короткие Reels с моих погружений.
 
-<i class="fa-brands fa-telegram" style="color: #74C0FC;"></i>  [Telegram](https://t.me/diversnotes) - Короткие заметки и мысли о дайвинге в моменте.
+<i class="fa-brands fa-telegram" style="color: #74C0FC;"></i>  [Telegram](https://t.me/diversnotes) - Короткие заметки и мысли о дайвинге.
