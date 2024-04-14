@@ -12,7 +12,7 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 В зависимости от направления волн, дайвинг обычно происходит либо на западном, либо на восточных побережьях.
 
-# Bungalow Bay
+## Bungalow Bay
 
 ![Bungalow Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_1.png?raw=true "Bungalow Bay")
 
@@ -28,7 +28,7 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 ![Cхема Bungalow Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_2.png?raw=true "Cхема Bungalow Bay")
 
-# Bay 1 и Bay 2
+## Bay 1 и Bay 2
 
 ![Bay 1 и Bay 2](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_3.png?raw=true "Bay 1 и Bay 2")
 
@@ -42,7 +42,7 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 ![Схема Bay 1 и Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_4.png?raw=true "Схема Bay 1 и Bay")
 
-# Siam Bay
+## Siam Bay
 
 На северной стороне острова находится дайв сайт Siam Bay.
 
