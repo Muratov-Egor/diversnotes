@@ -14,7 +14,7 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 # Bungalow Bay
 
-![Bungalow Bay](/images/rachaYai_1.png "Bungalow Bay")
+![Bungalow Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_1.png?raw=true "Bungalow Bay")
 
 Дайв-сайт Bungalow Bay или Ao Patok - популярное место в высокий сезон с ноября по май. В бухте есть широкий белоснежный пляж и красивые каменистые скалы, на которых можно увидеть диких козлов, наблюдающих за прибывшими туристами.
 
@@ -26,11 +26,11 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 Глубина бухты нарастает с мелководья пляжа и достигает 20-25 метров на выходе из бухты. А если продолжить движение, то можно достичь глубины более 40 метров.
 
-![Cхема Bungalow Bay](/images/rachaYai_2.png "Cхема Bungalow Bay")
+![Cхема Bungalow Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_2.png?raw=true "Cхема Bungalow Bay")
 
 # Bay 1 и Bay 2
 
-![Bay 1 и Bay 2](/images/rachaYai_3.png "Bay 1 и Bay 2")
+![Bay 1 и Bay 2](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_3.png?raw=true "Bay 1 и Bay 2")
 
 Дайв-сайт Bay 1 или Ao Lah расположен на восточной стороне острова. В мелкой части, от 3 до 9 метров, располагается большой коралловый риф, в котором обитает большое количество разнообразных рыб.
 
@@ -40,7 +40,7 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 Дальше в море находится затонувший корабль Haruby Star. Дно затонувшего судна находится на глубине около 20 метров, а верх - на глубине около 14 метров. Можно легко проплыть внутри корабля, но стоит быть очень внимательным, так как в корабле можно встретить мурен.
 
-![Схема Bay 1 и Bay](/images/rachaYai_4.png "Схема Bay 1 и Bay")
+![Схема Bay 1 и Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_4.png?raw=true "Схема Bay 1 и Bay")
 
 # Siam Bay
 
@@ -56,5 +56,5 @@ tags: ["Дайв сайты", "Рача Яй"]
 
 Подводные жители не столь привыкшие к дайверам, поэтому их намного легче спугнуть, поэтому делая фото или видео нужно быть придельно аккуратным.
 
-![Siam Bay](/images/rachaYai_5.png "Siam Bay")
+![Siam Bay](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/rachaYai_5.png?raw=true "Siam Bay")
 
