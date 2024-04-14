@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://muratov-egor.github.io/diversnotes"
+baseURL = "https://diversnotes.com/"
 # Title of your website (required).
 title = "Diver's Notes"
 # Your theme name
