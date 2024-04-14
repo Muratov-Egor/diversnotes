@@ -38,3 +38,13 @@ pageRef = "/blog"
 weight = 3
 name = "База данных"
 pageRef = "/database"
+
+[[footer]]
+weight = 4
+name = "Категории"
+pageRef = "/categories"
+
+[[footer]]
+weight = 5
+name = "Теги"
+pageRef = "/tags"
