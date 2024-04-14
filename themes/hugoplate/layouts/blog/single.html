@@ -21,8 +21,7 @@
                   <a
                     href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
                     class=""
-                    >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-                      {{ "," }}
+                    >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}{{ "," }}
                     {{ end }}
                   </a>
                 {{ end }}

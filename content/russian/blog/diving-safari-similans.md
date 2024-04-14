@@ -4,7 +4,7 @@ meta_title: "Дайвинг-сафари. Симиланские острова.
 description: "Симиланские острова"
 date: 2023-11-18
 image: "/images/divingSafari_similans_preview.png"
-categories: ["Дайв сайты"]
+categories: ["Дайв сайты", "Мой Опыт"]
 tags: ["Дайв сайты", "Cимиланы", "Cимиланские острова", "Дайвинг-сафари"]
 ---
 
