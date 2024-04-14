@@ -19,6 +19,9 @@ hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/K
 defaultContentLanguage = 'ru'
 defaultContentLanguageInSubdir = false
 
+# robots.txt
+enableRobotsTXT = true
+
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
