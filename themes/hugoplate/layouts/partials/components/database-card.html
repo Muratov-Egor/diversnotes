@@ -1,4 +1,4 @@
-<div class="bg-body dark:bg-darkmode-body">
+<div class="bg-body dark:bg-darkmode-body text-center">
   <a href="{{ .RelPermalink }}">
     {{ $image:= .Params.image }}
     {{ if $image }}
@@ -11,7 +11,6 @@
     </a>
   </h4>
   <li class="mr-4 mb-4 inline-block">
-    <i class="fa-regular fa-language mr-2"></i>
     {{ .Params.title_en }}
   </li>
   <br />
