@@ -12,7 +12,7 @@ Bay 1, Bay 2, Bay 3, Homerun Reef, Siam Bay, Bungalow Bay North Wall, Bungalow B
 Camera Bay, Manta Bay, Freedom Bay, Banana Bay.
 
 ##### [🏝️Архипелаг Пхи Пхи️:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.6760196318337925%2C98.77033837148025&z=14)
-Koh Bida Nok, Koh Bida Nai, Phi Ley Wall, Turtle Rock, Phi Ley Wall, Viking Bay.
+Koh Bida Nok, Koh Bida Nai, Phi Ley Wall, Turtle Rock, Viking Bay.
 
 ##### [🦈 🤿 🛳️ Прочее рядом с Пхукетом:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.784551331317025%2C98.58718051278754&z=13)
 King Cruiser Wreck, Shark Point, Koh Doc Mai.
