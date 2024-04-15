@@ -41,15 +41,16 @@ pageRef = "/database"
 
 [[footer]]
 weight = 4
+name = "Карта погружений"
+pageRef = "/map"
+
+[[footer]]
+weight = 5
 name = "Категории"
 pageRef = "/categories"
 
 [[footer]]
-weight = 5
+weight = 6
 name = "Теги"
 pageRef = "/tags"
 
-[[footer]]
-weight = 6
-name = "Карта погружений"
-pageRef = "/map"
