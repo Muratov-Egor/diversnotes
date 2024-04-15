@@ -48,3 +48,8 @@ pageRef = "/categories"
 weight = 5
 name = "Теги"
 pageRef = "/tags"
+
+[[footer]]
+weight = 6
+name = "Карта погружений"
+pageRef = "/map"
