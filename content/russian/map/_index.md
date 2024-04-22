@@ -21,5 +21,5 @@ King Cruiser Wreck, Shark Point, Koh Doc Mai.
 Shark Fin Reef, Eel Garden, Honeymoon Bay, Christmas Point, North Point, Koh Bon Ridge, Tachai Pinnacle, Tachai Reef, Richelieu Rock.
 
 ##### [🏝Остров Кох Тао:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=10.064561556374397%2C99.82568724548506&z=13)
-Southwest Pinnacle, HTMS Sattakut, White Rock, Hin Pee Wee, Twin Rocks, Twins Pinnacle, Japanese Garden, Nang Yuan Drop, Green Rock.
+Japanese garden, Buoyancy World, Green rock, Hin Pee Wee, White Rock, Southwest pinnacle, HTMS Sattakut, Hang Yuan Drop, Twins.
 
