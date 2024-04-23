@@ -5,10 +5,10 @@ description: "Карта дайв-сайтов которые я посетил"
 draft: false
 ---
 
-##### [🏝️Рача Яй:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.603491027203231%2C98.36887960061125&z=15)
+##### [🏝️Остров Рача Яй:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.603491027203231%2C98.36887960061125&z=15)
 Bay 1, Bay 2, Bay 3, Homerun Reef, Siam Bay, Bungalow Bay North Wall, Bungalow Bay South Wall.
 
-##### [🏝️Рача Ной:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.489416744472929%2C98.32081744936083&z=14)
+##### [🏝️Остров Рача Ной:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.489416744472929%2C98.32081744936083&z=14)
 Camera Bay, Manta Bay, Freedom Bay, Banana Bay.
 
 ##### [🏝️Архипелаг Пхи Пхи️:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.6760196318337925%2C98.77033837148025&z=14)
