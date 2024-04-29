@@ -4,6 +4,7 @@ meta_title: "Blackeye thicklip wrasse. Half-and-half wrasse. Hemigymnus melapter
 image: "images/blackeye-thicklip-wrasse.png"
 date: 2024-30-04
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao"]
+draft: true
 ---
 
 Belonging to the wrasse family, the blackeye thicklip wrasse, also known as the half-and-half wrasse (Hemigymnus melapterus), hails from the Indo-Pacific region.
