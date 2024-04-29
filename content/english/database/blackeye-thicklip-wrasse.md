@@ -2,7 +2,7 @@
 title: "Blackeye thicklip wrass"
 meta_title: "Blackeye thicklip wrasse. Half-and-half wrasse. Hemigymnus melapterus"
 image: "images/blackeye-thicklip-wrasse.png"
-date: 2024-30-04
+date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao"]
 draft: true
 ---
