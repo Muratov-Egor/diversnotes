@@ -3,9 +3,8 @@ title: "Полосатый групер"
 title_en: "Blacktip grouper"
 meta_title: "Blacktip grouper. Epinephelus fasciatus. Redbanded grouper. Blacktipped cod. Black-tipped rockcod. Footballer cod. Red-barred cod. Red-barred rockcod. Scarlet rock-cod. Weathered rock-cod."
 image: "images/blacktip_grouper.png"
-date: 2024-04-29
+date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
-draft: true
 ---
 
 Эти маленькие груперы иногда желто-красные или кирпичного цвета без вертикальных полос, но чаще всего у них есть 5 широких темных вертикальных полос на теле, которые лучше видны у основания спинного плавника.
