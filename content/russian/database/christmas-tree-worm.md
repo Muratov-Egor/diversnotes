@@ -1,11 +1,10 @@
 ---
 title: "Ёлочный червь"
 title_en: "Christmas tree worm"
-meta_title: "Christmas tree worm. Spirobranchus giganteus"
+meta_title: "Ёлочный червь. Christmas tree worm. Spirobranchus giganteus"
 image: "images/christmas-tree-worm.png"
 date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
-draft: true
 ---
 
 "Новогодняя елка" (Spirobranchus giganteus) или Ёлочный червь— вид многощетинковых червей из семейства Serpulidae. Широко распространены в тропических морях Мирового океана. Ведут сидячий образ жизни в тесной ассоциации с мадрепоровыми кораллами, строя в углублениях на поверхности их колоний известковые трубки.
