@@ -2,7 +2,7 @@
 title: "Рыба Титан / Голубопёрый балистод"
 meta_title: "Рыба Титан / Голубопёрый балистод"
 title_en: "Titan triggerfish"
-image: "images/titan-triggerfish.png"
+image: "/images/titan-triggerfish.png"
 date: 2024-04-19
 tags: ["Рача Яй", "Рача Ной", "Шарк Пойнт", "Ко Тао", "Симиланские острова", "Пхи Пхи"]
 ---

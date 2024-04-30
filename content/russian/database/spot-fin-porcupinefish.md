@@ -2,7 +2,7 @@
 title: "Длинношипая рыба ёж"
 meta_title: "Длинношипая рыба ёж"
 title_en: "Spot-fin porcupinefish"
-image: "images/spot-fin-porcupinefish.png"
+image: "/images/spot-fin-porcupinefish.png"
 date: 2023-07-01
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Шарк Пойнт", "Симиланские острова"]
 ---

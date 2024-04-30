@@ -2,7 +2,7 @@
 title: "Большой каранкс"
 meta_title: "Большой каранкс"
 title_en: "Giant trevally"
-image: "images/giant-trevally.png"
+image: "/images/giant-trevally.png"
 date: 2023-12-16
 tags: ["Симиланские острова"]
 ---

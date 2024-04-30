@@ -2,7 +2,7 @@
 title: "Черноточечный тетрадон"
 meta_title: "Черноточечный тетрадон"
 title_en: "Blackspotted puffer"
-image: "images/blackspotted-puffer.png"
+image: "/images/blackspotted-puffer.png"
 date: 2023-07-01
 tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт", "Симиланcкие острова", "Рача Ной", "Пхи Пхи"]
 ---

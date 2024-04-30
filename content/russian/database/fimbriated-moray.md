@@ -2,7 +2,7 @@
 title: "Мурена черноточечная"
 meta_title: "Мурена черноточечная"
 title_en: "Fimbriated Moray"
-image: "images/fimbriated-moray.png"
+image: "/images/fimbriated-moray.png"
 date: 2024-01-17
 tags: ["Рача Яй", "Ко Бида Нок"]
 ---
