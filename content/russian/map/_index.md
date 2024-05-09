@@ -5,21 +5,21 @@ description: "Карта дайв-сайтов которые я посетил"
 draft: false
 ---
 
-##### [🏝️Остров Рача Яй:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.603491027203231%2C98.36887960061125&z=15)
+##### [🏝️Остров Рача Яй:](https://diversnotes.com/blog/racha-yai/)
 Bay 1, Bay 2, Bay 3, Homerun Reef, Siam Bay, Bungalow Bay North Wall, Bungalow Bay South Wall.
 
-##### [🏝️Остров Рача Ной:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.489416744472929%2C98.32081744936083&z=14)
+##### [🏝️Остров Рача Ной:](https://diversnotes.com/blog/racha-noi/)
 Camera Bay, Manta Bay, Freedom Bay, Banana Bay.
 
-##### [🏝️Архипелаг Пхи Пхи️:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.6760196318337925%2C98.77033837148025&z=14)
-Koh Bida Nok, Koh Bida Nai, Phi Ley Wall, Turtle Rock, Viking Bay.
+##### [🏝️Архипелаг Пхи Пхи️:](#)
+[Koh Bida Nok](https://diversnotes.com/blog/koh-bida-nok/), Koh Bida Nai, Phi Ley Wall, Turtle Rock, Viking Bay.
 
-##### [🦈 🤿 🛳️ Прочее рядом с Пхукетом:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=7.784551331317025%2C98.58718051278754&z=13)
+##### [🦈 🤿 🛳️ Прочее рядом с Пхукетом:](#)
 King Cruiser Wreck, Shark Point, Koh Doc Mai.
 
-##### [🏝Симиланские острова:](https://www.google.com/maps/d/u/0/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=8.880722302181892%2C97.97832576162062&z=10)
+##### [🏝Симиланские острова:](https://diversnotes.com/blog/diving-safari-similans/)
 Shark Fin Reef, Eel Garden, Honeymoon Bay, Christmas Point, North Point, Koh Bon Ridge, Tachai Pinnacle, Tachai Reef, Richelieu Rock.
 
-##### [🏝Остров Кох Тао:](https://www.google.com/maps/d/viewer?mid=1ouGVolaV2-RJxb5CFfh1GM77QRu6EZo&ll=10.064561556374397%2C99.82568724548506&z=13)
+##### [🏝Остров Кох Тао:](https://diversnotes.com/blog/koh-tao/)
 Japanese garden, Buoyancy World, Green rock, Hin Pee Wee, White Rock, Southwest pinnacle, HTMS Sattakut, Hang Yuan Drop, Twins.
 
