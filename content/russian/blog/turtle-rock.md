@@ -38,7 +38,8 @@ tags: ["Дайв сайты", "Пхи-Пхи", "Черепашья Скала", 
 
 Несмотря на то, что это легкое место для погружения, важно правильно выбрать место для всплытия в безопасной зоне. Большую опасность представляет движение скоростных катеров, заходящих в бухту Майя.
 
+![Cхема дайв-сайта Черепашья Скала (Turtle Rock)](https://raw.githubusercontent.com/Muratov-Egor/diversnotes/master/assets/images/turtleRockMap.png "Черепашья Скала (Turtle Rock)")
+
 В целом, это очень хороший дайв-сайт, который практически гарантирует наличие черепах и может преподнести множество приятных сюрпризов.
 
-![Cхема дайв-сайта Черепашья Скала (Turtle Rock)](https://raw.githubusercontent.com/Muratov-Egor/diversnotes/master/assets/images/turtleRockMap.png "Черепашья Скала (Turtle Rock)")
 
