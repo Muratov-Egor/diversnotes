@@ -1,7 +1,7 @@
 ---
 title: "Черепашья Скала (Turtle Rock)"
 title_meta: "Пхи-Пхи. Черепашья скала"
-description: "Дайв сайты архипелага Пхи-Пхи"
+description: "Черепашья Скала (Turtle Rock). Архипелаг Пхи-Пхи (Phi Phi Islands)"
 date: 2024-05-17
 image: "/images/turtleRockPreview.png"
 categories: ["Дайв сайты"]
