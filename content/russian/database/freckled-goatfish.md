@@ -17,4 +17,4 @@ tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт"]
 
 Пятнистая барабулька не представляет опасности для дайверов. Она обычно пуглива и уплывает при приближении.
 
-![Freckled Goatfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/freckled-goatfis-2.png?raw=true "Freckled Goatfish")
+![Freckled Goatfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/freckled-goatfish-2.png?raw=true "Freckled Goatfish")
