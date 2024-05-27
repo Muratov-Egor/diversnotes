@@ -3,7 +3,7 @@ title: "Пятнистая барабулька"
 meta_title: "Пятнистая барабулька (Upeneus tragula). Freckled Goatfish"
 title_en: "Freckled Goatfish"
 image: "/images/freckled-goatfish.png"
-date: 2024-06-01
+date: 2024-05-27
 tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт"]
 ---
 

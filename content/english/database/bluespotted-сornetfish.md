@@ -2,7 +2,7 @@
 title: "Bluespotted сornetfish"
 meta_title: "Bluespotted сornetfish"
 image: "/images/bluespotted-сornetfish.png"
-date: 2024-06-01
+date: 2024-05-27
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
 

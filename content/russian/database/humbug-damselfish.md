@@ -3,7 +3,7 @@ title: "Зебровидный дасцилл"
 title_en: "Humbug damselfish"
 meta_title: "Зебровидный дасцилл (Dascyllus aruanus). Трехполосый дасцилл. Whitetail dascyllus. Humbug damselfish"
 image: "/images/humbug-damselfish.png"
-date: 2024-06-01
+date: 2024-05-27
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
 

@@ -3,7 +3,7 @@ title: "Бычок Штайнитца"
 title_en: "Бычок Штайнитца (Amblyeleotris steinitzi). Steinitz’ Prawn-goby"
 meta_title: "Бычок Штайнитца (Amblyeleotris steinitzi). Steinitz’ Prawn-goby."
 image: "/images/amblyeleotris-steinitzi.png"
-date: 2024-06-01
+date: 2024-05-27
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
 
