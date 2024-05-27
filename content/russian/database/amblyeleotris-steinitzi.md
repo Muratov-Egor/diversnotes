@@ -1,6 +1,6 @@
 ---
 title: "Бычок Штайнитца"
-title_en: "Бычок Штайнитца (Amblyeleotris steinitzi). Steinitz’ Prawn-goby"
+title_en: "Steinitz’ Prawn-goby (Amblyeleotris steinitzi)"
 meta_title: "Бычок Штайнитца (Amblyeleotris steinitzi). Steinitz’ Prawn-goby."
 image: "/images/amblyeleotris-steinitzi.png"
 date: 2024-05-27
