@@ -6,7 +6,7 @@ draft: false
 ---
 
 ##### [🏝️Остров Рача Яй:](https://diversnotes.com/blog/racha-yai/)
-Bay 1, Bay 2, Bay 3, Homerun Reef, Siam Bay, Bungalow Bay North Wall, Bungalow Bay South Wall.
+Bay 1, Bay 2, Bay 3, Homerun Reef, Marlas Mystery, Siam Bay, Bungalow Bay North Wall, Bungalow Bay South Wall.
 
 ##### [🏝️Остров Рача Ной:](https://diversnotes.com/blog/racha-noi/)
 Camera Bay, Manta Bay, Freedom Bay, Banana Bay.
