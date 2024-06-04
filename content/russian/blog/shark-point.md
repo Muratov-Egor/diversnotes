@@ -2,7 +2,7 @@
 title: "Шарк Пойнт (Shark Point)"
 title_meta: "Шарк Пойнт (Shark Point)"
 description: "Шарк Пойнт (Shark Point). Архипелаг Пхи-Пхи (Phi Phi Islands)"
-date: 2024-06-05
+date: 2024-09-05
 draft: true
 image: "/images/sharkPointPreview.png"
 categories: ["Дайв сайты"]
