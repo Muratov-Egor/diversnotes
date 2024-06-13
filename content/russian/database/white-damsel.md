@@ -3,7 +3,7 @@ title: "Полосатый Дамсель"
 title_en: "White damsel"
 meta_title: "Полосатый Дамсель. White damsel. Dischistodus perspicillatus"
 image: "/images/white-damsel.png"
-date: 2024-06-01
+date: 2024-06-15
 tags: ["Racha Yai", "Koh Bida Nok", "Racha Noi"]
 ---
 
