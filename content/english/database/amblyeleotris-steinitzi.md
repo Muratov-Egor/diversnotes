@@ -2,7 +2,7 @@
 title: "Steinitz’ Prawn-goby"
 meta_title: "Steinitz’ Prawn-goby (Amblyeleotris steinitzi)"
 image: "/images/amblyeleotris-steinitzi.png"
-date: 2024-06-01
+date: 2024-06-02
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
 
