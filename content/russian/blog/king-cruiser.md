@@ -2,7 +2,7 @@
 title: "Кинг Круизер (King Cruiser)"
 title_meta: "Кинг Круизер (King Cruiser)"
 description: "Кинг Круизер (King Cruiser). Архипелаг Пхи-Пхи (Phi Phi Islands)"
-date: 2024-06-22
+date: 2024-06-21
 image: "/images/king_cruiser_preview.png"
 categories: ["Дайв сайты"]
 tags: ["Дайв сайты", "Пхи-Пхи", "Кинг Круизер", "King Cruiser", "Wreck"]
