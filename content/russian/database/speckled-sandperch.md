@@ -3,7 +3,7 @@ title: "Крапчатый окунь"
 title_en: "Speckled sandperch"
 meta_title: "Крапчатый окунь, Parapercis hexophtalma, Speckled sandperch"
 image: "/images/speckled-sandperch.png"
-date: 2024-07-10
+date: 2024-07-16
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
 Крапчатый окунь (Parapercis hexophtalma) он же Белый крапчатый морской окунь — представитель рода Parapercis. У самцо и самок есть различия во внешности.
