@@ -3,7 +3,7 @@ title: "Длинношипый морской еж"
 title_en: "Long Spined Black Urchin"
 meta_title: "Длинношипый морской еж, Sea urchin, Long Spined Black Urchin, Diadema antillarum"
 image: "/images/sea-urchin.png"
-date: 2024-07-16
+date: 2024-07-10
 tags: ["Racha Yai", "Racha Noi", "Similan Islands", "Koh Bida Nok", "Koh Tao"]
 ---
 

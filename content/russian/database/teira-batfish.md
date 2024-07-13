@@ -3,7 +3,7 @@ title: "Платакс"
 title_en: "Platax teira (Teira batfish)"
 meta_title: "Платакс. Teira batfish"
 image: "/images/teira-batfish.png"
-date: 2024-07-16
+date: 2024-07-10
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
 

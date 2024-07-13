@@ -2,7 +2,7 @@
 title: "Snowflake moray"
 meta_title: "Snowflake moray, Echidna nebulosa, Clouded moray"
 image: "/images/snowflake-moray.png"
-date: 2024-07-16
+date: 2024-07-10
 tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 ---
 

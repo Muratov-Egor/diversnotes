@@ -2,7 +2,7 @@
 title: "Yellow-lipped sea krait"
 meta_title: "Yellow-lipped sea krait (Laticauda colubrina), Banded sea krait, Colubrine sea krait"
 image: "/images/sea-kraits.png"
-date: 2024-07-16
+date: 2024-07-10
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao"]
 ---
 The yellow-lipped sea krait (Laticauda colubrina), also known as the banded sea krait or the yellow-lipped sea krait, is a species of venomous sea snake found in the tropical waters of the Indo-Pacific region. The snake has distinctive black bands and a yellow snout, along with a paddle-shaped tail adapted for swimming.

@@ -3,7 +3,7 @@ title: "Звездчатая мурена"
 title_en: "Snowflake moray"
 meta_title: "Звездчатая мурена, Snowflake moray, Echidna nebulosa, Clouded moray"
 image: "/images/snowflake-moray.png"
-date: 2024-07-16
+date: 2024-07-10
 tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 ---
 
