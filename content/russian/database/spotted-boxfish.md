@@ -1,7 +1,7 @@
 ---
 title: "Кузовок белопятнистый"
 title_en: "White-spotted boxfish"
-meta_title: "Spotted boxfish, White-spotted boxfish, Ostracion meleagris"
+meta_title: "Кузовок белопятнистый, Spotted boxfish, White-spotted boxfish, Ostracion meleagris"
 image: "/images/spotted-boxfish.png"
 date: 2024-07-10
 tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
