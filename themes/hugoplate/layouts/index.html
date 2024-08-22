@@ -33,7 +33,9 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
+            <a href="{{ .link}}">
             {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+            </a>
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
