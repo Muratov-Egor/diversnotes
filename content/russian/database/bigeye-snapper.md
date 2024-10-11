@@ -2,7 +2,7 @@
 title: "Большеглазый луциан"
 title_en: "Bigeye snapper"
 meta_title: "Bigeye snapper"
-image: "/images/bigeye-snapper.png"
+image: "/images/bigeyeSnapper/bigeye-snapper.png"
 date: 2024-06-15
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 ---
@@ -15,4 +15,4 @@ tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 
 Питается в основном мелкой рыбой и ракообразными. Они часто охотятся группами, используя свои большие глаза для обнаружения добычи в условиях слабого освещения. Также они потребляют различных беспозвоночных.
 
-![Bigeye snapper](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/bigeye-snapper-2.png?raw=true "Bigeye snapper")
+![Bigeye snapper](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/bigeyeSnapper/bigeye-snapper-2.png?raw=true "Bigeye snapper")
