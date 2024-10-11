@@ -2,7 +2,7 @@
 title: "Зебровидный дасцилл"
 title_en: "Humbug damselfish"
 meta_title: "Зебровидный дасцилл (Dascyllus aruanus). Трехполосый дасцилл. Whitetail dascyllus. Humbug damselfish"
-image: "/images/humbug-damselfish.png"
+image: "/images/humbugDamselfish/humbug-damselfish.png"
 date: 2024-05-27
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
@@ -19,4 +19,4 @@ Dascyllus aruanus в основном питается планктоном и �
 
 Трехполосные дасциллы не представляют опасности для дайверов. Они обычно любопытны и могут приближаться к дайверам, но не представляют угрозы. Их небольшой размер и мирный характер делают их безвредными для человека.
 
-![Humbug damselfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/humbug-damselfish-2.png?raw=true "Humbug damselfish")
+![Humbug damselfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/humbugDamselfish/humbug-damselfish-2.png?raw=true "Humbug damselfish")

@@ -2,7 +2,7 @@
 title: "Ангел-анулярис"
 title_en: "Bluering angelfish"
 meta_title: "Ангел-анулярис. Bluering angelfish. Pomacanthus annularis. Аnnularis angelfish. King angelfish"
-image: "/images/blue_ring_angelfish.png"
+image: "/images/blueRingAngelfish/blue_ring_angelfish.png"
 date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---

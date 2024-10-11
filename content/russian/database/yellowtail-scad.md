@@ -2,7 +2,7 @@
 title: "Желтохвостый корась (Атуле)"
 meta_title: "Желтохвостый корась (Атуле)"
 title_en: "Yellowtail scad"
-image: "/images/yellowtail-scad.png"
+image: "/images/yellowtailScad/yellowtail-scad.png"
 date: 2024-04-22
 tags: ["Ко Тао"]
 ---

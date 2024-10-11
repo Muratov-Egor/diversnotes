@@ -2,7 +2,7 @@
 title: "Рыба-клоун Кларка"
 title_en: "Clark's anemonefish"
 meta_title: "Рыба-клоун Кларка. Amphiprion clarkii. Clark's anemonefish"
-image: "/images/clarks-anemonefish.png"
+image: "/images/clarksAnemonefish/clarks-anemonefish.png"
 date: 2024-06-15
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 ---
@@ -17,4 +17,4 @@ tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 
 Рыба-клоун Кларка могут стать агрессивными, защищая свою територию, если чувствуют угрозу. Укусы могут быть неприятными, но они не ядовиты и не представляют серьезной угрозы.
 
-![Clark's anemonefish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/clarks-anemonefish-2.png?raw=true "Clark's anemonefish")
+![Clark's anemonefish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/clarksAnemonefish/clarks-anemonefish-2.png?raw=true "Clark's anemonefish")

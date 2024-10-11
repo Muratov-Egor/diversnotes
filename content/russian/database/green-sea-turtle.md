@@ -2,7 +2,7 @@
 title: "Зелёная черепаха"
 meta_title: "Зелёная черепаха"
 title_en: "Green sea turtle"
-image: "/images/green-sea-turtle.png"
+image: "/images/greenSeaTurtle/green-sea-turtle.png"
 date: "2024-03-16"
 tags: ["Рача Ной", "Шарк Пойнт", "Симиланские острова", "Пхи Пхи"]
 ---

@@ -2,7 +2,7 @@
 title: "Пятнистая барабулька"
 meta_title: "Пятнистая барабулька (Upeneus tragula). Freckled Goatfish"
 title_en: "Freckled Goatfish"
-image: "/images/freckled-goatfish.png"
+image: "/images/freckledGoatfish/freckled-goatfish.png"
 date: 2024-05-27
 tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт"]
 ---
@@ -17,4 +17,4 @@ tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт"]
 
 Пятнистая барабулька не представляет опасности для дайверов. Она обычно пуглива и уплывает при приближении.
 
-![Freckled Goatfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/freckled-goatfish-2.png?raw=true "Freckled Goatfish")
+![Freckled Goatfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/freckledGoatfish/freckled-goatfish-2.png?raw=true "Freckled Goatfish")

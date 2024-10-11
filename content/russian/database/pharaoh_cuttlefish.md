@@ -2,7 +2,7 @@
 title: "Фараоновая каракатица"
 meta_title: "Фараоновая каракатица"
 title_en: "Pharaoh cuttlefish"
-image: "/images/pharaoh-cuttlefish.png"
+image: "/images/pharaohCuttlefish/pharaoh-cuttlefish.png"
 date: 2024-03-16
 tags: ["Рача Яй", "Рача Ной", "Шарк Пойнт"]
 ---

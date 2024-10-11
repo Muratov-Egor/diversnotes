@@ -2,7 +2,7 @@
 title: "Черноточечный тетрадон"
 meta_title: "Черноточечный тетрадон"
 title_en: "Blackspotted puffer"
-image: "/images/blackspotted-puffer.png"
+image: "/images/blackspottedPuffer/blackspotted-puffer.png"
 date: 2023-07-01
 tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт", "Симиланcкие острова", "Рача Ной", "Пхи Пхи"]
 ---
@@ -10,4 +10,4 @@ tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт", "Сими
 
 Этот вид обитает в районах коралловых рифов и вблизи скал на глубине от 3 до 35 метров. Черноточечный тетрадон предпочитает вести одиночный образ жизни, часто покоится неподвижно на кораллах. В пищу ему служат кораллы, губки и водоросли. Когда чувствует угрозу, тетрадон набирает воздух и воду, превращаясь в защитный шар.
 
-![Blackspotted puffer](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/blackspotted-puffer-2.png?raw=true "Blackspotted puffer")
+![Blackspotted puffer](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/blackspottedPuffer/blackspotted-puffer-2.png?raw=true "Blackspotted puffer")

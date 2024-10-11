@@ -2,7 +2,7 @@
 title: "Лангуст синеполосый"
 meta_title: "Лангуст синеполосый"
 title_en: "Panulirus versicolor"
-image: "/images/panulirus-versicolor.png"
+image: "/images/panulirusVersicolor/panulirus-versicolor.png"
 date: 2024-03-16
 tags: ["Рача Яй", "Рача Ной", "Пхи Пхи", "Шарк Пойнт", "Симиланские острова"]
 ---
