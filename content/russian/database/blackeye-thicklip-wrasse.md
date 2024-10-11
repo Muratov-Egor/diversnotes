@@ -2,7 +2,7 @@
 title: "Черноглазый толстогубый губан"
 meta_title: "Черноглазый толстогубый губан. Blackeye thicklip wrasse. Half-and-half wrasse. Hemigymnus melapterus"
 title_en: "Blackeye thicklip wrasse"
-image: "/images/blackeye-thicklip-wrasse.png"
+image: "/images/blackeyeThicklipWrasse/blackeye-thicklip-wrasse.png"
 date: 2024-04-30
 tags: ["Рача Яй", "Ко Бида Нок", "Ко Тао"]
 ---
