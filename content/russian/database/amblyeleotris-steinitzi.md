@@ -2,7 +2,7 @@
 title: "Бычок Штайнитца"
 title_en: "Steinitz’ Prawn-goby (Amblyeleotris steinitzi)"
 meta_title: "Бычок Штайнитца (Amblyeleotris steinitzi). Steinitz’ Prawn-goby."
-image: "/images/amblyeleotris-steinitzi.png"
+image: "/images/amblyeleotrisSteinitzi/amblyeleotris-steinitzi.png"
 date: 2024-05-27
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
@@ -17,4 +17,4 @@ Amblyeleotris steinitzi размножается путем внешнего о�
 
 Это робкая рыба, которая при первом признаке опасности быстро скрывается в своей норе. Её небольшой размер и мирный характер делают её полностью безвредной для человека.
 
-![Steinitz’ Prawn-goby](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/amblyeleotris-steinitzi-2.png?raw=true "Steinitz’ Prawn-goby")
+![Steinitz’ Prawn-goby](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/amblyeleotrisSteinitzi/amblyeleotris-steinitzi-2.png?raw=true "Steinitz’ Prawn-goby")
