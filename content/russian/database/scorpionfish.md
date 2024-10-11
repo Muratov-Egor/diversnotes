@@ -2,7 +2,7 @@
 title: "Рыба-скорпион"
 meta_title: "Рыба-скорпион"
 title_en: "Scorpionfish"
-image: "/images/scorpionfish.png"
+image: "/images/scorpionfish/scorpionfish.png"
 date: 2024-01-08
 tags: ["Рача Яй", "Рача Ной", "Симиланские острова"]
 ---
