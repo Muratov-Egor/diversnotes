@@ -2,7 +2,7 @@
 title: "Кузовок белопятнистый"
 title_en: "White-spotted boxfish"
 meta_title: "Кузовок белопятнистый, Spotted boxfish, White-spotted boxfish, Ostracion meleagris"
-image: "/images/spotted-boxfish.png"
+image: "/images/spottedBoxfish/spotted-boxfish.png"
 date: 2024-07-10
 tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 ---
@@ -11,18 +11,18 @@ tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 
 Эти рыбы встречаются в Индо-Тихоокеанском регионе, обитая главным образом в лагунах и на рифах на глубинах от 1 до 30 метров. Взрослые особи могут достигать длины до 25 см. Их питание состоит из губок, червей, туникатов и других мелких беспозвоночных.
 
-![Spotted boxfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spotted-boxfish-1.png?raw=true "Spotted boxfish")
+![Spotted boxfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spottedBoxfish/spotted-boxfish-1.png?raw=true "Spotted boxfish")
 
 Окраска самцов включает черноватый цвет на спине с белыми пятнами, голубоватыми боками с яркими желтоватыми полосами и пятнами. В то время как самки и молодые особи имеют темно-коричневый или черноватый цвет с белыми пятнами.
 
 Боксфиши тесно родственны рыбам-фугу, с которыми они поддерживают симбиотические отношения с ядовитыми бактериями. В отличие от фугу, козовки используют ядовитую слизь, выделяемую из специализированных клеток, для защиты. Их яркая окраска служит как предупреждение об опасности, что называется апозематизмом.
 
-![Spotted boxfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spotted-boxfish-2.png?raw=true "Spotted boxfish")
+![Spotted boxfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spottedBoxfish/spotted-boxfish-2.png?raw=true "Spotted boxfish")
 
 Чешуйки кузовок слипаются в твердую коробкообразную панцирь, оставляя открытыми только плавники, хвост, глаза и рот. Это обеспечивает им дополнительную защиту. Козовки передвигаются медленно, полагаясь на грудные плавники. Как и другие боксфиши, они быстро прячутся в укрытии при опасности и часто остаются на месте, наблюдая за окружающим миром.
 
 Они обитают в небольших гаремах, где один самец ухаживает за несколькими самками. Самцы территориальны и защищают свою территорию от конкурентов. Спаривание происходит на высоте над рифом, где самец приближается к самке и инициирует процесс.
 
-![Spotted boxfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spotted-boxfish-3.png?raw=true "Spotted boxfish")
+![Spotted boxfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spottedBoxfish/spotted-boxfish-3.png?raw=true "Spotted boxfish")
 
 Во время спаривания самец или самка, иногда оба, издают низкочастотный гул, который длится около 6 секунд. Еще один пример - после процесса спаривания, когда к другой самке приходит еще один самец, чтобы "отложить" ее или нарушить процесс спаривания, два самца дерутся друг с другом, иногда создавая слышимый ударный звук, и даже издают короткий жужжащий звук.
