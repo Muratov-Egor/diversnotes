@@ -16,3 +16,4 @@ hugo_stats.json
 go.sum
 yarn.lock
 /assets/images/gallery
+/assets/images/unused
