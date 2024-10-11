@@ -2,7 +2,7 @@
 title: "Длинношипая рыба ёж"
 meta_title: "Длинношипая рыба ёж"
 title_en: "Spot-fin porcupinefish"
-image: "/images/spot-fin-porcupinefish.png"
+image: "/images/spotFinPorcupinefish/spot-fin-porcupinefish.png"
 date: 2023-07-01
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Шарк Пойнт", "Симиланские острова"]
 ---
@@ -17,4 +17,4 @@ tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Шарк П�
 
 Эти рыбы обычно встречаются в одиночестве и активно охотятся за беспозвоночными, такими как морские ежи, брюхоногие и раки-отшельники, особенно ночью.
 
-![Spot-fin porcupinefishl](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spot-fin-porcupinefish-2.png?raw=true "Spot-fin porcupinefish")
+![Spot-fin porcupinefishl](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/spotFinPorcupinefish/spot-fin-porcupinefish-2.png?raw=true "Spot-fin porcupinefish")
