@@ -2,7 +2,7 @@
 title: "Синепёрый каранкс"
 meta_title: "Синепёрый каранкс"
 title_en: "Bluefin trevally"
-image: "/images/bluefinTrevally/bluefin-trevally.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355074/bluefin-trevally_ywl7yu.png"
 date: 2023-12-16
 tags: ["Симиланские острова", "Ко Тао"]
 ---
