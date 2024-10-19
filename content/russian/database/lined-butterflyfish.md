@@ -2,7 +2,7 @@
 title: "Линейная рыба-бабочка"
 meta_title: "Линейная рыба-бабочка"
 title_en: "Lined butterflyfish"
-image: "/images/linedButterflyfish/lined-butterflyfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729356323/lined-butterflyfish_hhvyc2.png"
 date: 2023-12-15
 tags: ["Рача Яй", "Пхи Пхи", "Симиланские острова"]
 ---
