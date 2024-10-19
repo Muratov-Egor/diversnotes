@@ -2,7 +2,7 @@
 title: "Звездчатая мурена"
 title_en: "Snowflake moray"
 meta_title: "Звездчатая мурена, Snowflake moray, Echidna nebulosa, Clouded moray"
-image: "/images/snowflakeMoray/snowflake-moray.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357566/snowflake-moray_iweudg.png"
 date: 2024-07-10
 tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 ---
@@ -11,13 +11,13 @@ tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 
 Её гавайское название "puhi-kapa" происходит от прозвища, данного королём Камехамеха I. Название рода происходит от греческого слова "echidna", что переводится как "гадюка", а видовое название "nebulosa" происходит от латинского "nebulosus", означающего "туманный" или "облачный".
 
-![Snowflake moray](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/snowflakeMoray/snowflake-moray-2.png?raw=true "Snowflake moray")
+![Snowflake moray](https://res.cloudinary.com/danezbcu5/image/upload/v1729357553/snowflake-moray-2_w6aicz.png "Snowflake moray")
 
 Размеры звездчатой мурены могут достигать до 100 см, но обычно они встречаются размером около 50 см. Эти рыбы обитают на глубинах от 1 до 48 метров.
 
 Звездчатые мурены населяют пещеры и расщелины рифов Индо-Тихоокеанского региона, начиная от Гавайских островов и до Австралии, простираясь на запад через острова Индо-Тихоокеании, до Восточных Индийских островов и через Индийский океан до побережья Африки.
 
-![Snowflake moray](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/snowflakeMoray/snowflake-moray-3.png?raw=true "Snowflake moray")
+![Snowflake moray](https://res.cloudinary.com/danezbcu5/image/upload/v1729357556/snowflake-moray-3_mlzud7.png "Snowflake moray")
 
 Их тело окрашено в белый или кремовый цвет с черными дендритными или зубчатыми пятнами, иногда с жёлтыми точками. Глаза мурен окрашены в жёлтый цвет, а на голове видны жёлтые отметины. Из ноздрей выступают две жёлтые трубчатые ноздри, склонённые вниз, а ещё одна пара ближе к глазам. Их зрение слабое, но они компенсируют это развитым обонянием. Зубы звездчатой мурены приспособлены для поедания ракообразных, а их коническая форма помогает дробить экзоскелеты беспозвоночных. В дикой природе эти мурены обычно питаются большей частью рыбы.
 
@@ -25,7 +25,7 @@ tags: ["Racha Yai", "Racha Noi", "Koh Bida Nok", "Shark Point"]
 
 Звездчатые мурены играют важную роль в распространении икры, которую они откладывают в воде во время спаривания. Их яйца и личинки плывут с планктоном до тех пор, пока не оседают на рифе, где и происходит их вылупление.
 
-![Snowflake moray](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/snowflakeMoray/snowflake-moray-4.png?raw=true "Snowflake moray")
+![Snowflake moray](https://res.cloudinary.com/danezbcu5/image/upload/v1729357564/snowflake-moray-4_hmcvyd.png "Snowflake moray")
 
 
 
