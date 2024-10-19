@@ -2,7 +2,7 @@
 title: "Линкия. Голубая морская звезда"
 title_en: "Blue sea star"
 meta_title: "Blue sea star"
-image: "/images/blueSeaStar/blue-sea-star.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729359036/blue-sea-star_aijx7f.png"
 date: 2024-06-15
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 ---
@@ -17,4 +17,4 @@ tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 
 Она не ядовита и не агрессивна. Эти морские звезды обычно медлительные и не причиняют вреда человеку. Однако дайверам рекомендуется не трогать морских звезд и других морских обитателей, чтобы избежать стресса для животных и потенциального повреждения их деликатной кожи.
 
-![Blue sea star](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/blueSeaStar/blue-sea-star-2.png?raw=true "Blue sea star")
+![Blue sea star](https://res.cloudinary.com/danezbcu5/image/upload/v1729359038/blue-sea-star-2_h8leae.png "Blue sea star")
