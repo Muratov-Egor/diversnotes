@@ -2,7 +2,7 @@
 title: "Мурена черноточечная"
 meta_title: "Мурена черноточечная"
 title_en: "Fimbriated Moray"
-image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355572/divingAssociations_advices_dkvdh3.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355835/fimbriated-moray_fr4li9.png"
 date: 2024-01-17
 tags: ["Рача Яй", "Ко Бида Нок"]
 ---
