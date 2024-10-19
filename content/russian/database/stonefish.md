@@ -2,7 +2,7 @@
 title: "Рыба-камень"
 meta_title: "Рыба-камень"
 title_en: "Stonefish"
-image: "/images/stonefish/stonefish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357614/stonefish_ism9wd.png"
 date: 2024-01-08
 tags: ["Рача Яй", "Рача Ной", "Пхи Пхи", "Шарк Пойнт"]
 ---

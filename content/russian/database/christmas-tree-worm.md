@@ -2,7 +2,7 @@
 title: "Ёлочный червь"
 title_en: "Christmas tree worm"
 meta_title: "Ёлочный червь. Christmas tree worm. Spirobranchus giganteus"
-image: "/images/christmasTreeWorm/christmas-tree-worm.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355523/christmas-tree-worm_msueyi.png"
 date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---

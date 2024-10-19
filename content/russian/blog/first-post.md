@@ -3,7 +3,7 @@ title: "Первый пост"
 meta_title: "Первый пост"
 description: "Как я пришел к дайвингу"
 date: 2023-07-01T05:00:00Z
-image: "/images/firstPost/first_post_preview.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355845/first_post_preview_ei4ilm.png"
 categories: ["Мой опыт"]
 tags: ["Опыт"]
 ---
@@ -22,16 +22,16 @@ tags: ["Опыт"]
 
 В 2022 я приехал жить и работать на Пхукет и решил наконец-то осуществить свою давнюю мечту и прошёл курс Open Water Diver.
 
-![Первый выход в море](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/firstPost/first_post_1.png?raw=true "Первый выход в море")
+![Первый выход в море](https://res.cloudinary.com/danezbcu5/image/upload/v1729355848/first_post_1_nbvdnm.png "Первый выход в море")
 
 Инструктора мне порекомендовала коллега с работы и это была отличная рекомендация, так как с уверенностью могу сказать что он точно является одной из причин почему я решил заниматься дайвингом и не останавливаться на базовом сертификате.
 
-![Первое погружение](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/firstPost/first_post_2.png?raw=true "Первое погружение")
+![Первое погружение](https://res.cloudinary.com/danezbcu5/image/upload/v1729355840/first_post_2_wlcpmb.png "Первое погружение")
 
 После прохождения курса я пошел в магазин чтобы купить себе “только маску и ласты и больше ничего брать не буду” чтобы комфортно ходить раз в месяц два на дайвинг. В итоге через пол года у меня уже был полный комплект снаряжения, а погружаться я хожу почти каждую неделю.
 
 Чтобы продлить впечатления о дайвинге я купил GoPro и начал вести [Instagram](https://instagram.com/diver_egor) где публикую видео с рыбками которых я встретил под водой. Считаю что просмотр видео и идентификация встреченных рыбок, тоже является большой частью из-за чего мне нравиться дайвинг.
 
-![Год спустя провожу свой первый брифинг](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/firstPost/first_post_3.png?raw=true "Год спустя провожу свой первый брифинг")
+![Год спустя провожу свой первый брифинг](https://res.cloudinary.com/danezbcu5/image/upload/v1729355842/first_post_3_tklvpe.png "Год спустя провожу свой первый брифинг")
 
 Недавно я понял что хочу делиться своими впечатлениями и знаниями с другими, поэтому и появилась идея завести блок о дайвинге и писать заметки об этом. Посмотрим что из этого получиться)

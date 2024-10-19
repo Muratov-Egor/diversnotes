@@ -2,7 +2,7 @@
 title: "Морской огурец Ламберта"
 meta_title: "Морской огурец Ламберта"
 title_en: "Lambert's Worm Sea Cucumbers"
-image: "/images/lambertsWormSeaCucumbers/lamberts-worm-sea-cucumbers.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729356317/lamberts-worm-sea-cucumbers_mqwwjz.png"
 date: 2024-04-19
 tags: ["Ко Тао"]
 ---

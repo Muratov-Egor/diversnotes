@@ -2,7 +2,7 @@
 title: "Бабочка-фантом"
 meta_title: "Бабочка-фантом"
 title_en: "Phantom Bannerfish"
-image: "/images/phantomBanerfish/phantom-banerfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729356820/phantom-banerfish_ityvil.png"
 date: 2024-01-08
 tags: ["Рача Яй"]
 ---

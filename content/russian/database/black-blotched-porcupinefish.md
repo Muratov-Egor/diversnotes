@@ -2,7 +2,7 @@
 title: "Короткошипая рыба ёж"
 meta_title: "Короткошипая рыба ёж"
 title_en: "Black blotched porcupinefish"
-image: "/images/blackBlotchedPorcupinefish/black-blotched-porcupinefish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355011/black-blotched-porcupinefish_vtu7be.png"
 date: 2023-07-01
 tags: ["Рача Яй", "Ко Бида Нок", "Шарк Поинт"]
 ---

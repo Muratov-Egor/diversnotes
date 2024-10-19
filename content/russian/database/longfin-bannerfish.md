@@ -2,7 +2,7 @@
 title: "Белопёрая кабуба"
 meta_title: "Белопёрая кабуба"
 title_en: "Longfin bannerfish"
-image: "/images/longfinBannerfish/longfin-bannerfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729356328/longfin-bannerfish_nq50kp.png"
 date: 2024-03-16
 tags: ["Рача Яй", "Рача Ной", "Пхи Пхи", "Симиланские острова"]
 ---

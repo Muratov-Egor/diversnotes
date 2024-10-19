@@ -2,7 +2,7 @@
 title: "Звёздчатый иглобрюх"
 meta_title: "Звёздчатый иглобрюх"
 title_en: "Star puffer"
-image: "/images/starPuffer/star-puffer.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357610/star-puffer_itqx4u.png"
 date: 2023-07-01
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Пхи Пхи", "Симиланские острова"]
 ---

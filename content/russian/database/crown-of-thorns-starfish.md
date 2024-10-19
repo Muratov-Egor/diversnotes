@@ -2,7 +2,7 @@
 title: "Терновый венец"
 title_en: "Crown-of-thorns starfish"
 meta_title: "Терновый венец. Crown-of-thorns starfish"
-image: "/images/crownOfThornsStarfish/crown-of-thorns-starfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355542/crown-of-thorns-starfish_znhxdu.png"
 date: 2024-06-15
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Phi-Phi"]
 ---
@@ -17,4 +17,4 @@ tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Phi-Phi"]
 
 Терновый венец представляет опасность для дайверов из-за своих ядовитых шипов. Прикосновение к шипам может вызвать сильную боль, отек, тошноту и даже паралич. Раны от шипов могут заживать очень долго и быть подвержены инфекции.
 
-![Crown-of-thorns starfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/crownOfThornsStarfish/crown-of-thorns-starfish-2.png?raw=true "Crown-of-thorns starfish")
+![Crown-of-thorns starfish](https://res.cloudinary.com/danezbcu5/image/upload/v1729355538/crown-of-thorns-starfish-2_pqorw8.png "Crown-of-thorns starfish")

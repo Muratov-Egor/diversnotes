@@ -17,3 +17,4 @@ go.sum
 yarn.lock
 /assets/images/gallery
 /assets/images/unused
+.idea

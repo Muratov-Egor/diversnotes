@@ -2,7 +2,7 @@
 title: "Большеглазая рыба-солдат"
 meta_title: "Большеглазая рыба-солдат"
 title_en: "Blotcheye soldierfish"
-image: "/images/blotcheyeSoldierfish/blotcheye-soldierfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355065/blotcheye-soldierfish_ce6n1g.png"
 date: 2024-03-16
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Шарк Пойнт", "Симиланские острова"]
 ---

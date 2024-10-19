@@ -2,7 +2,7 @@
 title: "Полосатый групер"
 title_en: "Blacktip grouper"
 meta_title: "Blacktip grouper. Epinephelus fasciatus. Redbanded grouper. Blacktipped cod. Black-tipped rockcod. Footballer cod. Red-barred cod. Red-barred rockcod. Scarlet rock-cod. Weathered rock-cod."
-image: "/images/blacktipGrouper/blacktip_grouper.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355055/blacktip_grouper_k0uxpn.png"
 date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
