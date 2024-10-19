@@ -2,7 +2,7 @@
 title: "Большеглазый окунь"
 meta_title: "Большеглазый окунь"
 title_en: "Humpnose big-eye bream"
-image: "/images/humpnoseBigEyeBream/humpnose-big-eye-bream.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729356036/humpnose-big-eye-bream_h266qb.png"
 date: 2023-12-16
 tags: ["Симиланские острова"]
 ---
