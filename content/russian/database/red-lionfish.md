@@ -2,7 +2,7 @@
 title: "Крылатка-зебра"
 meta_title: "Крылатка-зебра"
 title_en: "Red lionfish"
-image: "/images/redLionfish/red-lionfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357148/red-lionfish_m5fvlh.png"
 date: 2023-12-05
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Шарк Пойнт", "Симиланские острова"]
 ---

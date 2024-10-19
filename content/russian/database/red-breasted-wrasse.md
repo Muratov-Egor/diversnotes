@@ -2,7 +2,7 @@
 title: "Красногрудый губан"
 title_en: "Red-breasted wrasse"
 meta_title: "Красногрудый губан. Хейлин красногрудый. Red-breasted wrasse. Cheilinus fasciatus"
-image: "/images/redBreastedWrasse/red-breasted-wrasse.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357140/red-breasted-wrasse_vp7xiw.png"
 date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---

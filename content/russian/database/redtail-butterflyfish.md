@@ -2,7 +2,7 @@
 title: "Бабочка пакистанская"
 meta_title: "Бабочка пакистанская"
 title_en: "Redtail butterflyfish"
-image: "/images/redtailButterflyfish/redtail-butterflyfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357143/redtail-butterflyfish_ugsreh.png"
 date: 2023-12-15
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Симиланские острова"]
 ---

@@ -2,7 +2,7 @@
 title: "Бабочка-енот"
 meta_title: "Бабочка-енот"
 title_en: "Raccoon butterflyfish"
-image: "/images/raccoonButterflyfish/raccoon-butterflyfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729357119/raccoon-butterflyfish_gmrzey.png"
 date: 2023-12-16
 tags: ["Рача Яй", "Пхи Пхи", "Симиланские острова"]
 ---
