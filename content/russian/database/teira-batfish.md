@@ -2,7 +2,7 @@
 title: "Платакс"
 title_en: "Platax teira (Teira batfish)"
 meta_title: "Платакс. Teira batfish"
-image: "/images/teiraBatfish/teira-batfish.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729358200/teira-batfish_awvbgk.png"
 date: 2024-07-10
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
@@ -15,7 +15,7 @@ tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 
 С возрастом платаксы меняют форму и окраску. У молодых рыб вытянутые спинные и анальные плавники, тело окрашено в жёлтые или оранжевые тона с тремя чёрными полосами. По мере взросления плавники укорачиваются, полосы размываются, а тело приобретает серебристый цвет с вертикальными полосами на передней части.
 
-![Teira batfish](https://github.com/Muratov-Egor/diversnotes/blob/master/assets/images/teiraBatfish/teira-batfish-2.png?raw=true "Teira batfish")
+![Teira batfish](https://res.cloudinary.com/danezbcu5/image/upload/v1729358197/teira-batfish-2_il7q2e.png "Teira batfish")
 
 Платаксы не представляют опасности для дайверов и часто проявляют к ним любопытство. Они легко подпускают к себе людей, что делает их популярными объектами наблюдений под водой.
 

@@ -2,7 +2,7 @@
 title: "Зебровая акула"
 meta_title: "Зебровая акула"
 title_en: "Zebra shark"
-image: "/images/zebraShark/zebra-shark.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729358382/zebra-shark_dt7ocx.png"
 date: 2023-12-19
 tags: ["Рача Яй", "Рача Ной", "Шарк Пойнт"]
 ---

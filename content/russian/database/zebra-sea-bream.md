@@ -2,7 +2,7 @@
 title: "Карась-барабан"
 meta_title: "Карась-барабан"
 title_en: "Zebra sea-bream"
-image: "/images/zebraSeaBream/zebra-sea-bream.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729358378/zebra-sea-bream_k04xjs.png"
 date: 2023-12-16
 tags: ["Симиланские острова"]
 ---
