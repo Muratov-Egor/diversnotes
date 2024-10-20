@@ -3,7 +3,7 @@ title: "Ассоциации Дайвинга"
 meta_title: "Ассоциации Дайвинга"
 description: "Куда пойти учиться?"
 date: 2023-09-07
-image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355551/deepDiving_7_si7tom.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355563/divingAssociations_preview_xxy0js.png"
 categories: ["Теория дайвинга"]
 tags: ["Теория дайвинга", "PADI", "CMAS", "SSI", "IANTD", "NDL"]
 ---
