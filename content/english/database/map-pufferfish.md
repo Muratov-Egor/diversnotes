@@ -7,16 +7,10 @@ date: 2024-10-25
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands", "Phi-Phi"]
 ---
 
-Мозаичный аротрон имеет крупное тело с характерным узором, напоминающим лабиринт или мозаику, откуда и происходит его название. Цвет тела варьируется от зелёного до серо-коричневого, а светлые линии, образующие узор, покрывают всю поверхность тела. Голова массивная с типичным ртом, который приспособлен для пережёвывания твёрдых объектов, таких как кораллы и раковины моллюсков.
+The map pufferfish has a large body with a distinctive maze-like pattern that resembles a map, giving it its name. The body color varies from green to grayish-brown, with whitish or light yellow labyrinthine lines covering its body. The head is large, with a characteristic mouth adapted to chew hard objects such as coral and shellfish.
 
-Мозаичный аротрон обитает в тёплых водах Индо-Тихоокеанского региона, включая прибрежные воды Таиланда, Индонезии и Филиппин. Он предпочитает коралловые рифы и песчаные лагуны на глубинах до 30 метров.
+It is found in tropical waters of the Indo-Pacific region, including the waters of Thailand, Indonesia, and the Philippines. These fish prefer coral reefs and sandy lagoons at depths of up to 30 meters.
 
-Питается преимущественно твёрдокожими беспозвоночными, такими как моллюски, крабы и морские ежи. Аротрон использует свои мощные челюсти для разгрызания твёрдых раковин и кораллов.
+The map pufferfish feeds on hard-shelled invertebrates like mollusks, crabs, and sea urchins. They use their powerful jaws to crack open shells and coral.
 
-Как и многие рыбы из семейства фугу, мозаичный аротрон может быть опасен для человека из-за содержания в его тканях тетродотоксина. Этот яд смертельно опасен при употреблении в пищу. Однако при встрече под водой аротрон не представляет угрозы для человека, так как не агрессивен.
-
-Яд, содержащийся в теле мозаичного аротрона, способен парализовать нервную систему и вызвать смерть при употреблении в пищу без должной обработки.
-
-В Японии рыбы рода фугу считаются деликатесом, однако их приготовление требует особой лицензии из-за смертельной опасности.
-
-В случае опасности аротрон способен раздуваться, увеличиваясь в размерах и отпугивая потенциальных хищников.
+Like many pufferfish, the map pufferfish can be dangerous to humans due to the presence of tetrodotoxin in its tissues. This toxin is deadly if consumed, so it should be avoided. However, they are not aggressive and pose no threat when encountered underwater.
