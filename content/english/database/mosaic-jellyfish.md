@@ -3,7 +3,7 @@ title: "Mosaic jellyfish"
 title_en: "Mosaic jellyfish"
 meta_title: "Mosaic jellyfish (Catostylus mosaicus). Blubber jellyfish"
 image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729533880/blubber-jellyfish_spsrrg.png"
-date: 2024-10-25
+date: 2024-10-21
 tags: ["Racha Yai"]
 ---
 

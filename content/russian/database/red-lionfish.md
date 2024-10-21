@@ -3,7 +3,7 @@ title: "Крылатка-зебра"
 meta_title: "Крылатка-зебра (Pterois volitans) Red lionfish"
 title_en: "Red lionfish"
 image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729531674/red-lionfish-2_l8ippf.png"
-date: 2024-10-25
+date: 2024-10-21
 tags: ["Рача Яй", "Рача Ной", "Ко Бида Нок", "Шарк Пойнт", "Симиланские острова"]
 ---
 

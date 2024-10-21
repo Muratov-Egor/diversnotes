@@ -3,7 +3,7 @@ title: "Red lionfish"
 meta_title: "Red lionfish (Pterois volitans)"
 title_en: "Red lionfish"
 image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729531674/red-lionfish-2_l8ippf.png"
-date: 2024-10-25
+date: 2024-10-21
 tags: ["Racha Yai", "Racha Noi", "Shark Point", "Kho Tao"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Longfin grouper"
 meta_title: "Longfin grouper (Epinephelus quoyanus)"
 image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729431667/longfinGrouper_hsz4cm.png"
-date: 2024-10-25
+date: 2024-10-21
 tags: ["Racha Yai", "Shark Point", "Kho Tao"]
 ---
 
