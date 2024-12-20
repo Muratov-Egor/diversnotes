@@ -2,7 +2,7 @@
 title: "Ёлочный червь"
 title_en: "Christmas tree worm"
 meta_title: "Ёлочный червь. Christmas tree worm. Spirobranchus giganteus"
-image: "https://res.cloudinary.com/danezbcu5/image/upload/v1729355523/christmas-tree-worm_msueyi.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1734707241/christmas-tree-worm-1_uzzjcs.png"
 date: 2024-04-30
 tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 ---
@@ -13,8 +13,12 @@ tags: ["Racha Yai", "Koh Bida Nok", "Koh Tao", "Similan Islands"]
 
 Многощетинковый червь живет в известковой трубке, которую строит самостоятельно, добывая из воды ионы кальция и скрепляя их слюной. С каждым разом эта трубка пополняется новыми кольцами и увеличивается в размерах.
 
+![Christmas tree worm](https://res.cloudinary.com/danezbcu5/image/upload/v1734707244/christmas-tree-worm-2_yajlyx.png "Christmas tree worm")
+
 Чаще всего рождественские елочные черви населяют крупные виды кораллов, такие как каменистые кораллы, например, пориты, и мозговые кораллы. Когда рождественский елочный червь уходит в трубку, он может запечатать ее, закрывшись с помощью люка, похожего на крышку, называемого оперкулумом, который дополнительно защищен острыми шипами. Очень чувствительные к опасности, при малейшем прикосновении или даже падении тени быстро отступают в свои норки.
 
 Как и новогодняя елка, морские черви окрашены в насыщенные цвета, их оттенки могут быть совершенно разных цветов: желтыми, красными, синими, черными, розовыми, белыми и т.д. Найти морского червя можно на небольшой глубине среди кораллов.
 
 Живут Spirobranchus giganteus по-разному, все зависит от вида: более мелкие черви - несколько месяцев, а виды покрупнее – до 4-8 лет.
+
+![Christmas tree worm](https://res.cloudinary.com/danezbcu5/image/upload/v1734707239/christmas-tree-worm-3_lo4pkk.png "Christmas tree worm")
