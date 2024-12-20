@@ -2,7 +2,7 @@
 title: "Длиннопёрый групер"
 meta_title: "Длиннопёрый групер (Epinephelus quoyanus). Longfin grouper"
 title_en: "Longfin grouper"
-image: "https://res.cloudinary.com/danezbcu5/image/upload/v1734707844/longfinGrouper-2_qmg1sb.png"
+image: "https://res.cloudinary.com/danezbcu5/image/upload/v1734709400/longfinGrouper-2_qmg1sb_hfxwlx.png"
 date: 2024-10-21
 tags: ["Рача Яй", "Шарк Поинт", "Кхо Тао"]
 ---
