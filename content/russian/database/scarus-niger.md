@@ -3,7 +3,7 @@ title: "Тёмный скар"
 meta_title: "Тёмный скар. Смуглая рыба-попугай. Scarus niger. Warthy parrotfish. Dusky parrotfish. Black parrotfish"
 title_en: "Scarus niger"
 image: "https://res.cloudinary.com/danezbcu5/image/upload/v1732812926/dusky-parrotfish_krfzgx.png"
-date: "2024-11-28"
+date: "2024-12-20"
 tags: ["Рача Яй", "Симиланские острова", "Ко Тао"]
 ---
 
