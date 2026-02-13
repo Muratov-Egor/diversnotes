@@ -9,6 +9,9 @@ type MetaInput = {
   noIndex?: boolean;
 };
 
+/** Картинка по умолчанию для OG (файл в public/og-default.png) */
+const DEFAULT_OG_IMAGE = "/og-default.png";
+
 /** Собирает metadata с canonical и OpenGraph */
 export function buildMetadata({
   title,
@@ -19,6 +22,7 @@ export function buildMetadata({
 }: MetaInput): Metadata {
   const url = `${SITE_URL}${path || ""}`;
   const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+  const ogImage = image ?? `${SITE_URL}${DEFAULT_OG_IMAGE}`;
 
   return {
     title: fullTitle,
@@ -31,7 +35,7 @@ export function buildMetadata({
       url,
       siteName: SITE_NAME,
       type: "website",
-      ...(image && { images: [{ url: image }] }),
+      images: [{ url: ogImage }],
     },
     robots: noIndex
       ? { index: false, follow: false }
