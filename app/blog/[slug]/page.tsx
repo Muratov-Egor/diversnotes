@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { getAllPosts, getPostRaw } from "@/lib/content/blog";
+import { YouTube } from "@/components/mdx/YouTube";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -22,6 +23,7 @@ export default async function BlogPostPage({ params }: Props) {
   }>({
     source: raw,
     options: { parseFrontmatter: true },
+    components: { YouTube },
   });
 
   return (
