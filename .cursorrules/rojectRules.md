@@ -233,5 +233,6 @@ Detailed documents are located in:
 /docs/marine-life.md  
 /docs/analytics.md  
 /docs/roadmap.md  
+/docs/post-deploy.md  
 
 Cursor must follow .cursorrules as the source of truth.
