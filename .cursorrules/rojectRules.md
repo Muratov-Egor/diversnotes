@@ -133,10 +133,9 @@ Details:
 # 7. Search (Mandatory)
 
 - Local search only (no paid services).
-- Build-time generated index.
-- Index blog + marine-life.
+- Search by full text of articles (blog + marine-life); server API `GET /api/search?q=...` — no static index, no cache issues.
 - Search box in header (on every page); results in overlay/dropdown — no dedicated /search page.
-- Minimal JS footprint.
+- Minimal client JS (no Fuse/flexsearch on client).
 
 Details:
 → see `/docs/search.md`

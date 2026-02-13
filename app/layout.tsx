@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/seo/config";
+import { SearchBox } from "@/components/search/SearchBox";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -45,22 +46,25 @@ export default function RootLayout({
       >
         <div className="mx-auto min-h-screen max-w-3xl px-4 py-6 sm:px-6">
           <header className="mb-8 border-b border-neutral-200 pb-4 dark:border-neutral-800">
-            <nav className="flex flex-wrap items-baseline gap-x-6 gap-y-1 text-sm">
-              <a
-                href="/"
-                className="font-medium text-neutral-900 dark:text-neutral-100"
-              >
-                Diver&apos;s Notes
-              </a>
-              {navLinks.filter((l) => l.href !== "/").map(({ href, label }) => (
+            <nav className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 text-sm">
+              <div className="flex flex-wrap items-baseline gap-x-6 gap-y-1">
                 <a
-                  key={href}
-                  href={href}
-                  className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+                  href="/"
+                  className="font-medium text-neutral-900 dark:text-neutral-100"
                 >
-                  {label}
+                  Diver&apos;s Notes
                 </a>
-              ))}
+                {navLinks.filter((l) => l.href !== "/").map(({ href, label }) => (
+                  <a
+                    key={href}
+                    href={href}
+                    className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+                  >
+                    {label}
+                  </a>
+                ))}
+              </div>
+              <SearchBox />
             </nav>
           </header>
           {children}
