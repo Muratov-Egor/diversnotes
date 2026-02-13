@@ -13,7 +13,7 @@
 - description: string
 - slug: string
 - date: ISO string
-- tags: string[]
+- tags: string[] — значения из **content/tags.json** (поле `ru`). См. `/docs/tags.md`
 
 Опционально:
 
@@ -40,7 +40,7 @@ readingTime вычисляется автоматически.
 - depthRange: string
 - locations: string[]
 - images: string[]
-- tags: string[]
+- tags: string[] — из content/tags.json (см. `/docs/tags.md`)
 - draft: boolean
 
 ---
@@ -49,5 +49,6 @@ readingTime вычисляется автоматически.
 
 - slug должен быть уникальным.
 - draft страницы не попадают в продакшн.
+- теги в постах и Marine Life — только из content/tags.json (см. docs/tags.md).
 - alt-тексты обязательны для изображений.
 - нельзя публиковать контент без description.

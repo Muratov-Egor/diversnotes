@@ -227,6 +227,7 @@ Detailed documents are located in:
 
 /docs/architecture.md  
 /docs/content-model.md  
+/docs/tags.md  
 /docs/seo.md  
 /docs/search.md  
 /docs/migration.md  
