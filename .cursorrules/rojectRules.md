@@ -48,7 +48,6 @@ RU (default, no prefix):
 /about  
 /tags/[slug]  
 /series/[slug]  
-/search  
 /rss.xml  
 /sitemap.xml  
 
@@ -137,7 +136,7 @@ Details:
 - Local search only (no paid services).
 - Build-time generated index.
 - Index blog + marine-life.
-- Fast UI at /search.
+- Search box in header (on every page); results in overlay/dropdown — no dedicated /search page.
 - Minimal JS footprint.
 
 Details:
