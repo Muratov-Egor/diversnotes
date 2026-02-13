@@ -1,5 +1,12 @@
 import Link from "next/link";
 import { getAllPosts } from "@/lib/content/blog";
+import { buildMetadata } from "@/lib/seo/metadata";
+
+export const metadata = buildMetadata({
+  title: "Блог",
+  description: "Заметки о дайвинге, обзоры дайв-сайтов и теория для дайверов.",
+  path: "/blog",
+});
 
 export default function BlogPage() {
   const posts = getAllPosts();

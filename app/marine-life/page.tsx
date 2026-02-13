@@ -1,5 +1,12 @@
 import Link from "next/link";
 import { getAllMarineLife } from "@/lib/content/marine-life";
+import { buildMetadata } from "@/lib/seo/metadata";
+
+export const metadata = buildMetadata({
+  title: "Подводный мир",
+  description: "База морских обитателей: авторские фото и описания существ, встреченных во время погружений.",
+  path: "/marine-life",
+});
 
 export default function MarineLifePage() {
   const items = getAllMarineLife();

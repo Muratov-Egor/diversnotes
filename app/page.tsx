@@ -1,4 +1,12 @@
 import Link from "next/link";
+import { buildMetadata } from "@/lib/seo/metadata";
+
+export const metadata = buildMetadata({
+  title: "Diver's Notes",
+  description:
+    "Заметки о дайвинге, обзоры дайв-сайтов и база морских обитателей. Автор — Егор, PADI Assistant Instructor и подводный фотограф.",
+  path: "/",
+});
 
 export default function HomePage() {
   return (

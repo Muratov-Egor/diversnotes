@@ -47,7 +47,6 @@ RU (default, no prefix):
 /map  
 /about  
 /tags/[slug]  
-/series/[slug]  
 /rss.xml  
 /sitemap.xml  
 
@@ -151,7 +150,7 @@ Must include:
 - Sticky TOC (desktop)
 - Sharing buttons (copy link + social)
 - “Related posts”
-- Tags + series
+- Tags
 - Large responsive images
 - Max readable width ~70–75ch
 

@@ -1,3 +1,11 @@
+import { buildMetadata } from "@/lib/seo/metadata";
+
+export const metadata = buildMetadata({
+  title: "Теги",
+  description: "Все теги статей и записей о подводном мире.",
+  path: "/tags",
+});
+
 export default function TagsPage() {
   return (
     <main className="p-4">

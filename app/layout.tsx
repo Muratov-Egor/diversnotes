@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SITE_URL } from "@/lib/seo/config";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,6 +16,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Diver's Notes",
   description: "Заметки о дайвинге и подводном мире",
+  metadataBase: new URL(SITE_URL),
+  openGraph: {
+    siteName: "Diver's Notes",
+    type: "website",
+    locale: "ru_RU",
+  },
+  robots: { index: true, follow: true },
 };
 
 const navLinks = [
