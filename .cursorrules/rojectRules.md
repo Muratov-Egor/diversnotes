@@ -133,9 +133,9 @@ Details:
 # 7. Search (Mandatory)
 
 - Local search only (no paid services).
-- Search by full text of articles (blog + marine-life); server API `GET /api/search?q=...` — no static index, no cache issues.
+- Build-time index (`scripts/build-search-index.js` → `public/search-index.json`); client-side filter by same logic as former server search: full text (title + nameEn + body), cleanText + substring match, snippets via findSearchSnippet.
 - Search box in header (on every page); results in overlay/dropdown — no dedicated /search page.
-- Minimal client JS (no Fuse/flexsearch on client).
+- Minimal client JS (no Fuse/flexsearch; same output as server search).
 
 Details:
 → see `/docs/search.md`

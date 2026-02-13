@@ -1,7 +1,20 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { cleanText } from "@/utils/textUtils";
+import { findSearchSnippet } from "@/utils/searchUtils";
+
+type IndexEntry = {
+  title: string;
+  path: string;
+  category: "blog" | "marine-life";
+  image?: string;
+  nameEn?: string;
+  contentSearch: string;
+};
+
+type SearchIndex = { all: IndexEntry[] };
 
 type SearchResult = {
   title: string;
@@ -16,34 +29,47 @@ function getCategoryName(category: string): string {
   return category === "blog" ? "Блог" : "Подводный мир";
 }
 
+const MAX_RESULTS = 12;
+
 export function SearchBox() {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<SearchResult[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [index, setIndex] = useState<SearchIndex | null>(null);
   const [open, setOpen] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const timer = setTimeout(async () => {
-      const q = query.trim();
-      if (q.length < 2) {
-        setResults([]);
-        return;
-      }
-      setLoading(true);
-      try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
-        const data = await res.json();
-        setResults(data.results ?? []);
-        setOpen(true);
-      } catch {
-        setResults([]);
-      } finally {
-        setLoading(false);
-      }
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [query]);
+    fetch("/search-index.json")
+      .then((r) => r.json())
+      .then((data: SearchIndex) => setIndex(data))
+      .catch(() => setIndex({ all: [] }));
+  }, []);
+
+  const q = query.trim();
+  const results: SearchResult[] = useMemo(() => {
+    if (!index || q.length < 2) return [];
+    const cleanedQuery = cleanText(q);
+    const matched: SearchResult[] = [];
+    for (const item of index.all) {
+      const searchText =
+        cleanText(item.title) + " " + cleanText(item.nameEn ?? "") + " " + item.contentSearch;
+      if (!searchText.includes(cleanedQuery)) continue;
+      matched.push({
+        title: item.title,
+        path: item.path,
+        category: item.category,
+        image: item.image,
+        nameEn: item.nameEn,
+        snippet: findSearchSnippet(
+          item.contentSearch,
+          cleanedQuery,
+          item.title,
+          item.nameEn ?? ""
+        ),
+      });
+      if (matched.length >= MAX_RESULTS) break;
+    }
+    return matched;
+  }, [index, q]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -77,10 +103,10 @@ export function SearchBox() {
           className="absolute right-0 top-full z-50 mt-1 max-h-80 w-80 overflow-auto rounded border border-neutral-200 bg-white py-1 shadow dark:border-neutral-700 dark:bg-neutral-900"
           role="listbox"
         >
-          {query.trim().length < 2 ? (
+          {!index ? (
+            <p className="px-3 py-2 text-sm text-neutral-500">Загрузка...</p>
+          ) : query.trim().length < 2 ? (
             <p className="px-3 py-2 text-sm text-neutral-500">Минимум 2 символа</p>
-          ) : loading ? (
-            <p className="px-3 py-2 text-sm text-neutral-500">Поиск...</p>
           ) : results.length === 0 ? (
             <p className="px-3 py-2 text-sm text-neutral-500">Ничего не найдено</p>
           ) : (
