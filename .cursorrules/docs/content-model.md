@@ -31,12 +31,13 @@ readingTime вычисляется автоматически.
 Обязательные:
 
 - title: string
-- latinName: string
+- nameEn: string — английское название (часто используется в руссокоговорящей среде вместе с русским)
 - slug: string
 - description: string
 
 Опционально:
 
+- latinName: string — латинское (научное) название, если известно
 - depthRange: string
 - locations: string[]
 - images: string[]
