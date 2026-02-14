@@ -17,14 +17,14 @@ export function ArticleWithTocLayout({ tocItems, children }: Props) {
 
   return (
     <div className="flex gap-8 lg:gap-12">
-      {/* Колонка TOC: плавное изменение ширины */}
+      {/* Колонка TOC: без overflow на этом уровне, иначе sticky не работает */}
       <div
-        className="hidden lg:block shrink-0 overflow-hidden transition-[width] duration-300 ease-out"
+        className="hidden lg:block shrink-0 transition-[width] duration-300 ease-out"
         style={{
           width: isTocOpen ? TOC_WIDTH_EXPANDED : TOC_WIDTH_COLLAPSED,
         }}
       >
-        <div className="top-6 z-10 w-[13rem]">
+        <div className="sticky top-6 z-10 w-[13rem] self-start overflow-hidden">
           {isTocOpen ? (
             <TableOfContents
               items={tocItems}

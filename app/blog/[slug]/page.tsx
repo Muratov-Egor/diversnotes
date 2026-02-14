@@ -164,7 +164,7 @@ export default async function BlogPostPage({ params }: Props) {
       </header>
 
       {/* Текст статьи */}
-      <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24">
+      <div className="min-w-0 prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24">
         {content}
       </div>
 

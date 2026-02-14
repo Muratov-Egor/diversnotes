@@ -104,7 +104,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
             </p>
           )}
         </header>
-        <div className="prose prose-neutral dark:prose-invert">{content}</div>
+        <div className="min-w-0 prose prose-neutral dark:prose-invert">{content}</div>
       </article>
     </main>
   );

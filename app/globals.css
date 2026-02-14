@@ -1,10 +1,10 @@
 @import "tailwindcss";
+@plugin "../node_modules/@tailwindcss/typography";
 
 :root {
   --background: #fafafa;
   --foreground: #171717;
   --muted: #737373;
-  --max-read: 75ch;
 }
 
 @theme inline {
@@ -32,5 +32,13 @@ body {
 
 /* Ограничение ширины текста для статей и списков */
 .prose {
-  max-width: var(--max-read);
+  max-width: 100%;
+  overflow-x: hidden;
+  min-width: 0;
+}
+
+/* Блоки кода не растягивают страницу, скролл только внутри блока */
+.prose pre {
+  max-width: 100%;
+  overflow-x: auto;
 }
