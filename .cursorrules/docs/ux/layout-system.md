@@ -1,19 +1,8 @@
 # Layout System
 
-## Containers
+> Контейнеры и отступы страницы — в **styles-spec.md** (§ Containers).
 
-Reading width:
-- 680–760px max-width
-
-Wide content (images, tables):
-- Up to 1040–1200px (breakout layout)
-
-Page padding:
-- Mobile: 16px
-- Tablet: 24px
-- Desktop: 32px
-
-## Grid
+## Grid (см. также listing-page.md)
 
 Listing page:
 - Desktop: 2–3 columns

@@ -7,6 +7,7 @@ import rehypeSlug from "rehype-slug";
 import { getAllPosts, getPostRaw } from "@/lib/content/blog";
 import { getTableOfContents } from "@/lib/article-toc";
 import { TableOfContents } from "@/components/article/TableOfContents";
+import { CopyLinkButton } from "@/components/article/CopyLinkButton";
 import { YouTube } from "@/components/mdx/YouTube";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
@@ -23,6 +24,11 @@ function formatDate(iso: string): string {
   } catch {
     return iso;
   }
+}
+
+function getReadingTimeMinutes(body: string): number {
+  const words = body.split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / 200));
 }
 
 type Props = { params: Promise<{ slug: string }> };
@@ -55,6 +61,8 @@ export default async function BlogPostPage({ params }: Props) {
 
   const { content: body } = matter(raw);
   const toc = getTableOfContents(body);
+  const readingTimeMin = getReadingTimeMinutes(body);
+  const showToc = toc.filter((i) => i.level === 2).length > 3;
 
   const { content, frontmatter } = await compileMDX<{
     title: string;
@@ -99,7 +107,7 @@ export default async function BlogPostPage({ params }: Props) {
   const tags = frontmatter.tags ?? postMeta?.tags ?? [];
 
   const articleBlock = (
-    <article className="min-w-0">
+    <article className="min-w-0 max-w-[1200px]">
       {/* Хлебная крошка */}
       <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
         <Link href="/blog" className="hover:underline">
@@ -125,7 +133,7 @@ export default async function BlogPostPage({ params }: Props) {
       )}
 
       {/* Заголовок и мета */}
-      <header className="mb-8 max-w-[75ch]">
+      <header className="mb-8">
         <h1 className="text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl">
           {frontmatter.title}
         </h1>
@@ -138,6 +146,7 @@ export default async function BlogPostPage({ params }: Props) {
           <time dateTime={frontmatter.date}>
             {formatDate(frontmatter.date)}
           </time>
+          <span>{readingTimeMin} мин чтения</span>
           {tags.length > 0 && (
             <ul className="flex flex-wrap gap-2">
               {tags.map((tag) => (
@@ -152,11 +161,12 @@ export default async function BlogPostPage({ params }: Props) {
               ))}
             </ul>
           )}
+          <CopyLinkButton />
         </div>
       </header>
 
       {/* Текст статьи */}
-      <div className="prose prose-neutral dark:prose-invert max-w-[75ch] prose-headings:scroll-mt-24">
+      <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24">
         {content}
       </div>
     </article>
@@ -174,14 +184,14 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
       />
-      <div className="mx-auto max-w-4xl px-4 sm:px-6">
-        {toc.length > 0 ? (
+      <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
+        {showToc ? (
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[auto_1fr] lg:gap-12">
             <TableOfContents items={toc} />
             {articleBlock}
           </div>
         ) : (
-          <div className="max-w-3xl mx-auto">{articleBlock}</div>
+          <div className="mx-auto">{articleBlock}</div>
         )}
       </div>
     </main>

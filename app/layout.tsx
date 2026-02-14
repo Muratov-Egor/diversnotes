@@ -44,7 +44,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
       >
-        <div className="mx-auto min-h-screen max-w-3xl px-4 py-6 sm:px-6">
+        <div className="mx-auto min-h-screen max-w-7xl w-full px-4 py-6 sm:px-6 lg:px-8">
           <header className="mb-8 border-b border-neutral-200 pb-4 dark:border-neutral-800">
             <nav className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 text-sm">
               <div className="flex flex-wrap items-baseline gap-x-6 gap-y-1">

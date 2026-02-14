@@ -1,5 +1,7 @@
 # Design Tokens
 
+> Конкретные значения и полный список — в **styles-spec.md**. Здесь краткая выжимка.
+
 ## Typography
 
 Primary UI Font:
