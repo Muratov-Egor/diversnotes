@@ -9,6 +9,7 @@ import { getTableOfContents } from "@/lib/article-toc";
 import { ArticleWithTocLayout } from "@/components/article/ArticleWithTocLayout";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
 import { YouTube } from "@/components/mdx/YouTube";
+import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
 
@@ -69,13 +70,14 @@ export default async function BlogPostPage({ params }: Props) {
     description: string;
     date: string;
     tags: string[];
+    cover?: string;
   }>({
     source: raw,
     options: {
       parseFrontmatter: true,
       mdxOptions: { rehypePlugins: [rehypeSlug] },
     },
-    components: { YouTube },
+    components: { YouTube, img: MdxImage },
   });
 
   const jsonLdArticle = postMeta
@@ -139,7 +141,6 @@ export default async function BlogPostPage({ params }: Props) {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 896px"
                 priority
-                unoptimized
               />
             </div>
           </div>

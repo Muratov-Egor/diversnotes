@@ -3,11 +3,18 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   transpilePackages: ["next-mdx-remote"],
   images: {
+    /** Кеш оптимизированных картинок: сервер реже ходит в B2, браузер дольше хранит (меньше запросов). */
+    minimumCacheTTL: 60 * 60 * 24 * 30, // 30 дней
     remotePatterns: [
       {
         protocol: "https",
         hostname: "f003.backblazeb2.com",
         pathname: "/file/diversnotes-images/**",
+      },
+      {
+        protocol: "https",
+        hostname: "diversnotes-images.s3.eu-central-003.backblazeb2.com",
+        pathname: "/**",
       },
     ],
   },
