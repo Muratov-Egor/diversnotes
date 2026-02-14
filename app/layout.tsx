@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/seo/config";
 import { SearchBox } from "@/components/search/SearchBox";
+import { NavLinks } from "@/components/layout/NavLinks";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -26,14 +29,6 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-const navLinks = [
-  { href: "/", label: "Главная" },
-  { href: "/blog", label: "Блог" },
-  { href: "/marine-life", label: "Подводный мир" },
-  { href: "/map", label: "Карта" },
-  { href: "/about", label: "О проекте" },
-];
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -45,26 +40,25 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
       >
         <div className="mx-auto min-h-screen max-w-7xl w-full px-4 py-6 sm:px-6 lg:px-8">
-          <header className="mb-8 border-b border-neutral-200 pb-4 dark:border-neutral-800">
-            <nav className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 text-sm">
-              <div className="flex flex-wrap items-baseline gap-x-6 gap-y-1">
-                <a
+          <header className="mb-8 border-b border-neutral-200/80 pb-4 dark:border-neutral-800/80">
+            <nav className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 text-base">
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-1">
+                <Link
                   href="/"
-                  className="font-medium text-neutral-900 dark:text-neutral-100"
+                  className="flex items-center gap-2.5 font-semibold text-neutral-900 dark:text-neutral-100"
                 >
-                  Diver&apos;s Notes
-                </a>
-                {navLinks
-                  .filter((l) => l.href !== "/")
-                  .map(({ href, label }) => (
-                    <a
-                      key={href}
-                      href={href}
-                      className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
-                    >
-                      {label}
-                    </a>
-                  ))}
+                  <Image
+                    src="/logo.png"
+                    alt=""
+                    width={36}
+                    height={36}
+                    className="h-9 w-9 shrink-0 rounded-full object-cover"
+                  />
+                  <span className="text-lg">Diver&apos;s Notes</span>
+                </Link>
+                <div className="flex flex-wrap items-center gap-x-6 gap-y-1">
+                  <NavLinks />
+                </div>
               </div>
               <SearchBox />
             </nav>
