@@ -41,8 +41,8 @@ export default function RootLayout({
       >
         <div className="mx-auto min-h-screen max-w-7xl w-full px-4 py-6 sm:px-6 lg:px-8">
           <header className="mb-8 border-b border-neutral-200/80 pb-4 dark:border-neutral-800/80">
-            <nav className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 text-base">
-              <div className="flex flex-wrap items-center gap-x-6 gap-y-1">
+            <nav className="flex flex-col gap-3 text-base md:flex-row md:flex-wrap md:items-center md:justify-between md:gap-x-6 md:gap-y-3">
+              <div className="flex flex-shrink-0 items-center justify-between gap-4 md:contents">
                 <Link
                   href="/"
                   className="flex items-center gap-2.5 font-semibold text-neutral-900 dark:text-neutral-100"
@@ -56,11 +56,14 @@ export default function RootLayout({
                   />
                   <span className="text-lg">Diver&apos;s Notes</span>
                 </Link>
-                <div className="flex flex-wrap items-center gap-x-6 gap-y-1">
+                <div className="hidden flex-wrap items-center gap-x-6 gap-y-1 md:flex">
                   <NavLinks />
                 </div>
+                <SearchBox />
               </div>
-              <SearchBox />
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-1 md:hidden">
+                <NavLinks />
+              </div>
             </nav>
           </header>
           {children}
