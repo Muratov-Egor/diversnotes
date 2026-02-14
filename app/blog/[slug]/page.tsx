@@ -6,7 +6,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import { getAllPosts, getPostRaw } from "@/lib/content/blog";
 import { getTableOfContents } from "@/lib/article-toc";
-import { TableOfContents } from "@/components/article/TableOfContents";
+import { ArticleWithTocLayout } from "@/components/article/ArticleWithTocLayout";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
 import { YouTube } from "@/components/mdx/YouTube";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -186,10 +186,9 @@ export default async function BlogPostPage({ params }: Props) {
       />
       <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
         {showToc ? (
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-[auto_1fr] lg:gap-12">
-            <TableOfContents items={toc} />
+          <ArticleWithTocLayout tocItems={toc}>
             {articleBlock}
-          </div>
+          </ArticleWithTocLayout>
         ) : (
           <div className="mx-auto">{articleBlock}</div>
         )}
