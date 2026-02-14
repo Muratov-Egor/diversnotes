@@ -26,7 +26,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.65;
 }
 
@@ -35,6 +35,13 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   min-width: 0;
+  font-size: 1.125rem;
+}
+
+@media (min-width: 640px) {
+  .prose {
+    font-size: 1.3rem;
+  }
 }
 
 /* Блоки кода не растягивают страницу, скролл только внутри блока */

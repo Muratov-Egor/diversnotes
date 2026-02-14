@@ -145,6 +145,7 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           </div>
         )}
+        <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
         {/* Хлебная крошка */}
         <p className="text-sm mb-2">
           <Link href="/blog" className="hover:underline">
@@ -162,6 +163,7 @@ export default async function BlogPostPage({ params }: Props) {
           <span>{readingTimeMin} мин чтения</span>
           <CopyLinkButton />
         </div>
+        <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
       </header>
 
       {/* Текст статьи */}
@@ -171,7 +173,8 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* Теги */}
       {tags.length > 0 && (
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mt-8">
+          <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
           <span className="text-neutral-500 dark:text-neutral-400">
             🏷️ Tags:
           </span>
