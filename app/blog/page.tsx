@@ -35,7 +35,7 @@ export default async function BlogPage({ searchParams }: Props) {
               <li
                 key={post.slug}
                 className={
-                  currentPage === 1 && index === 0 ? "sm:col-span-2 lg:col-span-3" : "flex"
+                  currentPage === 1 && index === 0 ? "sm:col-span-2 lg:col-span-3" : "flex h-full"
                 }
               >
                 <BlogCard
