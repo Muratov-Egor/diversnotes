@@ -18,7 +18,7 @@ export function TableOfContents({ items, onCollapse }: Props) {
           <button
             type="button"
             onClick={onCollapse}
-            className="shrink-0 p-1 rounded text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+            className="cursor-pointer shrink-0 p-1 rounded text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
             aria-label="Свернуть оглавление"
             title="Свернуть оглавление"
           >

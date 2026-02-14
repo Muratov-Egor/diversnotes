@@ -34,7 +34,7 @@ export function ArticleWithTocLayout({ tocItems, children }: Props) {
             <button
               type="button"
               onClick={() => setIsTocOpen(true)}
-              className="flex items-center justify-center w-10 h-24 rounded-r-md border border-neutral-200 dark:border-neutral-700 border-l-0 bg-neutral-50 dark:bg-neutral-800/80 text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+              className="cursor-pointer flex items-center justify-center w-10 h-24 rounded-r-md border border-neutral-200 dark:border-neutral-700 border-l-0 bg-neutral-50 dark:bg-neutral-800/80 text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
               aria-label="Показать оглавление"
             >
               <span
