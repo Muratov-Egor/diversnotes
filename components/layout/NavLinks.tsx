@@ -7,7 +7,6 @@ const navLinks = [
   { href: "/blog", label: "Блог" },
   { href: "/marine-life", label: "Подводный мир" },
   { href: "/map", label: "Карта" },
-  { href: "/about", label: "О проекте" },
 ];
 
 export function NavLinks() {

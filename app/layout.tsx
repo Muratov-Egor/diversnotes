@@ -56,12 +56,12 @@ export default function RootLayout({
                   />
                   <span className="text-lg">Diver&apos;s Notes</span>
                 </Link>
-                <div className="hidden flex-wrap items-center gap-x-6 gap-y-1 md:flex">
+                <div className="hidden flex-wrap items-center justify-center gap-x-6 gap-y-1 md:flex">
                   <NavLinks />
                 </div>
                 <SearchBox />
               </div>
-              <div className="flex flex-wrap items-center gap-x-6 gap-y-1 md:hidden">
+              <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 md:hidden">
                 <NavLinks />
               </div>
             </nav>
