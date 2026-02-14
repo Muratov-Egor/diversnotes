@@ -24,15 +24,17 @@ export function MdxImage({ src, alt, title, className, ...rest }: Props) {
   const srcStr = typeof src === "string" ? src : "";
   if (!srcStr) return null;
 
+  const roundedClass = "rounded-3xl";
+
   if (isBackblazeUrl(srcStr)) {
     return (
-      <span className="my-4 block overflow-hidden rounded-lg">
+      <span className="my-4 block">
         <Image
           src={srcStr}
           alt={alt ?? ""}
           width={800}
           height={600}
-          className={`w-full h-auto ${className ?? ""}`.trim()}
+          className={`w-full h-auto ${roundedClass} ${className ?? ""}`.trim()}
           sizes="(max-width: 768px) 100vw, 720px"
           title={title}
         />
@@ -41,7 +43,15 @@ export function MdxImage({ src, alt, title, className, ...rest }: Props) {
   }
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img src={srcStr} alt={alt ?? ""} title={title} className={className} {...rest} />
+    <span className="my-4 block">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={srcStr}
+        alt={alt ?? ""}
+        title={title}
+        className={`w-full ${roundedClass} ${className ?? ""}`.trim()}
+        {...rest}
+      />
+    </span>
   );
 }

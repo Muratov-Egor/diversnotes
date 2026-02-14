@@ -133,7 +133,7 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Обложка */}
         {cover && (
           <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
-            <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-800">
+            <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-3xl bg-neutral-100 dark:bg-neutral-800">
               <Image
                 src={cover}
                 alt=""
