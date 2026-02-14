@@ -60,14 +60,14 @@ export function BlogCard({ post, variant = "default" }: Props) {
         <h2
           className={
             isFeatured
-              ? "font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:text-lg"
+              ? "font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:text-xl"
               : "font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300"
           }
         >
           {title}
         </h2>
         {description && (
-          <p className="mt-1.5 line-clamp-2 flex-shrink-0 text-sm text-neutral-500 dark:text-neutral-400">
+          <p className="mt-1.5 line-clamp-2 flex-shrink-0 text-base text-neutral-500 dark:text-neutral-400">
             {description}
           </p>
         )}
