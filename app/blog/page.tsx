@@ -1,6 +1,7 @@
-import Link from "next/link";
-import { getAllPosts } from "@/lib/content/blog";
+import { getPostsForPage } from "@/lib/content/blog";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { BlogCard } from "@/components/blog/BlogCard";
+import { Pagination } from "@/components/blog/Pagination";
 
 export const metadata = buildMetadata({
   title: "Блог",
@@ -8,27 +9,50 @@ export const metadata = buildMetadata({
   path: "/blog",
 });
 
-export default function BlogPage() {
-  const posts = getAllPosts();
+type Props = {
+  searchParams: Promise<{ page?: string }>;
+};
+
+export default async function BlogPage({ searchParams }: Props) {
+  const { page: pageParam } = await searchParams;
+  const page = Math.max(1, parseInt(String(pageParam ?? "1"), 10) || 1);
+  const { posts, totalPages, currentPage } = getPostsForPage(page);
+
   return (
-    <main className="p-4 max-w-[75ch] mx-auto">
-      <h1 className="text-2xl font-semibold mb-6">Блог</h1>
+    <main className="mx-auto max-w-5xl">
+      <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2 text-center">
+        Блог
+      </h1>
+      <p className="text-neutral-500 dark:text-neutral-400 mb-8 text-center">
+        Статьи о дайвинге: теория, описание дайв-сайтов и личный опыт погружений.
+      </p>
       {posts.length === 0 ? (
-        <p>Пока нет статей.</p>
+        <p className="text-neutral-500 dark:text-neutral-400">Пока нет статей.</p>
       ) : (
-        <ul className="space-y-4">
-          {posts.map((post) => (
-            <li key={post.slug}>
-              <Link href={`/blog/${post.slug}`} className="hover:underline">
-                <span className="font-medium">{post.title}</span>
-              </Link>
-              <p className="text-sm text-neutral-500 mt-1">
-                {post.description}
-              </p>
-              <p className="text-xs text-neutral-400">{post.date}</p>
-            </li>
-          ))}
-        </ul>
+        <>
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {posts.map((post, index) => (
+              <li
+                key={post.slug}
+                className={
+                  currentPage === 1 && index === 0 ? "sm:col-span-2 lg:col-span-3" : "flex"
+                }
+              >
+                <BlogCard
+                  post={post}
+                  variant={
+                    currentPage === 1 && index === 0 ? "featured" : "default"
+                  }
+                />
+              </li>
+            ))}
+          </ul>
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            basePath="/blog"
+          />
+        </>
       )}
     </main>
   );

@@ -11,21 +11,8 @@ import { CopyLinkButton } from "@/components/article/CopyLinkButton";
 import { YouTube } from "@/components/mdx/YouTube";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { formatDate } from "@/lib/format/date";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
-
-function formatDate(iso: string): string {
-  if (!iso) return "";
-  try {
-    const d = new Date(iso);
-    return d.toLocaleDateString("ru-RU", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    });
-  } catch {
-    return iso;
-  }
-}
 
 function getReadingTimeMinutes(body: string): number {
   const words = body.split(/\s+/).filter(Boolean).length;
