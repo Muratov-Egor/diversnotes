@@ -1,43 +1,51 @@
-import Link from "next/link";
-import { getAllMarineLife } from "@/lib/content/marine-life";
+import { getMarineLifeForPage } from "@/lib/content/marine-life";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { MarineLifeCard } from "@/components/marine-life/MarineLifeCard";
+import { Pagination } from "@/components/blog/Pagination";
 
 export const metadata = buildMetadata({
-  title: "Подводный мир",
+  title: "Морские обитатели, которых я встретил под водой",
   description:
-    "База морских обитателей: авторские фото и описания существ, встреченных во время погружений.",
+    "Фото и описания морских обитателей, встреченных во время погружений. Особенности поведения, места наблюдений и интересные факты о каждом виде.",
   path: "/marine-life",
 });
 
-export default function MarineLifePage() {
-  const items = getAllMarineLife();
+type Props = {
+  searchParams: Promise<{ page?: string }>;
+};
+
+export default async function MarineLifePage({ searchParams }: Props) {
+  const { page: pageParam } = await searchParams;
+  const page = Math.max(1, parseInt(String(pageParam ?? "1"), 10) || 1);
+  const { items, totalPages, currentPage } = getMarineLifeForPage(page);
+
   return (
-    <main className="p-4 max-w-[75ch] mx-auto">
-      <h1 className="text-2xl font-semibold mb-6">Подводный мир</h1>
+    <main className="mx-auto max-w-5xl">
+      <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2 text-center">
+      Морские обитатели, которых я встретил под водой
+      </h1>
+      <p className="text-neutral-500 dark:text-neutral-400 mb-8 text-center">
+      Фото и описания морских обитателей, встреченных во время погружений. Особенности поведения, места наблюдений и интересные факты.
+      </p>
       {items.length === 0 ? (
-        <p>Пока нет записей.</p>
+        <p className="text-neutral-500 dark:text-neutral-400">
+          Пока нет записей.
+        </p>
       ) : (
-        <ul className="space-y-4">
-          {items.map((item) => (
-            <li key={item.slug}>
-              <Link
-                href={`/marine-life/${item.slug}`}
-                className="hover:underline"
-              >
-                <span className="font-medium">{item.title}</span>
-                <span className="text-neutral-500 ml-2">{item.nameEn}</span>
-                {item.latinName && (
-                  <span className="text-neutral-400 italic ml-2">
-                    {item.latinName}
-                  </span>
-                )}
-              </Link>
-              <p className="text-sm text-neutral-500 mt-1">
-                {item.description}
-              </p>
-            </li>
-          ))}
-        </ul>
+        <>
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {items.map((item) => (
+              <li key={item.slug} className="flex">
+                <MarineLifeCard item={item} />
+              </li>
+            ))}
+          </ul>
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            basePath="/marine-life"
+          />
+        </>
       )}
     </main>
   );

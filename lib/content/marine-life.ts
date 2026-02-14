@@ -49,6 +49,34 @@ export function getAllMarineLife(): MarineLifeMeta[] {
   return items;
 }
 
+const MARINE_LIFE_PER_PAGE = 9;
+
+export type MarineLifePageResult = {
+  items: MarineLifeMeta[];
+  total: number;
+  totalPages: number;
+  currentPage: number;
+  perPage: number;
+};
+
+/** Записи для страницы пагинации (1-based). По 9 карточек на странице. */
+export function getMarineLifeForPage(page: number): MarineLifePageResult {
+  const all = getAllMarineLife();
+  const total = all.length;
+  const totalPages = Math.max(1, Math.ceil(total / MARINE_LIFE_PER_PAGE));
+  const safePage = Math.max(1, Math.min(page, totalPages));
+  const start = (safePage - 1) * MARINE_LIFE_PER_PAGE;
+  const items = all.slice(start, start + MARINE_LIFE_PER_PAGE);
+
+  return {
+    items,
+    total,
+    totalPages,
+    currentPage: safePage,
+    perPage: items.length,
+  };
+}
+
 /** Сырой контент записи по slug. null если не найден */
 export function getMarineLifeRaw(slug: string): string | null {
   const mdxPath = path.join(MARINE_LIFE_DIR, `${slug}.mdx`);

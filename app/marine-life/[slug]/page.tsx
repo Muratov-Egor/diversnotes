@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
+import { ImageWithRetry } from "@/components/ImageWithRetry";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import { getAllMarineLife, getMarineLifeRaw } from "@/lib/content/marine-life";
@@ -111,7 +111,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
         {cover && (
           <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
             <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-3xl bg-neutral-100 dark:bg-neutral-800">
-              <Image
+              <ImageWithRetry
                 src={cover}
                 alt=""
                 fill

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { ImageWithRetry } from "@/components/ImageWithRetry";
 
 const BACKBLAZE_HOSTS = [
   "f003.backblazeb2.com",
@@ -29,7 +29,7 @@ export function MdxImage({ src, alt, title, className, ...rest }: Props) {
   if (isBackblazeUrl(srcStr)) {
     return (
       <span className="my-4 block">
-        <Image
+        <ImageWithRetry
           src={srcStr}
           alt={alt ?? ""}
           width={800}

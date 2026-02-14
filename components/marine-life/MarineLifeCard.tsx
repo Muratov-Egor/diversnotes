@@ -1,6 +1,5 @@
 import Link from "next/link";
-import type { BlogPostMeta } from "@/lib/content/blog";
-import { formatDate } from "@/lib/format/date";
+import type { MarineLifeMeta } from "@/lib/content/marine-life";
 import { ImageWithRetry } from "@/components/ImageWithRetry";
 
 const BACKBLAZE_HOSTS = [
@@ -17,17 +16,12 @@ function isBackblazeUrl(src: string): boolean {
   }
 }
 
-type Props = { post: BlogPostMeta; variant?: "default" | "featured" };
+type Props = { item: MarineLifeMeta };
 
-export function BlogCard({ post, variant = "default" }: Props) {
-  const { slug, title, description, date, cover } = post;
-  const href = `/blog/${slug}`;
-  const isFeatured = variant === "featured";
-
-  const imageAspect = isFeatured ? "aspect-[21/9]" : "aspect-[16/10]";
-  const imageSizes = isFeatured
-    ? "(max-width: 1024px) 100vw, 1024px"
-    : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw";
+export function MarineLifeCard({ item }: Props) {
+  const { slug, title, description, nameEn, latinName, images } = item;
+  const href = `/marine-life/${slug}`;
+  const cover = images?.[0];
 
   return (
     <Link
@@ -35,16 +29,14 @@ export function BlogCard({ post, variant = "default" }: Props) {
       className="group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:border-neutral-300 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900/50 dark:hover:border-neutral-700"
     >
       {cover && (
-        <div
-          className={`relative w-full flex-shrink-0 overflow-hidden rounded-t-2xl bg-neutral-100 dark:bg-neutral-800 ${imageAspect}`}
-        >
+        <div className="relative aspect-[16/10] w-full flex-shrink-0 overflow-hidden rounded-t-2xl bg-neutral-100 dark:bg-neutral-800">
           {isBackblazeUrl(cover) ? (
             <ImageWithRetry
               src={cover}
               alt=""
               fill
               className="object-cover transition group-hover:scale-[1.02]"
-              sizes={imageSizes}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
           ) : (
             // eslint-disable-next-line @next/next/no-img-element
@@ -57,13 +49,7 @@ export function BlogCard({ post, variant = "default" }: Props) {
         </div>
       )}
       <div className="flex min-h-[7rem] flex-1 flex-col p-4 sm:p-5">
-        <h2
-          className={
-            isFeatured
-              ? "font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:text-xl"
-              : "font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300"
-          }
-        >
+        <h2 className="font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300">
           {title}
         </h2>
         {description && (
@@ -71,9 +57,12 @@ export function BlogCard({ post, variant = "default" }: Props) {
             {description}
           </p>
         )}
-        <p className="mt-auto pt-2 text-xs text-neutral-400 dark:text-neutral-500">
-          <time dateTime={date}>{formatDate(date)}</time>
-        </p>
+        {(nameEn || latinName) && (
+          <p className="mt-auto pt-2 text-xs text-neutral-400 dark:text-neutral-500">
+            {nameEn}
+            {latinName && <span className="italic"> — {latinName}</span>}
+          </p>
+        )}
       </div>
     </Link>
   );
