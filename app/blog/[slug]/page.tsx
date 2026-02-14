@@ -98,8 +98,18 @@ export default async function BlogPostPage({ params }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Главная", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Блог", item: `${SITE_URL}/blog` },
-      { "@type": "ListItem", position: 3, name: frontmatter.title, item: `${SITE_URL}/blog/${slug}` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Блог",
+        item: `${SITE_URL}/blog`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: frontmatter.title,
+        item: `${SITE_URL}/blog/${slug}`,
+      },
     ],
   };
 
@@ -108,59 +118,47 @@ export default async function BlogPostPage({ params }: Props) {
 
   const articleBlock = (
     <article className="min-w-0 max-w-[1200px]">
-      {/* Хлебная крошка */}
-      <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
-        <Link href="/blog" className="hover:underline">
-          Блог
-        </Link>
-      </p>
-
-      {/* Обложка */}
-      {cover && (
-        <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
-          <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-800">
-            <Image
-              src={cover}
-              alt=""
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 896px"
-              priority
-              unoptimized
-            />
-          </div>
-        </div>
-      )}
-
       {/* Заголовок и мета */}
       <header className="mb-8">
-        <h1 className="text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl">
+        <h1 className="text-center text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-5xl mb-4">
           {frontmatter.title}
         </h1>
         {frontmatter.description && (
-          <p className="mt-2 text-lg text-neutral-600 dark:text-neutral-400">
+          <p className="text-lg text-center text-neutral-600 dark:text-neutral-400 mb-8">
             {frontmatter.description}
           </p>
         )}
-        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
+        {/* Обложка */}
+        {cover && (
+          <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
+            <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-800">
+              <Image
+                src={cover}
+                alt=""
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 896px"
+                priority
+                unoptimized
+              />
+            </div>
+          </div>
+        )}
+        {/* Хлебная крошка */}
+        <p className="text-sm mb-2">
+          <Link href="/blog" className="hover:underline">
+            Блог
+          </Link>
+          <span className="mx-2">/</span>
+          <span className="text-neutral-500 dark:text-neutral-400">
+            {frontmatter.title}
+          </span>
+        </p>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
           <time dateTime={frontmatter.date}>
             {formatDate(frontmatter.date)}
           </time>
           <span>{readingTimeMin} мин чтения</span>
-          {tags.length > 0 && (
-            <ul className="flex flex-wrap gap-2">
-              {tags.map((tag) => (
-                <li key={tag}>
-                  <Link
-                    href={`/tags/${encodeURIComponent(tag)}`}
-                    className="hover:underline"
-                  >
-                    {tag}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
           <CopyLinkButton />
         </div>
       </header>
@@ -169,6 +167,27 @@ export default async function BlogPostPage({ params }: Props) {
       <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24">
         {content}
       </div>
+
+      {/* Теги */}
+      {tags.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          <span className="text-neutral-500 dark:text-neutral-400">
+            🏷️ Tags:
+          </span>
+          <ul className="flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <li key={tag}>
+                <Link
+                  href={`/tags/${encodeURIComponent(tag)}`}
+                  className="hover:underline"
+                >
+                  {tag}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </article>
   );
 

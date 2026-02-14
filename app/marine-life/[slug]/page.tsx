@@ -62,8 +62,18 @@ export default async function MarineLifeItemPage({ params }: Props) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Главная", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Подводный мир", item: `${SITE_URL}/marine-life` },
-      { "@type": "ListItem", position: 3, name: frontmatter.title, item: `${SITE_URL}/marine-life/${slug}` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Подводный мир",
+        item: `${SITE_URL}/marine-life`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: frontmatter.title,
+        item: `${SITE_URL}/marine-life/${slug}`,
+      },
     ],
   };
 
@@ -84,10 +94,14 @@ export default async function MarineLifeItemPage({ params }: Props) {
           <h1 className="text-2xl font-semibold">{frontmatter.title}</h1>
           <p className="text-lg text-neutral-500">{frontmatter.nameEn}</p>
           {frontmatter.latinName && (
-            <p className="text-base italic text-neutral-400">{frontmatter.latinName}</p>
+            <p className="text-base italic text-neutral-400">
+              {frontmatter.latinName}
+            </p>
           )}
           {frontmatter.depthRange && (
-            <p className="text-sm text-neutral-500">Глубина: {frontmatter.depthRange}</p>
+            <p className="text-sm text-neutral-500">
+              Глубина: {frontmatter.depthRange}
+            </p>
           )}
         </header>
         <div className="prose prose-neutral dark:prose-invert">{content}</div>

@@ -22,7 +22,9 @@ export default function BlogPage() {
               <Link href={`/blog/${post.slug}`} className="hover:underline">
                 <span className="font-medium">{post.title}</span>
               </Link>
-              <p className="text-sm text-neutral-500 mt-1">{post.description}</p>
+              <p className="text-sm text-neutral-500 mt-1">
+                {post.description}
+              </p>
               <p className="text-xs text-neutral-400">{post.date}</p>
             </li>
           ))}

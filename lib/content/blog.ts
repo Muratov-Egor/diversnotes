@@ -29,7 +29,9 @@ function toDateString(value: unknown): string {
 /** Список всех постов (только frontmatter), без draft, по дате — новые первые */
 export function getAllPosts(): BlogPostMeta[] {
   if (!fs.existsSync(BLOG_DIR)) return [];
-  const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx") || f.endsWith(".md"));
+  const files = fs
+    .readdirSync(BLOG_DIR)
+    .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"));
   const posts: BlogPostMeta[] = [];
   for (const file of files) {
     const slug = getSlugFromFilename(file);

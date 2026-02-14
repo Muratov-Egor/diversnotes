@@ -54,15 +54,17 @@ export default function RootLayout({
                 >
                   Diver&apos;s Notes
                 </a>
-                {navLinks.filter((l) => l.href !== "/").map(({ href, label }) => (
-                  <a
-                    key={href}
-                    href={href}
-                    className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
-                  >
-                    {label}
-                  </a>
-                ))}
+                {navLinks
+                  .filter((l) => l.href !== "/")
+                  .map(({ href, label }) => (
+                    <a
+                      key={href}
+                      href={href}
+                      className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+                    >
+                      {label}
+                    </a>
+                  ))}
               </div>
               <SearchBox />
             </nav>

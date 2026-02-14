@@ -51,7 +51,11 @@ export function SearchBox() {
     const matched: SearchResult[] = [];
     for (const item of index.all) {
       const searchText =
-        cleanText(item.title) + " " + cleanText(item.nameEn ?? "") + " " + item.contentSearch;
+        cleanText(item.title) +
+        " " +
+        cleanText(item.nameEn ?? "") +
+        " " +
+        item.contentSearch;
       if (!searchText.includes(cleanedQuery)) continue;
       matched.push({
         title: item.title,
@@ -63,7 +67,7 @@ export function SearchBox() {
           item.contentSearch,
           cleanedQuery,
           item.title,
-          item.nameEn ?? ""
+          item.nameEn ?? "",
         ),
       });
       if (matched.length >= MAX_RESULTS) break;
@@ -73,7 +77,10 @@ export function SearchBox() {
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
-      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+      if (
+        wrapperRef.current &&
+        !wrapperRef.current.contains(e.target as Node)
+      ) {
         setOpen(false);
       }
     }
@@ -106,9 +113,13 @@ export function SearchBox() {
           {!index ? (
             <p className="px-3 py-2 text-sm text-neutral-500">Загрузка...</p>
           ) : query.trim().length < 2 ? (
-            <p className="px-3 py-2 text-sm text-neutral-500">Минимум 2 символа</p>
+            <p className="px-3 py-2 text-sm text-neutral-500">
+              Минимум 2 символа
+            </p>
           ) : results.length === 0 ? (
-            <p className="px-3 py-2 text-sm text-neutral-500">Ничего не найдено</p>
+            <p className="px-3 py-2 text-sm text-neutral-500">
+              Ничего не найдено
+            </p>
           ) : (
             results.map((item) => (
               <Link
@@ -138,7 +149,9 @@ export function SearchBox() {
                   <p className="mt-0.5 text-xs text-blue-600 dark:text-blue-400">
                     {getCategoryName(item.category)}
                   </p>
-                  {(item.snippet.before || item.snippet.match || item.snippet.after) && (
+                  {(item.snippet.before ||
+                    item.snippet.match ||
+                    item.snippet.after) && (
                     <p className="mt-0.5 line-clamp-2 text-xs text-neutral-500">
                       {item.snippet.before && `...${item.snippet.before} `}
                       <strong>{item.snippet.match}</strong>

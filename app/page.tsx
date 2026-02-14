@@ -15,9 +15,9 @@ export default function HomePage() {
         Привет
       </h1>
       <p className="mt-4 text-neutral-600 dark:text-neutral-400">
-        Я Егор — сертифицированный PADI Assistant Instructor и подводный фотограф.
-        Здесь заметки о дайвинге, обзоры дайв-сайтов и база морских обитателей,
-        которых я встретил под водой.
+        Я Егор — сертифицированный PADI Assistant Instructor и подводный
+        фотограф. Здесь заметки о дайвинге, обзоры дайв-сайтов и база морских
+        обитателей, которых я встретил под водой.
       </p>
       <nav className="mt-10 flex flex-col gap-6 sm:flex-row sm:gap-10">
         <Link

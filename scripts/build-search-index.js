@@ -23,7 +23,9 @@ function cleanText(text) {
 
 function getEntries(dir, basePath, category) {
   if (!fs.existsSync(dir)) return [];
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx") || f.endsWith(".md"));
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"));
   const entries = [];
   for (const file of files) {
     const slug = file.replace(/\.mdx?$/, "");
@@ -52,4 +54,10 @@ const index = { all: [...blog, ...marineLife] };
 
 fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
 fs.writeFileSync(OUT_PATH, JSON.stringify(index), "utf-8");
-console.log("Search index built:", blog.length, "blog +", marineLife.length, "marine-life");
+console.log(
+  "Search index built:",
+  blog.length,
+  "blog +",
+  marineLife.length,
+  "marine-life",
+);

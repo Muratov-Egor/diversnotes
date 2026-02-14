@@ -21,7 +21,9 @@ export function buildMetadata({
   noIndex = false,
 }: MetaInput): Metadata {
   const url = `${SITE_URL}${path || ""}`;
-  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+  const fullTitle = title.includes(SITE_NAME)
+    ? title
+    : `${title} | ${SITE_NAME}`;
   const ogImage = image ?? `${SITE_URL}${DEFAULT_OG_IMAGE}`;
 
   return {

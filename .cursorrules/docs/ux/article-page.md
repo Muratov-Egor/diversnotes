@@ -18,11 +18,13 @@
 - Anchor links on headings
 
 TOC appears if:
+
 - More than 3 H2 sections
 
 ## Content Blocks
 
 Supported:
+
 - Paragraph
 - Headings (H2–H4)
 - Lists

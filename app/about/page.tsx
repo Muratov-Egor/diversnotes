@@ -2,7 +2,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
   title: "О проекте",
-  description: "О проекте Diver's Notes и авторе — Егор Муратов, PADI Assistant Instructor, подводный фотограф.",
+  description:
+    "О проекте Diver's Notes и авторе — Егор Муратов, PADI Assistant Instructor, подводный фотограф.",
   path: "/about",
 });
 

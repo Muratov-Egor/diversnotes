@@ -20,18 +20,21 @@ State must be reflected in URL.
 ### Variant A — Dense List (Archive Mode)
 
 Row contains:
+
 - Optional metric (views/likes)
 - Title
 - Short descriptor (1 line)
 - Optional tags
 
 Used for:
+
 - Power users
 - Archive pages
 
 ### Variant B — Card Grid (Default Mode)
 
 Card contains:
+
 - Optional cover image
 - Title
 - 1–2 line description
@@ -44,10 +47,12 @@ Card must work without image.
 ## Interaction
 
 Hover:
+
 - Subtle background highlight
 - Underline title
 
 Mobile:
+
 - No hover dependence
 - Large tap targets
 

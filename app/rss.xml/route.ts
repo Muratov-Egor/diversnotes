@@ -22,7 +22,7 @@ export async function GET() {
       <description>${escapeXml(p.description)}</description>
       <pubDate>${new Date(p.date).toUTCString()}</pubDate>
       <guid isPermaLink="true">${SITE_URL}/blog/${p.slug}</guid>
-    </item>`
+    </item>`,
       )
       .join("")}
   </channel>

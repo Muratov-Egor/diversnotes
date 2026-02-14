@@ -6,7 +6,7 @@ We are building a long-term, minimal, fast, SEO-structured personal diving journ
 Primary language: RU (no prefix).
 EN disabled for now, but architecture must support future re-enable.
 
-Old version site https://www.diversnotes.com/ 
+Old version site https://www.diversnotes.com/
 Old version github project - https://github.com/Muratov-Egor/blog
 
 ---
@@ -48,9 +48,10 @@ RU (default, no prefix):
 /about  
 /tags/[slug]  
 /rss.xml  
-/sitemap.xml  
+/sitemap.xml
 
 If EN returns later:
+
 - /en/... mirrored structure
 - add hreflang + language switcher
 
@@ -59,6 +60,7 @@ If EN returns later:
 # 4. SEO Requirements (Mandatory)
 
 All pages:
+
 - unique title
 - unique description
 - canonical
@@ -66,12 +68,14 @@ All pages:
 - proper robots meta
 
 Articles:
+
 - JSON-LD: Article
 - JSON-LD: BreadcrumbList
 - FAQ schema if FAQ block exists
 - VideoObject schema if YouTube present
 
 Global:
+
 - sitemap.xml
 - RSS feed
 - robots.txt (prod vs preview aware)
@@ -84,10 +88,11 @@ Always preserve indexability unless explicitly removed.
 # 5. Migration Rules (Critical)
 
 Before launch:
+
 1. Collect all old URLs.
 2. Create redirect map: old → new.
 3. Implement 301 redirects.
-4. Redirect /en/* to RU equivalent or /.
+4. Redirect /en/\* to RU equivalent or /.
 5. Ensure no important 404s.
 
 SEO loss is unacceptable.
@@ -102,23 +107,25 @@ Detailed migration rules:
 All MDX must be validated at build time.
 
 Blog Post required fields:
+
 - title
 - description
 - slug
 - date (ISO)
 - tags
-Optional:
+  Optional:
 - updatedAt
 - cover
 - series
 - draft
 
 Marine Life required:
+
 - title
 - latinName
 - slug
 - description
-Optional:
+  Optional:
 - depthRange
 - locations
 - images
@@ -145,6 +152,7 @@ Details:
 # 8. UX Requirements
 
 Must include:
+
 - Dark theme
 - Sticky TOC (desktop)
 - Sharing buttons (copy link + social)
@@ -162,6 +170,7 @@ Typography-focused.
 
 Marine Life is a structured knowledge base and SEO driver.
 It must:
+
 - support filtering
 - support search
 - link from blog articles
@@ -175,10 +184,12 @@ Details:
 # 10. Analytics
 
 Minimum:
+
 - Vercel Analytics
 - Google Search Console
 
 Track:
+
 - scroll_50
 - scroll_90
 - search_query
@@ -232,6 +243,6 @@ Detailed documents are located in:
 /docs/marine-life.md  
 /docs/analytics.md  
 /docs/roadmap.md  
-/docs/post-deploy.md  
+/docs/post-deploy.md
 
 Cursor must follow .cursorrules as the source of truth.

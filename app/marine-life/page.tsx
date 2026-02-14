@@ -4,7 +4,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
   title: "Подводный мир",
-  description: "База морских обитателей: авторские фото и описания существ, встреченных во время погружений.",
+  description:
+    "База морских обитателей: авторские фото и описания существ, встреченных во время погружений.",
   path: "/marine-life",
 });
 
@@ -19,14 +20,21 @@ export default function MarineLifePage() {
         <ul className="space-y-4">
           {items.map((item) => (
             <li key={item.slug}>
-              <Link href={`/marine-life/${item.slug}`} className="hover:underline">
+              <Link
+                href={`/marine-life/${item.slug}`}
+                className="hover:underline"
+              >
                 <span className="font-medium">{item.title}</span>
                 <span className="text-neutral-500 ml-2">{item.nameEn}</span>
                 {item.latinName && (
-                  <span className="text-neutral-400 italic ml-2">{item.latinName}</span>
+                  <span className="text-neutral-400 italic ml-2">
+                    {item.latinName}
+                  </span>
                 )}
               </Link>
-              <p className="text-sm text-neutral-500 mt-1">{item.description}</p>
+              <p className="text-sm text-neutral-500 mt-1">
+                {item.description}
+              </p>
             </li>
           ))}
         </ul>

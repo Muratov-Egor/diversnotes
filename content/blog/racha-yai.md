@@ -59,4 +59,3 @@ tags:
 Подводные жители не столь привыкшие к дайверам, поэтому их намного легче спугнуть, поэтому делая фото или видео нужно быть придельно аккуратным.
 
 ![Siam Bay](https://f003.backblazeb2.com/file/diversnotes-images/rachaYai/Racha_Yai_5_Ehonii_ky3gfi.png "Siam Bay")
-

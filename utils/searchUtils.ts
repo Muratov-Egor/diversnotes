@@ -6,7 +6,7 @@ export function findSearchSnippet(
   contentSearch: string,
   cleanedQuery: string,
   title: string,
-  titleEn: string
+  titleEn: string,
 ): { before: string; match: string; after: string } {
   const words = contentSearch.split(" ").filter(Boolean);
   const queryWords = cleanedQuery.split(" ").filter(Boolean);
@@ -25,7 +25,9 @@ export function findSearchSnippet(
       return {
         before: words.slice(Math.max(0, i - 5), i).join(" "),
         match: slice,
-        after: words.slice(i + queryWords.length, i + queryWords.length + 5).join(" "),
+        after: words
+          .slice(i + queryWords.length, i + queryWords.length + 5)
+          .join(" "),
       };
     }
   }
