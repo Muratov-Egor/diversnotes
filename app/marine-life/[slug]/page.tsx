@@ -1,6 +1,4 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ImageWithRetry } from "@/components/ImageWithRetry";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import {
@@ -8,7 +6,12 @@ import {
   getMarineLifeRaw,
   getRelatedMarineLife,
 } from "@/lib/content/marine-life";
+import { ArticleBreadcrumb } from "@/components/article/ArticleBreadcrumb";
+import { ArticleCover } from "@/components/article/ArticleCover";
+import { ArticlePageLayout } from "@/components/article/ArticlePageLayout";
+import { ArticleProse } from "@/components/article/ArticleProse";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
+import { TagList } from "@/components/article/TagList";
 import { RelatedMarineLife } from "@/components/marine-life/RelatedMarineLife";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -114,30 +117,13 @@ export default async function MarineLifeItemPage({ params }: Props) {
             )}
           </p>
         )}
-        {cover && (
-          <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
-            <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-3xl bg-neutral-100 dark:bg-neutral-800">
-              <ImageWithRetry
-                src={cover}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 896px"
-                priority
-              />
-            </div>
-          </div>
-        )}
+        {cover && <ArticleCover src={cover} />}
         <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
-        <p className="text-sm mb-2">
-          <Link href="/marine-life" className="hover:underline">
-            Подводный мир
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-neutral-500 dark:text-neutral-400">
-            {frontmatter.title}
-          </span>
-        </p>
+        <ArticleBreadcrumb
+          sectionHref="/marine-life"
+          sectionLabel="Подводный мир"
+          currentTitle={frontmatter.title}
+        />
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
           {frontmatter.depthRange && (
             <span>Глубина: {frontmatter.depthRange}</span>
@@ -147,48 +133,19 @@ export default async function MarineLifeItemPage({ params }: Props) {
         <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
       </header>
 
-      <div className="min-w-0 prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24">
-        {content}
-      </div>
+      <ArticleProse>{content}</ArticleProse>
 
       <RelatedMarineLife items={relatedItems} />
-      {tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mt-8">
-          <span className="text-neutral-500 dark:text-neutral-400">
-            🏷️ Tags:
-          </span>
-          <ul className="flex flex-wrap gap-2">
-            {tags.map((tag) => (
-              <li key={tag}>
-                <Link
-                  href={`/tags/${encodeURIComponent(tag)}`}
-                  className="hover:underline"
-                >
-                  {tag}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <TagList tags={tags} className="mt-8" />
     </article>
   );
 
   return (
-    <main className="py-6 sm:py-8">
-      {jsonLdArticle && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArticle) }}
-        />
-      )}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
-      />
-      <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto">{articleBlock}</div>
-      </div>
-    </main>
+    <ArticlePageLayout
+      jsonLdArticle={jsonLdArticle}
+      jsonLdBreadcrumb={jsonLdBreadcrumb}
+    >
+      <div className="mx-auto">{articleBlock}</div>
+    </ArticlePageLayout>
   );
 }

@@ -1,13 +1,16 @@
-import Link from "next/link";
 import matter from "gray-matter";
-import { ImageWithRetry } from "@/components/ImageWithRetry";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
 import { getAllPosts, getPostRaw, getRelatedPosts } from "@/lib/content/blog";
 import { getTableOfContents } from "@/lib/article-toc";
+import { ArticleBreadcrumb } from "@/components/article/ArticleBreadcrumb";
+import { ArticleCover } from "@/components/article/ArticleCover";
+import { ArticlePageLayout } from "@/components/article/ArticlePageLayout";
+import { ArticleProse } from "@/components/article/ArticleProse";
 import { ArticleWithTocLayout } from "@/components/article/ArticleWithTocLayout";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
+import { TagList } from "@/components/article/TagList";
 import { RelatedPosts } from "@/components/blog/RelatedPosts";
 import { YouTube } from "@/components/mdx/YouTube";
 import { MdxImage } from "@/components/mdx/MdxImage";
@@ -125,32 +128,13 @@ export default async function BlogPostPage({ params }: Props) {
             {frontmatter.description}
           </p>
         )}
-        {/* Обложка */}
-        {cover && (
-          <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
-            <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full overflow-hidden rounded-3xl bg-neutral-100 dark:bg-neutral-800">
-              <ImageWithRetry
-                src={cover}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 896px"
-                priority
-              />
-            </div>
-          </div>
-        )}
+        {cover && <ArticleCover src={cover} />}
         <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
-        {/* Хлебная крошка */}
-        <p className="text-sm mb-2">
-          <Link href="/blog" className="hover:underline">
-            Блог
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-neutral-500 dark:text-neutral-400">
-            {frontmatter.title}
-          </span>
-        </p>
+        <ArticleBreadcrumb
+          sectionHref="/blog"
+          sectionLabel="Блог"
+          currentTitle={frontmatter.title}
+        />
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
           <time dateTime={frontmatter.date}>
             {formatDate(frontmatter.date)}
@@ -161,56 +145,25 @@ export default async function BlogPostPage({ params }: Props) {
         <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
       </header>
 
-      {/* Текст статьи */}
-      <div className="min-w-0 prose prose-neutral dark:prose-invert max-w-none prose-headings:scroll-mt-24">
-        {content}
-      </div>
+      <ArticleProse>{content}</ArticleProse>
 
       <RelatedPosts posts={relatedPosts} />
-      {/* Теги */}
-      {tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mt-3">
-          <span className="text-neutral-500 dark:text-neutral-400">
-            🏷️ Tags:
-          </span>
-          <ul className="flex flex-wrap gap-2">
-            {tags.map((tag) => (
-              <li key={tag}>
-                <Link
-                  href={`/tags/${encodeURIComponent(tag)}`}
-                  className="hover:underline"
-                >
-                  {tag}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <TagList tags={tags} className="mt-3" />
     </article>
   );
 
   return (
-    <main className="py-6 sm:py-8">
-      {jsonLdArticle && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdArticle) }}
-        />
+    <ArticlePageLayout
+      jsonLdArticle={jsonLdArticle}
+      jsonLdBreadcrumb={jsonLdBreadcrumb}
+    >
+      {showToc ? (
+        <ArticleWithTocLayout tocItems={toc}>
+          {articleBlock}
+        </ArticleWithTocLayout>
+      ) : (
+        <div className="mx-auto">{articleBlock}</div>
       )}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdBreadcrumb) }}
-      />
-      <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
-        {showToc ? (
-          <ArticleWithTocLayout tocItems={toc}>
-            {articleBlock}
-          </ArticleWithTocLayout>
-        ) : (
-          <div className="mx-auto">{articleBlock}</div>
-        )}
-      </div>
-    </main>
+    </ArticlePageLayout>
   );
 }
