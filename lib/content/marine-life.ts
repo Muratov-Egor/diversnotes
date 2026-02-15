@@ -85,3 +85,26 @@ export function getMarineLifeRaw(slug: string): string | null {
   if (fs.existsSync(mdPath)) return fs.readFileSync(mdPath, "utf-8");
   return null;
 }
+
+/**
+ * Похожие записи по тегам, без текущей. Если есть совпадения по тегам — до limit штук; иначе — любые последние.
+ */
+export function getRelatedMarineLife(
+  currentSlug: string,
+  currentTags: string[],
+  limit: number = 6
+): MarineLifeMeta[] {
+  const all = getAllMarineLife().filter((m) => m.slug !== currentSlug);
+  if (all.length === 0) return [];
+
+  const scored = all.map((item) => {
+    const itemTags = item.tags ?? [];
+    const commonTags = itemTags.filter((t) => currentTags.includes(t)).length;
+    return { item, score: commonTags * 3 };
+  });
+  scored.sort((a, b) => b.score - a.score);
+
+  const withScore = scored.filter((s) => s.score > 0);
+  const toTake = withScore.length > 0 ? withScore : scored;
+  return toTake.slice(0, limit).map((s) => s.item);
+}

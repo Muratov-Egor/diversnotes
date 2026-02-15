@@ -3,8 +3,13 @@ import { notFound } from "next/navigation";
 import { ImageWithRetry } from "@/components/ImageWithRetry";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
-import { getAllMarineLife, getMarineLifeRaw } from "@/lib/content/marine-life";
+import {
+  getAllMarineLife,
+  getMarineLifeRaw,
+  getRelatedMarineLife,
+} from "@/lib/content/marine-life";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
+import { RelatedMarineLife } from "@/components/marine-life/RelatedMarineLife";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
@@ -88,6 +93,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
 
   const cover = itemMeta?.images?.[0];
   const tags = itemMeta?.tags ?? [];
+  const relatedItems = getRelatedMarineLife(slug, tags, 6);
 
   const articleBlock = (
     <article className="min-w-0 max-w-[1200px]">
@@ -145,9 +151,9 @@ export default async function MarineLifeItemPage({ params }: Props) {
         {content}
       </div>
 
+      <RelatedMarineLife items={relatedItems} />
       {tags.length > 0 && (
         <div className="flex flex-wrap gap-2 mt-8">
-          <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
           <span className="text-neutral-500 dark:text-neutral-400">
             🏷️ Tags:
           </span>
