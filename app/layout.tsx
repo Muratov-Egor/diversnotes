@@ -5,7 +5,18 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/seo/config";
 import { SearchBox } from "@/components/search/SearchBox";
 import { NavLinks } from "@/components/layout/NavLinks";
+import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
+import { ThemeToggle } from "@/components/layout/ThemeToggle";
+
+const themeScript = `
+(function(){
+  var t = localStorage.getItem('theme');
+  if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  if (t === 'dark') document.documentElement.classList.add('dark');
+  else document.documentElement.classList.remove('dark');
+})();
+`;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +46,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
+    <html lang="ru" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
       >
@@ -60,6 +74,7 @@ export default function RootLayout({
                   <NavLinks />
                 </div>
                 <SearchBox />
+                <ThemeToggle />
               </div>
               <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 md:hidden">
                 <NavLinks />
@@ -67,6 +82,7 @@ export default function RootLayout({
             </nav>
           </header>
           {children}
+          <Footer />
         </div>
       </body>
     </html>

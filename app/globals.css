@@ -1,10 +1,19 @@
 @import "tailwindcss";
 @plugin "../node_modules/@tailwindcss/typography";
 
+/* Переключатель темы: класс .dark на html (скрипт в layout задаёт по localStorage/system) */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #fafafa;
   --foreground: #171717;
   --muted: #737373;
+}
+
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --muted: #a3a3a3;
 }
 
 @theme inline {
@@ -12,14 +21,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --muted: #a3a3a3;
-  }
 }
 
 body {
