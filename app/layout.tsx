@@ -55,26 +55,30 @@ export default function RootLayout({
       >
         <div className="mx-auto min-h-screen max-w-7xl w-full px-4 py-6 sm:px-6 lg:px-8">
           <header className="mb-8 border-b border-neutral-200/80 pb-4 dark:border-neutral-800/80">
-            <nav className="flex flex-col gap-3 text-base md:flex-row md:flex-wrap md:items-center md:justify-between md:gap-x-6 md:gap-y-3">
-              <div className="flex flex-shrink-0 items-center justify-between gap-4 md:contents">
-                <Link
-                  href="/"
-                  className="flex items-center gap-2.5 font-semibold text-neutral-900 dark:text-neutral-100"
-                >
-                  <Image
-                    src="/logo.png"
-                    alt=""
-                    width={36}
-                    height={36}
-                    className="h-9 w-9 shrink-0 rounded-full object-cover"
-                  />
-                  <span className="text-lg">Diver&apos;s Notes</span>
-                </Link>
-                <div className="hidden flex-wrap items-center justify-center gap-x-6 gap-y-1 md:flex">
-                  <NavLinks />
+            <nav className="flex flex-col gap-3 text-base md:flex-row md:items-center md:justify-between md:gap-x-6">
+              <div className="flex items-center justify-between gap-4 md:contents">
+                <div className="flex items-center gap-4 md:gap-6">
+                  <Link
+                    href="/"
+                    className="flex items-center gap-2.5 font-semibold text-neutral-900 dark:text-neutral-100"
+                  >
+                    <Image
+                      src="/logo.png"
+                      alt=""
+                      width={36}
+                      height={36}
+                      className="h-9 w-9 shrink-0 rounded-full object-cover"
+                    />
+                    <span className="text-lg">Diver&apos;s Notes</span>
+                  </Link>
+                  <div className="hidden items-center gap-x-6 md:flex">
+                    <NavLinks />
+                  </div>
                 </div>
-                <SearchBox />
-                <ThemeToggle />
+                <div className="flex items-center gap-2">
+                  <SearchBox />
+                  <ThemeToggle />
+                </div>
               </div>
               <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 md:hidden">
                 <NavLinks />
