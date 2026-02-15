@@ -14,6 +14,7 @@ import { ArticlePageLayout } from "@/components/article/ArticlePageLayout";
 import { ArticleProse } from "@/components/article/ArticleProse";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
 import { TagList } from "@/components/article/TagList";
+import { MarineLifeBriefInfo } from "@/components/marine-life/MarineLifeBriefInfo";
 import { RelatedMarineLife } from "@/components/marine-life/RelatedMarineLife";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -105,37 +106,30 @@ export default async function MarineLifeItemPage({ params }: Props) {
   const articleBlock = (
     <article className="min-w-0 max-w-[1200px]">
       <header className="mb-8">
-        <h1 className="text-center text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-5xl mb-4">
+        <h1 className="text-center text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-5xl mb-10">
           {frontmatter.title}
         </h1>
-        {frontmatter.description && (
-          <p className="text-lg text-center text-neutral-600 dark:text-neutral-400 mb-8">
-            {frontmatter.description}
-          </p>
-        )}
-        {(frontmatter.nameEn || frontmatter.latinName) && (
-          <p className="text-center text-neutral-500 dark:text-neutral-400 mb-4">
-            {frontmatter.nameEn}
-            {frontmatter.latinName && (
-              <span className="italic"> — {frontmatter.latinName}</span>
-            )}
-          </p>
-        )}
         {cover && <ArticleCover src={cover} />}
-        <hr className="w-full border-t border-neutral-200 dark:border-neutral-700 mb-3 mt-0" />
         <ArticleBreadcrumb
           sectionHref="/marine-life"
           sectionLabel="Подводный мир"
           currentTitle={frontmatter.title}
         />
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400 mb-2">
-          {frontmatter.depthRange && (
-            <span>Глубина: {frontmatter.depthRange}</span>
-          )}
           <span>{readingTimeMin} мин чтения</span>
           <CopyLinkButton />
         </div>
       </header>
+
+      <div className="mb-6">
+        <MarineLifeBriefInfo
+          description={frontmatter.description}
+          nameEn={frontmatter.nameEn}
+          latinName={frontmatter.latinName}
+          depthRange={frontmatter.depthRange}
+          locations={frontmatter.locations}
+        />
+      </div>
 
       <ArticleProse>{content}</ArticleProse>
 
