@@ -67,7 +67,7 @@ export function Pagination({
 
   return (
     <nav
-      className="mt-10 border-t border-neutral-200 pt-6 dark:border-neutral-800"
+      className="mt-10 pt-6"
       aria-label="Пагинация"
     >
       {/* MOBILE: ← 2 / 10 → */}

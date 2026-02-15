@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const CONTAINER = "mx-auto max-w-6xl px-5 sm:px-6";
-const FOOTER_WRAP = "mt-16 border-t border-neutral-200 py-8 dark:border-neutral-800/80";
+const CONTAINER = "mx-auto max-w-6xl";
+const FOOTER_WRAP = "mt-10 border-t border-neutral-200 py-8 dark:border-neutral-800/80";
 
 const TEXT_MUTED = "text-neutral-500 dark:text-neutral-400";
 const TEXT_MAIN = "text-neutral-900 dark:text-neutral-100";
@@ -100,10 +100,10 @@ export function Footer() {
     <footer className={FOOTER_WRAP}>
       <div className={CONTAINER}>
         <div className="flex flex-col items-center gap-6 md:flex-row md:items-center md:justify-between md:gap-8">
-          <div className="max-w-[44ch] text-center md:text-left">
+          <div className="max-w-[32ch] text-center md:text-left">
             <p className={`text-sm leading-5 ${TEXT_MAIN}`}>© 2023–2026 Егор Муратов</p>
             <p className={`mt-1.5 text-sm leading-5 ${TEXT_MUTED}`}>
-              DiversNotes — личный блог о дайвинге: заметки, описание дайв-сайтов, фотографии подводных обитателей.
+              DiversNotes — личный блог о дайвинге: заметки, описание дайв-сайтов, фотографии подводного мира.
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-2">
