@@ -1,3 +1,4 @@
+import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
@@ -6,6 +7,7 @@ import {
   getMarineLifeRaw,
   getRelatedMarineLife,
 } from "@/lib/content/marine-life";
+import { getReadingTimeMinutes } from "@/lib/format/reading-time";
 import { ArticleBreadcrumb } from "@/components/article/ArticleBreadcrumb";
 import { ArticleCover } from "@/components/article/ArticleCover";
 import { ArticlePageLayout } from "@/components/article/ArticlePageLayout";
@@ -44,6 +46,8 @@ export default async function MarineLifeItemPage({ params }: Props) {
 
   const items = getAllMarineLife();
   const itemMeta = items.find((m) => m.slug === slug);
+  const { content: body } = matter(raw);
+  const readingTimeMin = getReadingTimeMinutes(body);
 
   const { content, frontmatter } = await compileMDX<{
     title: string;
@@ -118,19 +122,19 @@ export default async function MarineLifeItemPage({ params }: Props) {
           </p>
         )}
         {cover && <ArticleCover src={cover} />}
-        <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
+        <hr className="w-full border-t border-neutral-200 dark:border-neutral-700 mb-3 mt-0" />
         <ArticleBreadcrumb
           sectionHref="/marine-life"
           sectionLabel="Подводный мир"
           currentTitle={frontmatter.title}
         />
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400 mb-2">
           {frontmatter.depthRange && (
             <span>Глубина: {frontmatter.depthRange}</span>
           )}
+          <span>{readingTimeMin} мин чтения</span>
           <CopyLinkButton />
         </div>
-        <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
       </header>
 
       <ArticleProse>{content}</ArticleProse>

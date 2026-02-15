@@ -16,12 +16,8 @@ import { YouTube } from "@/components/mdx/YouTube";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { formatDate } from "@/lib/format/date";
+import { getReadingTimeMinutes } from "@/lib/format/reading-time";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
-
-function getReadingTimeMinutes(body: string): number {
-  const words = body.split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.ceil(words / 200));
-}
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -129,20 +125,19 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
         )}
         {cover && <ArticleCover src={cover} />}
-        <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
+        <hr className="w-full border-t border-neutral-200 dark:border-neutral-700 mb-3 mt-0" />
         <ArticleBreadcrumb
           sectionHref="/blog"
           sectionLabel="Блог"
           currentTitle={frontmatter.title}
         />
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400 mb-2">
           <time dateTime={frontmatter.date}>
             {formatDate(frontmatter.date)}
           </time>
           <span>{readingTimeMin} мин чтения</span>
           <CopyLinkButton />
         </div>
-        <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
       </header>
 
       <ArticleProse>{content}</ArticleProse>
