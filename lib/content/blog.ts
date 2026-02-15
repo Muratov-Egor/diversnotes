@@ -103,3 +103,32 @@ export function getPostRaw(slug: string): string | null {
   if (fs.existsSync(mdPath)) return fs.readFileSync(mdPath, "utf-8");
   return null;
 }
+
+/**
+ * Похожие посты: по тегам и серии (приоритет у серии), без текущего.
+ * Если есть совпадения по тегам/серии — возвращаем до limit штук; иначе — последние по дате.
+ */
+export function getRelatedPosts(
+  currentSlug: string,
+  currentTags: string[],
+  currentSeries?: string | null,
+  limit: number = 6
+): BlogPostMeta[] {
+  const all = getAllPosts().filter((p) => p.slug !== currentSlug);
+  if (all.length === 0) return [];
+
+  const scored = all.map((post) => {
+    let score = 0;
+    if (currentSeries && post.series === currentSeries) score += 10;
+    const commonTags = post.tags.filter((t) => currentTags.includes(t)).length;
+    score += commonTags * 3;
+    return { post, score };
+  });
+  scored.sort(
+    (a, b) => b.score - a.score || (b.post.date > a.post.date ? 1 : -1)
+  );
+
+  const withScore = scored.filter((s) => s.score > 0);
+  const toTake = withScore.length > 0 ? withScore : scored;
+  return toTake.slice(0, limit).map((s) => s.post);
+}

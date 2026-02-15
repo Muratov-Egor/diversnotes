@@ -17,27 +17,37 @@ function isBackblazeUrl(src: string): boolean {
   }
 }
 
-type Props = { post: BlogPostMeta; variant?: "default" | "featured" };
+type Props = { post: BlogPostMeta; variant?: "default" | "featured" | "compact" };
 
 export function BlogCard({ post, variant = "default" }: Props) {
   const { slug, title, description, date, cover } = post;
   const href = `/blog/${slug}`;
   const isFeatured = variant === "featured";
+  const isCompact = variant === "compact";
 
-  const imageAspect = isFeatured ? "aspect-[21/9]" : "aspect-[16/10]";
+  const imageAspect = isFeatured
+    ? "aspect-[21/9]"
+    : isCompact
+      ? "aspect-[16/10]"
+      : "aspect-[16/10]";
   const imageSizes = isFeatured
     ? "(max-width: 1024px) 100vw, 1024px"
-    : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw";
+    : isCompact
+      ? "(max-width: 640px) 50vw, 200px"
+      : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw";
+
+  const cardClass = isCompact
+    ? "group flex h-[11rem] w-full flex-col overflow-hidden rounded-xl border border-neutral-200 bg-white shadow-sm transition hover:border-neutral-300 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900/50 dark:hover:border-neutral-700 sm:flex-row sm:h-[7.5rem]"
+    : "group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:border-neutral-300 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900/50 dark:hover:border-neutral-700";
+
+  const imageWrapClass = isCompact
+    ? "relative h-[7rem] w-full flex-shrink-0 overflow-hidden rounded-t-xl bg-neutral-100 dark:bg-neutral-800 sm:h-full sm:w-44 sm:rounded-l-xl sm:rounded-tr-none"
+    : `relative w-full flex-shrink-0 overflow-hidden rounded-t-2xl bg-neutral-100 dark:bg-neutral-800 ${imageAspect}`;
 
   return (
-    <Link
-      href={href}
-      className="group flex h-full w-full flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition hover:border-neutral-300 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900/50 dark:hover:border-neutral-700"
-    >
+    <Link href={href} className={cardClass}>
       {cover && (
-        <div
-          className={`relative w-full flex-shrink-0 overflow-hidden rounded-t-2xl bg-neutral-100 dark:bg-neutral-800 ${imageAspect}`}
-        >
+        <div className={imageWrapClass}>
           {isBackblazeUrl(cover) ? (
             <ImageWithRetry
               src={cover}
@@ -56,26 +66,36 @@ export function BlogCard({ post, variant = "default" }: Props) {
           )}
         </div>
       )}
-      <div className="flex min-h-0 flex-1 flex-col p-4 sm:p-5">
+      <div
+        className={
+          isCompact
+            ? "flex min-h-0 flex-1 flex-col justify-center overflow-hidden p-3 sm:px-3 sm:py-2"
+            : "flex min-h-0 flex-1 flex-col p-4 sm:p-5"
+        }
+      >
         <h2
           className={
             isFeatured
               ? "line-clamp-1 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:text-xl"
-              : "line-clamp-1 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300"
+              : isCompact
+                ? "line-clamp-2 break-words text-sm font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:line-clamp-3"
+                : "line-clamp-1 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300"
           }
         >
           {title}
         </h2>
-        {description && (
+        {!isCompact && description && (
           <p className="mt-1.5 line-clamp-2 min-h-[2.5rem] text-base text-neutral-500 dark:text-neutral-400">
             {description}
           </p>
         )}
-        <div className="mt-auto pt-2">
-          <p className="text-xs text-neutral-400 dark:text-neutral-500">
-            <time dateTime={date}>{formatDate(date)}</time>
-          </p>
-        </div>
+        {!isCompact && (
+          <div className="mt-auto pt-2">
+            <p className="text-xs text-neutral-400 dark:text-neutral-500">
+              <time dateTime={date}>{formatDate(date)}</time>
+            </p>
+          </div>
+        )}
       </div>
     </Link>
   );

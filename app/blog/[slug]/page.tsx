@@ -4,10 +4,11 @@ import { ImageWithRetry } from "@/components/ImageWithRetry";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
-import { getAllPosts, getPostRaw } from "@/lib/content/blog";
+import { getAllPosts, getPostRaw, getRelatedPosts } from "@/lib/content/blog";
 import { getTableOfContents } from "@/lib/article-toc";
 import { ArticleWithTocLayout } from "@/components/article/ArticleWithTocLayout";
 import { CopyLinkButton } from "@/components/article/CopyLinkButton";
+import { RelatedPosts } from "@/components/blog/RelatedPosts";
 import { YouTube } from "@/components/mdx/YouTube";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -58,6 +59,7 @@ export default async function BlogPostPage({ params }: Props) {
     date: string;
     tags: string[];
     cover?: string;
+    series?: string;
   }>({
     source: raw,
     options: {
@@ -104,6 +106,12 @@ export default async function BlogPostPage({ params }: Props) {
 
   const cover = postMeta?.cover ?? frontmatter.cover;
   const tags = frontmatter.tags ?? postMeta?.tags ?? [];
+  const relatedPosts = getRelatedPosts(
+    slug,
+    tags,
+    postMeta?.series ?? frontmatter.series,
+    6
+  );
 
   const articleBlock = (
     <article className="min-w-0 max-w-[1200px]">
@@ -158,10 +166,10 @@ export default async function BlogPostPage({ params }: Props) {
         {content}
       </div>
 
+      <RelatedPosts posts={relatedPosts} />
       {/* Теги */}
       {tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mt-8">
-          <hr className="w-full h-1 border-t border-neutral-200 dark:border-neutral-700 mb-2" />
+        <div className="flex flex-wrap gap-2 mt-3">
           <span className="text-neutral-500 dark:text-neutral-400">
             🏷️ Tags:
           </span>
