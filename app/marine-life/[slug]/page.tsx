@@ -57,6 +57,11 @@ export default async function MarineLifeItemPage({ params }: Props) {
     latinName?: string;
     depthRange?: string;
     locations?: string[];
+    size?: string;
+    family?: string;
+    category?: string;
+    activity?: string;
+    conservationStatus?: string;
   }>({
     source: raw,
     options: {
@@ -123,11 +128,18 @@ export default async function MarineLifeItemPage({ params }: Props) {
 
       <div className="mb-6">
         <MarineLifeBriefInfo
-          description={frontmatter.description}
-          nameEn={frontmatter.nameEn}
-          latinName={frontmatter.latinName}
-          depthRange={frontmatter.depthRange}
-          locations={frontmatter.locations}
+          description={frontmatter.description ?? itemMeta?.description}
+          nameEn={frontmatter.nameEn ?? itemMeta?.nameEn}
+          latinName={frontmatter.latinName ?? itemMeta?.latinName}
+          size={frontmatter.size ?? itemMeta?.size}
+          depthRange={frontmatter.depthRange ?? itemMeta?.depthRange}
+          locations={frontmatter.locations ?? itemMeta?.locations}
+          family={frontmatter.family ?? itemMeta?.family}
+          category={frontmatter.category ?? itemMeta?.category}
+          activity={frontmatter.activity ?? itemMeta?.activity}
+          conservationStatus={
+            frontmatter.conservationStatus ?? itemMeta?.conservationStatus
+          }
         />
       </div>
 

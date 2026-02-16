@@ -1,71 +1,159 @@
+"use client";
+
+import { useState } from "react";
+
+const EMPTY = "—";
+
 type Props = {
   description?: string;
   nameEn?: string;
   latinName?: string;
+  size?: string;
   depthRange?: string;
   locations?: string[];
+  family?: string;
+  category?: string;
+  activity?: string;
+  conservationStatus?: string;
 };
 
 export function MarineLifeBriefInfo({
   description,
   nameEn,
   latinName,
+  size,
   depthRange,
   locations,
+  family,
+  category,
+  activity,
+  conservationStatus,
 }: Props) {
-  const hasAny =
-    description ||
-    nameEn ||
-    latinName ||
-    depthRange ||
-    (locations && locations.length > 0);
-  if (!hasAny) return null;
+  const [open, setOpen] = useState(false);
+  const nameLine = [nameEn, latinName].filter(Boolean).join(" — ") || EMPTY;
+  const locationsStr =
+    locations && locations.length > 0 ? locations.join(", ") : EMPTY;
 
   return (
-    <div className="rounded-xl border border-neutral-200 bg-neutral-50/80 px-4 py-4 dark:border-neutral-700 dark:bg-neutral-900/40">
-      <h2 className="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
-        Краткая информация
-      </h2>
-      <dl className="space-y-2 text-sm">
-        {description && (
+    <div className="rounded-xl border border-neutral-200 bg-neutral-50/80 dark:border-neutral-700 dark:bg-neutral-900/40 overflow-hidden">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className="cursor-pointer w-full flex items-center justify-between gap-2 px-4 py-3 text-left hover:bg-neutral-100/80 dark:hover:bg-neutral-800/50 transition-colors"
+        aria-expanded={open}
+        aria-controls="marine-life-brief-content"
+        id="marine-life-brief-trigger"
+      >
+        <span className="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
+          Краткая информация
+        </span>
+        <span
+          className="shrink-0 text-neutral-400 dark:text-neutral-500 transition-transform duration-200"
+          aria-hidden
+          style={{ transform: open ? "rotate(180deg)" : undefined }}
+        >
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="m6 9 6 6 6-6" />
+          </svg>
+        </span>
+      </button>
+      <div
+        id="marine-life-brief-content"
+        role="region"
+        aria-labelledby="marine-life-brief-trigger"
+        className={open ? "border-t border-neutral-200 dark:border-neutral-700" : "hidden"}
+      >
+        <dl className="space-y-2 text-sm px-4 py-3 pt-3">
           <div>
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0 mb-0.5">
+              Краткое описание
+            </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
-              {description}
+              {description?.trim() || EMPTY}
             </dd>
           </div>
-        )}
-        {(nameEn || latinName) && (
           <div>
-            <dt className="sr-only">Название</dt>
-            <dd className="text-neutral-600 dark:text-neutral-400">
-              {nameEn}
-              {latinName && (
-                <span className="italic"> — {latinName}</span>
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0 mb-0.5">
+              Название (англ. / лат.)
+            </dt>
+            <dd className="text-neutral-700 dark:text-neutral-300">
+              {latinName ? (
+                <>
+                  {nameEn || EMPTY}
+                  <span className="italic"> — {latinName}</span>
+                </>
+              ) : (
+                nameLine
               )}
             </dd>
           </div>
-        )}
-        {depthRange && (
+          <div className="flex gap-2">
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
+              Размер:
+            </dt>
+            <dd className="text-neutral-700 dark:text-neutral-300">
+              {size?.trim() || EMPTY}
+            </dd>
+          </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
               Глубина:
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
-              {depthRange}
+              {depthRange?.trim() || EMPTY}
             </dd>
           </div>
-        )}
-        {locations && locations.length > 0 && (
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
               Место обитания:
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
-              {locations.join(", ")}
+              {locationsStr}
             </dd>
           </div>
-        )}
-      </dl>
+          <div className="flex gap-2">
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
+              Семейство:
+            </dt>
+            <dd className="text-neutral-700 dark:text-neutral-300">
+              {family?.trim() || EMPTY}
+            </dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
+              Тип:
+            </dt>
+            <dd className="text-neutral-700 dark:text-neutral-300">
+              {category?.trim() || EMPTY}
+            </dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
+              Активность:
+            </dt>
+            <dd className="text-neutral-700 dark:text-neutral-300">
+              {activity?.trim() || EMPTY}
+            </dd>
+          </div>
+          <div className="flex gap-2">
+            <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
+              Охранный статус:
+            </dt>
+            <dd className="text-neutral-700 dark:text-neutral-300">
+              {conservationStatus?.trim() || EMPTY}
+            </dd>
+          </div>
+        </dl>
+      </div>
     </div>
   );
 }

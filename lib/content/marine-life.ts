@@ -15,6 +15,16 @@ export type MarineLifeMeta = {
   images?: string[];
   tags?: string[];
   draft?: boolean;
+  /** Размер (напр. «до 60 см») */
+  size?: string;
+  /** Семейство (напр. Lutjanidae) */
+  family?: string;
+  /** Тип/категория (напр. Рыба, Моллюск) */
+  category?: string;
+  /** Активность (напр. Дневной, Ночной) */
+  activity?: string;
+  /** Охранный статус (напр. МСОП) */
+  conservationStatus?: string;
 };
 
 function getSlugFromFilename(filename: string): string {
@@ -44,6 +54,14 @@ export function getAllMarineLife(): MarineLifeMeta[] {
       images: Array.isArray(data.images) ? data.images : undefined,
       tags: Array.isArray(data.tags) ? data.tags : undefined,
       draft: data.draft,
+      size: typeof data.size === "string" ? data.size : undefined,
+      family: typeof data.family === "string" ? data.family : undefined,
+      category: typeof data.category === "string" ? data.category : undefined,
+      activity: typeof data.activity === "string" ? data.activity : undefined,
+      conservationStatus:
+        typeof data.conservationStatus === "string"
+          ? data.conservationStatus
+          : undefined,
     });
   }
   return items;

@@ -125,7 +125,6 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
         )}
         {cover && <ArticleCover src={cover} />}
-        <hr className="w-full border-t border-neutral-200 dark:border-neutral-700 mb-3 mt-0" />
         <ArticleBreadcrumb
           sectionHref="/blog"
           sectionLabel="Блог"
