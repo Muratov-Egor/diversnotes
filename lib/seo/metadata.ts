@@ -12,6 +12,9 @@ type MetaInput = {
 /** Картинка по умолчанию для OG (файл в public/og-default.png) */
 const DEFAULT_OG_IMAGE = "/og-default.png";
 
+/** Рекомендуемая длина meta description для выдачи в поиске (обрезаем длиннее) */
+const META_DESCRIPTION_MAX_LENGTH = 155;
+
 /** Собирает metadata с canonical и OpenGraph */
 export function buildMetadata({
   title,
@@ -25,15 +28,19 @@ export function buildMetadata({
     ? title
     : `${title} | ${SITE_NAME}`;
   const ogImage = image ?? `${SITE_URL}${DEFAULT_OG_IMAGE}`;
+  const shortDescription =
+    description.length > META_DESCRIPTION_MAX_LENGTH
+      ? description.slice(0, META_DESCRIPTION_MAX_LENGTH - 3).trim() + "…"
+      : description;
 
   return {
     title: fullTitle,
-    description,
+    description: shortDescription,
     metadataBase: new URL(SITE_URL),
     alternates: { canonical: url },
     openGraph: {
       title: fullTitle,
-      description,
+      description: shortDescription,
       url,
       siteName: SITE_NAME,
       type: "website",

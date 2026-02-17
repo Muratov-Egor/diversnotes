@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import { SITE_URL } from "@/lib/seo/config";
+import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
 import { SearchBox } from "@/components/search/SearchBox";
 import { NavLinks } from "@/components/layout/NavLinks";
 import { Footer } from "@/components/layout/Footer";
@@ -46,9 +46,23 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLdWebSite = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: "Заметки о дайвинге и подводном мире",
+  };
+
   return (
     <html lang="ru" suppressHydrationWarning>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdWebSite),
+          }}
+        />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body
@@ -65,7 +79,7 @@ export default function RootLayout({
                   >
                     <Image
                       src="/logo.png"
-                      alt=""
+                      alt="Логотип Diver's Notes"
                       width={36}
                       height={36}
                       className="h-9 w-9 shrink-0 rounded-full object-cover"

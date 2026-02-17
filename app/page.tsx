@@ -124,7 +124,7 @@ export default function HomePage() {
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-t-2xl bg-neutral-50 dark:bg-neutral-950">
                 <Image
                   src={post.cover ?? "/placeholders/blog.jpg"}
-                  alt=""
+                  alt={post.title}
                   fill
                   className="object-cover transition group-hover:scale-[1.02]"
                   sizes="(max-width: 768px) 100vw, 240px"

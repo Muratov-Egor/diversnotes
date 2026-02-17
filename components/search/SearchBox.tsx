@@ -241,7 +241,7 @@ export function SearchBox() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={item.image}
-                  alt=""
+                  alt={item.title}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -302,7 +302,7 @@ export function SearchBox() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={item.image}
-                  alt=""
+                  alt={item.title}
                   className="h-full w-full object-cover"
                 />
               </div>

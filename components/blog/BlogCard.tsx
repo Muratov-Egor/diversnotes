@@ -54,7 +54,7 @@ export function BlogCard({ post, variant = "default" }: Props) {
           {isBackblazeUrl(cover) ? (
             <ImageWithRetry
               src={cover}
-              alt=""
+              alt={title}
               fill
               className="object-cover transition group-hover:scale-[1.02]"
               sizes={imageSizes}
@@ -63,7 +63,7 @@ export function BlogCard({ post, variant = "default" }: Props) {
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={cover}
-              alt=""
+              alt={title}
               className="h-full w-full object-cover transition group-hover:scale-[1.02]"
             />
           )}
