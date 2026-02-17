@@ -109,7 +109,7 @@ export default async function BlogPostPage({ params }: Props) {
     slug,
     tags,
     postMeta?.series ?? frontmatter.series,
-    6
+    6,
   );
 
   const articleBlock = (

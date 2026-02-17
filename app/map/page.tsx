@@ -15,7 +15,7 @@ const GOOGLE_MAP_EMBED_URL =
 export const metadata = buildMetadata({
   title: "Карта погружений",
   description:
-    "Карта моих погружений и дайв-сайтов: координаты и список мест по регионам.",
+    "Карта моих погружений: координаты и список дайв-сайтов с разбивкой по регионам.",
   path: "/map",
 });
 
@@ -116,12 +116,29 @@ export default function MapPage() {
     <main className="mx-auto max-w-6xl">
       <header className="mb-6">
         <h1 className="mb-2 text-center text-3xl font-semibold text-neutral-900 dark:text-neutral-100">
-          Карта погружений
+          Карта моих погружений
         </h1>
 
-        <p className="text-center text-neutral-500 dark:text-neutral-400">
-          Список дайв-сайтов с разбивкой по регионам, где я погружался.
-        </p>
+        {totalRegions > 0 && (
+          <div className="mt-3 flex flex-wrap justify-center gap-2 text-sm">
+            <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
+              Всего погружений:{" "}
+              <span className="font-medium">{totalDives}</span>
+            </span>
+            <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
+              Уникальных дайв-сайтов:{" "}
+              <span className="font-medium">{totalSites}</span>
+            </span>
+            <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
+              Посещенных стран:{" "}
+              <span className="font-medium">{totalCountries}</span>
+            </span>
+            <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
+              Посещенных регионов:{" "}
+              <span className="font-medium">{totalRegions}</span>
+            </span>
+          </div>
+        )}
       </header>
 
       <section
@@ -137,26 +154,6 @@ export default function MapPage() {
           referrerPolicy="no-referrer-when-downgrade"
         />
       </section>
-
-      {totalRegions > 0 && (
-        <div className="mt-3 flex flex-wrap justify-center gap-2 text-xs">
-          <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
-            Всего погружений: <span className="font-medium">{totalDives}</span>
-          </span>
-          <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
-            Уникальных дайв-сайтов:{" "}
-            <span className="font-medium">{totalSites}</span>
-          </span>
-          <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
-            Посещенных стран:{" "}
-            <span className="font-medium">{totalCountries}</span>
-          </span>
-          <span className="rounded-full border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-neutral-600 dark:border-neutral-800 dark:bg-neutral-900/40 dark:text-neutral-400">
-            Посещенных регионов:{" "}
-            <span className="font-medium">{totalRegions}</span>
-          </span>
-        </div>
-      )}
 
       <section
         id="list"

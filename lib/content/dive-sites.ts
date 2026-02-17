@@ -40,9 +40,7 @@ export function getDiveSites(): DiveSiteRegion[] {
   if (!Array.isArray(data)) return [];
   return data.map((item) => ({
     ...item,
-    sites: [...item.sites].sort(
-      (a, b) => (b.dives ?? 0) - (a.dives ?? 0)
-    ),
+    sites: [...item.sites].sort((a, b) => (b.dives ?? 0) - (a.dives ?? 0)),
   }));
 }
 
@@ -50,9 +48,8 @@ export function getDiveStats(): { localsVisited: number; totalDives: number } {
   const regions = getDiveSites();
   const localsVisited = regions.reduce((acc, r) => acc + r.sites.length, 0);
   const totalDives = regions.reduce(
-    (acc, r) =>
-      acc + r.sites.reduce((sum, s) => sum + (s.dives ?? 0), 0),
-    0
+    (acc, r) => acc + r.sites.reduce((sum, s) => sum + (s.dives ?? 0), 0),
+    0,
   );
   return { localsVisited, totalDives };
 }

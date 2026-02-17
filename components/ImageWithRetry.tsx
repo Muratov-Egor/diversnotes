@@ -70,11 +70,5 @@ export function ImageWithRetry(props: Props) {
     );
   }
 
-  return (
-    <Image
-      {...props}
-      key={retryCount}
-      onError={handleError}
-    />
-  );
+  return <Image {...props} key={retryCount} onError={handleError} />;
 }

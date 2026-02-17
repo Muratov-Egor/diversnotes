@@ -17,7 +17,10 @@ function isBackblazeUrl(src: string): boolean {
   }
 }
 
-type Props = { post: BlogPostMeta; variant?: "default" | "featured" | "compact" };
+type Props = {
+  post: BlogPostMeta;
+  variant?: "default" | "featured" | "compact";
+};
 
 export function BlogCard({ post, variant = "default" }: Props) {
   const { slug, title, description, date, cover } = post;

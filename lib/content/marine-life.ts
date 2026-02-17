@@ -110,7 +110,7 @@ export function getMarineLifeRaw(slug: string): string | null {
 export function getRelatedMarineLife(
   currentSlug: string,
   currentTags: string[],
-  limit: number = 6
+  limit: number = 6,
 ): MarineLifeMeta[] {
   const all = getAllMarineLife().filter((m) => m.slug !== currentSlug);
   if (all.length === 0) return [];

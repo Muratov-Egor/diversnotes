@@ -3,9 +3,7 @@
     "region": {
       "ru": "Рача Яй, Таиланд 🇹🇭",
       "en": "Racha Yai Island, Thailand 🇹🇭",
-      "links": [
-        "/blog/racha-yai"
-      ],
+      "links": ["/blog/racha-yai"],
       "regionName": {
         "en": "Racha Yai Island",
         "ru": "Рача Яй"
@@ -226,7 +224,7 @@
             "max": null
           }
         }
-      },      
+      },
       {
         "name": "Bungalow Bay North Wall",
         "dives": 12,
@@ -285,9 +283,7 @@
     "region": {
       "ru": "Рача Ной, Таиланд 🇹🇭",
       "en": "Racha Noi Island, Thailand 🇹🇭",
-      "links": [
-        "/blog/racha-noi"
-      ],
+      "links": ["/blog/racha-noi"],
       "regionName": {
         "en": "Racha Noi Island",
         "ru": "Рача Ной"
@@ -423,10 +419,7 @@
     "region": {
       "ru": "Пхи Пхи, Таиланд 🇹🇭",
       "en": "Phi Phi Islands, Thailand 🇹🇭",
-      "links": [
-        "/blog/koh-bida-nok",
-        "/blog/turtle-rock"
-      ],
+      "links": ["/blog/koh-bida-nok", "/blog/turtle-rock"],
       "regionName": {
         "en": "Phi Phi Islands",
         "ru": "Пхи Пхи"
@@ -588,10 +581,7 @@
     "region": {
       "ru": "Пхукет, Таиланд 🇹🇭",
       "en": "Phuket, Thailand 🇹🇭",
-      "links": [
-        "/blog/king-cruiser",
-        "/blog/sharkPoint"
-      ],
+      "links": ["/blog/king-cruiser", "/blog/sharkPoint"],
       "regionName": {
         "en": "Phuket",
         "ru": "Пхукет"
@@ -701,9 +691,7 @@
     "region": {
       "ru": "Симиланские острова, Таиланд 🇹🇭",
       "en": "Similan Islands, Thailand 🇹🇭",
-      "links": [
-        "/blog/diving-safari-similans"
-      ],
+      "links": ["/blog/diving-safari-similans"],
       "regionName": {
         "en": "Similan Islands",
         "ru": "Симиланские острова"
@@ -969,10 +957,7 @@
     "region": {
       "ru": "Ко Тао, Таиланд 🇹🇭",
       "en": "Koh Tao, Thailand 🇹🇭",
-      "links": [
-        "/blog/koh-tao",
-        "/blog/koh-tao-diving-second-trip"
-      ],
+      "links": ["/blog/koh-tao", "/blog/koh-tao-diving-second-trip"],
       "regionName": {
         "en": "Koh Tao",
         "ru": "Ко Тао"
@@ -1529,9 +1514,7 @@
     "region": {
       "ru": "Херцег Нови, Черногория 🇲🇪",
       "en": "Herceg Novi, Montenegro 🇲🇪",
-      "links": [
-        "blog/montenegro-expectations-vs-reality"
-      ],
+      "links": ["blog/montenegro-expectations-vs-reality"],
       "regionName": {
         "en": "Herceg Novi",
         "ru": "Херцег Нови"
@@ -1589,9 +1572,7 @@
     "region": {
       "ru": "Будва, Черногория 🇲🇪",
       "en": "Budva, Montenegro 🇲🇪",
-      "links": [
-        "blog/montenegro-expectations-vs-reality"
-      ],
+      "links": ["blog/montenegro-expectations-vs-reality"],
       "regionName": {
         "en": "Budva",
         "ru": "Будва"
@@ -1675,9 +1656,7 @@
     "region": {
       "ru": "Каш, Турция 🇹🇷",
       "en": "Kaş, Turkey 🇹🇷",
-      "links": [
-        "blog/diving-in-kas"
-      ],
+      "links": ["blog/diving-in-kas"],
       "regionName": {
         "en": "Kaş",
         "ru": "Каш"
@@ -1917,9 +1896,7 @@
     "region": {
       "ru": "North & Tiran, Египет 🇪🇬",
       "en": "North & Tiran, Egypt 🇪🇬",
-      "links": [
-        "blog/diving-safari-egypt-north-and-tiran"
-      ],
+      "links": ["blog/diving-safari-egypt-north-and-tiran"],
       "regionName": {
         "en": "North & Tiran",
         "ru": "North & Tiran"

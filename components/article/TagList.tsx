@@ -7,9 +7,7 @@ export function TagList({ tags, className = "" }: Props) {
 
   return (
     <div className={`flex flex-wrap items-center gap-2 ${className}`.trim()}>
-      <span className="text-neutral-500 dark:text-neutral-400">
-        🏷️ Tags:
-      </span>
+      <span className="text-neutral-500 dark:text-neutral-400">🏷️ Tags:</span>
       <ul className="flex flex-wrap gap-2">
         {tags.map((tag) => (
           <li key={tag}>

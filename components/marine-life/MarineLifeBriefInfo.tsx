@@ -70,7 +70,11 @@ export function MarineLifeBriefInfo({
         id="marine-life-brief-content"
         role="region"
         aria-labelledby="marine-life-brief-trigger"
-        className={open ? "border-t border-neutral-200 dark:border-neutral-700" : "hidden"}
+        className={
+          open
+            ? "border-t border-neutral-200 dark:border-neutral-700"
+            : "hidden"
+        }
       >
         <dl className="space-y-2 text-sm px-4 py-3 pt-3">
           <div>

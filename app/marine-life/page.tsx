@@ -22,10 +22,11 @@ export default async function MarineLifePage({ searchParams }: Props) {
   return (
     <main className="mx-auto max-w-5xl">
       <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2 text-center">
-      Морские обитатели, которых я встретил под водой
+        Морские обитатели, которых я встретил под водой
       </h1>
       <p className="text-neutral-500 dark:text-neutral-400 mb-8 text-center">
-      Фото и описания морских обитателей, встреченных во время погружений. Особенности поведения, места наблюдений и интересные факты.
+        Фото и описания морских обитателей, встреченных во время погружений.
+        Особенности поведения, места наблюдений и интересные факты.
       </p>
       {items.length === 0 ? (
         <p className="text-neutral-500 dark:text-neutral-400">

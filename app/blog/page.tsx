@@ -24,10 +24,13 @@ export default async function BlogPage({ searchParams }: Props) {
         Блог
       </h1>
       <p className="text-neutral-500 dark:text-neutral-400 mb-8 text-center">
-        Статьи о дайвинге: теория, описание дайв-сайтов и личный опыт погружений.
+        Статьи о дайвинге: теория, описание дайв-сайтов и личный опыт
+        погружений.
       </p>
       {posts.length === 0 ? (
-        <p className="text-neutral-500 dark:text-neutral-400">Пока нет статей.</p>
+        <p className="text-neutral-500 dark:text-neutral-400">
+          Пока нет статей.
+        </p>
       ) : (
         <>
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +38,9 @@ export default async function BlogPage({ searchParams }: Props) {
               <li
                 key={post.slug}
                 className={
-                  currentPage === 1 && index === 0 ? "sm:col-span-2 lg:col-span-3" : "flex h-full"
+                  currentPage === 1 && index === 0
+                    ? "sm:col-span-2 lg:col-span-3"
+                    : "flex h-full"
                 }
               >
                 <BlogCard

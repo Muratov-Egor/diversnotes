@@ -112,7 +112,7 @@ export function getRelatedPosts(
   currentSlug: string,
   currentTags: string[],
   currentSeries?: string | null,
-  limit: number = 6
+  limit: number = 6,
 ): BlogPostMeta[] {
   const all = getAllPosts().filter((p) => p.slug !== currentSlug);
   if (all.length === 0) return [];
@@ -125,7 +125,7 @@ export function getRelatedPosts(
     return { post, score };
   });
   scored.sort(
-    (a, b) => b.score - a.score || (b.post.date > a.post.date ? 1 : -1)
+    (a, b) => b.score - a.score || (b.post.date > a.post.date ? 1 : -1),
   );
 
   const withScore = scored.filter((s) => s.score > 0);

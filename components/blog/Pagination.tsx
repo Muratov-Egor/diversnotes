@@ -66,10 +66,7 @@ export function Pagination({
     "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 font-medium";
 
   return (
-    <nav
-      className="mt-10 pt-6"
-      aria-label="Пагинация"
-    >
+    <nav className="mt-10 pt-6" aria-label="Пагинация">
       {/* MOBILE: ← 2 / 10 → */}
       <div className="flex items-center justify-center gap-3 sm:hidden">
         {prevPage ? (

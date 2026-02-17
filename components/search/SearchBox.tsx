@@ -90,7 +90,12 @@ function getVisualViewportRect() {
   if (typeof window === "undefined") return null;
   const vv = window.visualViewport;
   if (vv) {
-    return { top: vv.offsetTop, left: vv.offsetLeft, width: vv.width, height: vv.height };
+    return {
+      top: vv.offsetTop,
+      left: vv.offsetLeft,
+      width: vv.width,
+      height: vv.height,
+    };
   }
   return {
     top: 0,
@@ -207,8 +212,7 @@ export function SearchBox() {
     };
   }, [mobileOpen]);
 
-  const showDropdown =
-    open && query.trim().length >= 2;
+  const showDropdown = open && query.trim().length >= 2;
 
   const resultsContent = (
     <>
@@ -357,15 +361,15 @@ export function SearchBox() {
           aria-label="Поиск по сайту"
         />
         {showDropdown && (
-        <div
-          className="absolute right-0 top-full z-50 mt-2 max-h-[32rem] w-[28rem] overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-md dark:border-neutral-800 dark:bg-neutral-900/95 dark:shadow-neutral-950/20"
-          role="listbox"
-        >
-          <div className="max-h-[32rem] overflow-auto py-2">
-            {resultsContent}
+          <div
+            className="absolute right-0 top-full z-50 mt-2 max-h-[32rem] w-[28rem] overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-md dark:border-neutral-800 dark:bg-neutral-900/95 dark:shadow-neutral-950/20"
+            role="listbox"
+          >
+            <div className="max-h-[32rem] overflow-auto py-2">
+              {resultsContent}
+            </div>
           </div>
-        </div>
-      )}
+        )}
       </div>
 
       {/* Мобильный поиск: полноэкранный оверлей через портал в body */}
@@ -449,7 +453,7 @@ export function SearchBox() {
               )}
             </div>
           </div>,
-          document.body
+          document.body,
         )}
     </>
   );
