@@ -19,7 +19,7 @@ export default async function BlogPage({ searchParams }: Props) {
   const { posts, totalPages, currentPage } = getPostsForPage(page);
 
   return (
-    <main className="mx-auto max-w-6xl">
+    <main className="mx-auto max-w-7xl">
       <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2 text-center">
         Блог
       </h1>

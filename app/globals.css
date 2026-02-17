@@ -31,18 +31,18 @@ body {
   line-height: 1.65;
 }
 
+@media (min-width: 640px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+
 /* Ограничение ширины текста для статей и списков */
 .prose {
   max-width: 100%;
   overflow-x: hidden;
   min-width: 0;
-  font-size: 1.125rem;
-}
-
-@media (min-width: 640px) {
-  .prose {
-    font-size: 1.3rem;
-  }
+  font-size: inherit;
 }
 
 /* Блоки кода не растягивают страницу, скролл только внутри блока */

@@ -33,7 +33,7 @@ export default function HomePage() {
   const totalCountries = countries.length;
 
   return (
-    <main className="mx-auto ">
+    <main className="mx-auto max-w-7xl">
       <section>
         <h1 className="text-center mb-8 text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl">
           Diver&apos;s Notes - блог о дайвинге

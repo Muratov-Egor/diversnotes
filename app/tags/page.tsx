@@ -8,7 +8,7 @@ export const metadata = buildMetadata({
 
 export default function TagsPage() {
   return (
-    <main className="p-4">
+    <main className="mx-auto max-w-7xl px-4">
       <h1>Теги</h1>
       <p>Список тегов — скоро.</p>
     </main>

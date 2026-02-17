@@ -109,7 +109,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
   const relatedItems = getRelatedMarineLife(slug, tags, 6);
 
   const articleBlock = (
-    <article className="min-w-0 max-w-[1200px]">
+    <article className="min-w-0">
       <header className="mb-8">
         <h1 className="text-center text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-5xl mb-10">
           {frontmatter.title}

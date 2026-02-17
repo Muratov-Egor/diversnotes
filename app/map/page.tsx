@@ -113,7 +113,7 @@ export default function MapPage() {
   };
 
   return (
-    <main className="mx-auto max-w-6xl">
+    <main className="mx-auto max-w-7xl">
       <header className="mb-6">
         <h1 className="mb-6 text-center text-3xl font-semibold text-neutral-900 dark:text-neutral-100">
           Карта моих погружений
