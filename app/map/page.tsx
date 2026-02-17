@@ -13,7 +13,7 @@ const GOOGLE_MAP_EMBED_URL =
   "https://www.google.com/maps/d/embed?mid=1McszZgxcej74QUEkhM8PcngGD-eVTn4&ehbc=2E312F";
 
 export const metadata = buildMetadata({
-  title: "Карта погружений",
+  title: "Карта моих погружений",
   description:
     "Карта моих погружений: координаты и список дайв-сайтов с разбивкой по регионам.",
   path: "/map",
@@ -115,7 +115,7 @@ export default function MapPage() {
   return (
     <main className="mx-auto max-w-6xl">
       <header className="mb-6">
-        <h1 className="mb-2 text-center text-3xl font-semibold text-neutral-900 dark:text-neutral-100">
+        <h1 className="mb-6 text-center text-3xl font-semibold text-neutral-900 dark:text-neutral-100">
           Карта моих погружений
         </h1>
 
