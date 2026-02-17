@@ -5,8 +5,12 @@ slug: montenegro-expectations-vs-reality
 date: 2025-06-16
 cover: "https://f003.backblazeb2.com/file/diversnotes-images/montenegro/DSC00814-Enhanced-NR_pyober.png"
 tags:
-  - дайвинг
-  - дайв-сайты
+  - Фото и видео
+  - Дайв-сайты
+  - Черногория
+  - Адриатическое море
+  - Путешествия
+  - Подводный мир
 ---
 
 ## Предыстория

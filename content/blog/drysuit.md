@@ -5,8 +5,13 @@ slug: drysuit
 date: 2025-01-30
 cover: "https://f003.backblazeb2.com/file/diversnotes-images/drySuite/underwater_i7oi0t.png"
 tags:
-  - снаряжение
-  - обучение
+  - Снаряжение
+  - Обучение
+  - Сухой костюм
+  - Дайвинг в холодной воде
+  - Сербия
+  - Путешествия
+  - Фото и видео
 ---
 
 ## Введение

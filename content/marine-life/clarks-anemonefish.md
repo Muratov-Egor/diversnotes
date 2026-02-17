@@ -11,10 +11,12 @@ images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ClarksAnemonefish/Clarks_Anemonefish_jsp7bs.png"
 tags:
   - Тихий океан
-  - рыбы
-  - рифовые
-  - симбиоз
-  - дневные
+  - Рыбы
+  - Рифовые
+  - Симбиоз
+  - Дневные
+  - Дамсели
+  - Макрофотография
 size: до 15 см
 family: Pomacentridae
 category: Рыба

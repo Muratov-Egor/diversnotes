@@ -11,10 +11,12 @@ images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MelonButterflyfish/Melon_Butterflyfish_2634x1482_hgallk.png"
 tags:
   - Индийский океан
-  - рыбы
-  - рифовые
-  - кораллоеды
-  - дневные
+  - Рыбы
+  - Рифовые
+  - Кораллоеды
+  - Дневные
+  - Рыбы-бабочки
+  - Макрофотография
 size: до 15 см
 family: Chaetodontidae
 category: Рыба

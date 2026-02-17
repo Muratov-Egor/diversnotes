@@ -132,3 +132,8 @@ export function getRelatedPosts(
   const toTake = withScore.length > 0 ? withScore : scored;
   return toTake.slice(0, limit).map((s) => s.post);
 }
+
+/** Посты по тегу (ru название). Сортировка: новые первые */
+export function getPostsByTag(tagRu: string): BlogPostMeta[] {
+  return getAllPosts().filter((post) => post.tags.includes(tagRu));
+}

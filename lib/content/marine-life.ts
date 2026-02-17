@@ -126,3 +126,10 @@ export function getRelatedMarineLife(
   const toTake = withScore.length > 0 ? withScore : scored;
   return toTake.slice(0, limit).map((s) => s.item);
 }
+
+/** Записи по тегу (ru название) */
+export function getMarineLifeByTag(tagRu: string): MarineLifeMeta[] {
+  return getAllMarineLife().filter(
+    (item) => item.tags && item.tags.includes(tagRu),
+  );
+}

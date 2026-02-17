@@ -12,9 +12,10 @@ images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/CoriocellaHibyae/Coriocella_hibyae_kh5fi1.png"
 tags:
   - Индийский океан
-  - моллюски
-  - рифовые
-  - ночные
+  - Моллюски
+  - Рифовые
+  - Ночные
+  - Макрофотография
 size: до 10 см
 family: Velutinidae
 category: Моллюск

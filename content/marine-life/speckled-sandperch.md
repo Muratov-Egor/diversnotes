@@ -11,10 +11,11 @@ images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpeckledSandperch/Speckled_Sandperch_otviwl.png"
 tags:
   - Тихий океан
-  - рыбы
-  - рифовые
-  - донные
-  - хищные
+  - Рыбы
+  - Рифовые
+  - Донные
+  - Хищные
+  - Макрофотография
 size: до 17 см
 family: Pinguipedidae
 category: Рыба

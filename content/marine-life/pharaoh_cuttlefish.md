@@ -11,10 +11,10 @@ images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PharaohCuttlefish/Pharaoh_Cuttlefish_k3pspu.png"
 tags:
   - Индийский океан
-  - моллюски
-  - рифовые
-  - хищные
-  - ночные
+  - Моллюски
+  - Рифовые
+  - Хищные
+  - Ночные
 size: до 42 см
 family: Sepiidae
 category: Моллюск

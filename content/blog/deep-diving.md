@@ -5,8 +5,17 @@ slug: deep-diving
 date: 2023-10-07
 cover: "https://f003.backblazeb2.com/file/diversnotes-images/deepDiving/Deep_Diving_Preview_y3dv83.png"
 tags:
-  - обучение
-  - дайвинг
+  - Обучение
+  - Фото и видео
+  - Глубоководный дайвинг
+  - Затонувшие корабли
+  - Стены
+  - Декомпрессия
+  - Азотный наркоз
+  - PADI
+  - Дрифт-дайвинг
+  - Продвинутый уровень
+  - Течение
 ---
 
 ## Введение

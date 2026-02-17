@@ -112,6 +112,11 @@ export default async function BlogPostPage({ params }: Props) {
     6,
   );
 
+  // Добавляем теги в JSON-LD для SEO
+  if (jsonLdArticle && tags.length > 0) {
+    jsonLdArticle.keywords = tags;
+  }
+
   const articleBlock = (
     <article className="min-w-0">
       {/* Заголовок и мета */}

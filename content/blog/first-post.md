@@ -5,9 +5,15 @@ slug: first-post
 date: 2023-07-01
 cover: "https://f003.backblazeb2.com/file/diversnotes-images/firstPost/First_Post_Preview_xyp5qr.png"
 tags:
-  - дайвинг
-  - первый опыт
-  - пхукет
+  - Фото и видео
+  - Первый опыт
+  - Пхукет
+  - Таиланд
+  - Сертификация
+  - Снаряжение
+  - Обучение
+  - Путешествия
+  - Для начинающих
 ---
 
 Всем привет!

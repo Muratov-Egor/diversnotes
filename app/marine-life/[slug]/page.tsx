@@ -108,6 +108,11 @@ export default async function MarineLifeItemPage({ params }: Props) {
   const tags = itemMeta?.tags ?? [];
   const relatedItems = getRelatedMarineLife(slug, tags, 6);
 
+  // Добавляем теги в JSON-LD для SEO
+  if (jsonLdArticle && tags.length > 0) {
+    jsonLdArticle.keywords = tags;
+  }
+
   const articleBlock = (
     <article className="min-w-0">
       <header className="mb-8">
