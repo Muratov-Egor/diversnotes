@@ -108,9 +108,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mt-1  0">
+      <section className="mt-10">
         <div className="flex items-baseline justify-between gap-4">
-          <h2 className="text-sm font-medium uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
+          <h2 className="text-2xl text-center">
             Последние заметки
           </h2>
         </div>
