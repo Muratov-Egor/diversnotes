@@ -179,11 +179,11 @@ export default function MapPage() {
                   {region.links && region.links.length > 0 && (
                     <>
                       <span className="text-neutral-400 dark:text-neutral-500">
-                        ·
+                        |
                       </span>
 
                       <span className="inline-flex flex-wrap items-baseline gap-x-1.5 text-neutral-500 dark:text-neutral-400">
-                        <span>Читать в блоге:</span>
+                        
                         {region.links.map((href) => (
                           <Link
                             key={href}
@@ -194,7 +194,7 @@ export default function MapPage() {
                               .replace("/blog/", "")
                               .replace(/-/g, " ")}`}
                           >
-                            <span aria-hidden>↗</span>
+                            <span aria-hidden>🔗</span>
                             <span className="sr-only">Открыть заметку</span>
                           </Link>
                         ))}
