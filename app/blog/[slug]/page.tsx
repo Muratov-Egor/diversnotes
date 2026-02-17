@@ -147,7 +147,7 @@ export default async function BlogPostPage({ params }: Props) {
       <ArticleProse>{content}</ArticleProse>
 
       <RelatedPosts posts={relatedPosts} />
-      <TagList tags={tags} className="mt-3" />
+      <TagList tags={tags} className="mt-8 " />
     </article>
   );
 

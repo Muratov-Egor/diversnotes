@@ -29,6 +29,11 @@ export function getTagBySlug(slug: string): Tag | undefined {
   return loadTags().find((t) => t.slug === slug);
 }
 
+/** Получить slug тега по русскому названию */
+export function getTagSlugByRu(ruLabel: string): string | undefined {
+  return loadTags().find((t) => t.ru === ruLabel)?.slug;
+}
+
 /** Проверка: строка — разрешённый тег (по полю ru) */
 export function isAllowedTag(ruLabel: string): boolean {
   return loadTags().some((t) => t.ru === ruLabel);
