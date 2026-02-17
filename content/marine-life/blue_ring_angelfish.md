@@ -3,19 +3,26 @@ title: Ангел-анулярис
 nameEn: Bluering angelfish
 latinName: Pomacanthus annularis
 slug: blue_ring_angelfish
-description: Крупная рыба-ангел с оранжево-жёлтым телом, синими полосами и характерным синим кольцом у головы. Молодь с чёрно-сине-белыми полосами.
-depthRange: 3–30 м
+description: Крупная рыба-ангел с оранжево-жёлтым телом, синими изогнутыми полосами и характерным синим кольцом у головы. Молодь с тёмным телом и светлыми изогнутыми линиями.
+depthRange: 1–60 м
 locations:
   - Индо-Западная часть Тихого океана
   - Восточная Африка
   - Индонезия
   - Новая Гвинея
+  - Новая Каледония
   - Южная Япония
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueringAngelfish/Blue_Ring_Angelfish_masgdm.png"
 tags:
   - подводный мир
+size: до 45 см
+family: Pomacanthidae
+category: Рыба
+activity: Дневной
+conservationStatus: Least Concern (LC) — не находится под угрозой исчезновения по оценке IUCN (оценка 2009)
 ---
+
 
 Ангел-анулярис (Pomacanthus annularis), также известный как синий король-ангел, получил свое название благодаря характерному синему кольцу около головы.
 

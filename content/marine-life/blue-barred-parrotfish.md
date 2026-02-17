@@ -3,19 +3,26 @@ title: Жёлточешуйный попугай
 nameEn: Blue-barred parrotfish
 latinName: Scarus ghobban
 slug: blue-barred-parrotfish
-description: Яркая рыба с зелёно-голубыми переливами и синими полосами, до 45–90 см. Соскребает водоросли с кораллов клювовидными зубами.
-depthRange: до 30 м
+description: Рыба-попугай с зелёно-голубыми оттенками окраски и вариабельным рисунком. Соскребает водоросли с кораллов клювовидными зубами.
+depthRange: 1–90 м
 locations:
   - Индо-Тихоокеанский регион
-  - Восточная Африка
-  - Австралия
+  - Красное море
+  - Персидский залив
   - Япония
+  - Австралия
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_jhnr9b.png"
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueBarredParrotfish/Blue-barred_parrotfish_2_ovbosy.png"
 tags:
   - подводный мир
+size: до 75 см
+family: Scaridae
+category: Рыба
+activity: Дневной
+conservationStatus: Least Concern (LC) — не находится под угрозой исчезновения по оценке IUCN; оценка 2009
 ---
+
 
 Жёлточешуйный попугай, или сине-полосый попугай (Scarus ghobban), — это яркая морская рыба, играющая важную роль в экосистемах коралловых рифов.
 

@@ -129,6 +129,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
       <div className="mb-6">
         <MarineLifeBriefInfo
           description={frontmatter.description ?? itemMeta?.description}
+          title={frontmatter.title ?? itemMeta?.title}
           nameEn={frontmatter.nameEn ?? itemMeta?.nameEn}
           latinName={frontmatter.latinName ?? itemMeta?.latinName}
           size={frontmatter.size ?? itemMeta?.size}

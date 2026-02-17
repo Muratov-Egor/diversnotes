@@ -3,19 +3,26 @@ title: Черноглазый толстогубый губан
 nameEn: Blackeye thicklip wrasse
 latinName: Hemigymnus melapterus
 slug: blackeye-thicklip-wrasse
-description: Губан до 50 см с меняющейся с возрастом окраской — от жёлто-зелёных полос у молоди до изумрудно-зелёных у самцов. Индо-Тихоокеан.
-depthRange: до 40 м
+description: Крупный губан длиной до 50 см с выраженными толстыми губами и тёмной областью вокруг глаза. Молодые особи имеют более светлую окраску с полосами, взрослые становятся зелёными или изумрудными. Обитает на коралловых рифах и песчаных участках.
+depthRange: 1–40 м
 locations:
   - Индо-Тихоокеанский регион
+  - Красное море
   - Восточная Африка
+  - Япония
+  - Австралия
   - Полинезия
-  - Новая Каледония
-  - Южная Япония
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackeyeThicklipWrasse/Blackeye_Thicklip_Wrasse_djvi2m.png"
 tags:
   - подводный мир
+size: до 50 см
+family: Labridae
+category: Рыба
+activity: Дневной
+conservationStatus: Least Concern (LC) — широко распространённый вид, не считается находящимся под угрозой исчезновения по оценке IUCN (2010)
 ---
+
 
 Черноглазый толстогубый губан (Hemigymnus melapterus), относится к семейству губанов и происходит из Индо-Тихоокеанаcкого региона.
 

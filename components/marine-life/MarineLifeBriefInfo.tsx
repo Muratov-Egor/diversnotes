@@ -6,6 +6,7 @@ const EMPTY = "—";
 
 type Props = {
   description?: string;
+  title?: string;
   nameEn?: string;
   latinName?: string;
   size?: string;
@@ -19,6 +20,7 @@ type Props = {
 
 export function MarineLifeBriefInfo({
   description,
+  title,
   nameEn,
   latinName,
   size,
@@ -29,8 +31,8 @@ export function MarineLifeBriefInfo({
   activity,
   conservationStatus,
 }: Props) {
-  const [open, setOpen] = useState(false);
-  const nameLine = [nameEn, latinName].filter(Boolean).join(" — ") || EMPTY;
+  const [open, setOpen] = useState(true);
+  const hasNames = title || nameEn || latinName;
   const locationsStr =
     locations && locations.length > 0 ? locations.join(", ") : EMPTY;
 
@@ -79,25 +81,30 @@ export function MarineLifeBriefInfo({
         <dl className="space-y-2 text-sm px-4 py-3 pt-3">
           <div>
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0 mb-0.5">
-              Краткое описание
+              Название (рус. / англ. / лат.)
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
-              {description?.trim() || EMPTY}
+              {hasNames ? (
+                <>
+                  {title && <span>{title}</span>}
+                  {title && (nameEn || latinName) && " — "}
+                  {nameEn && <span>{nameEn}</span>}
+                  {nameEn && latinName && " — "}
+                  {latinName && (
+                    <span className="italic">{latinName}</span>
+                  )}
+                </>
+              ) : (
+                EMPTY
+              )}
             </dd>
           </div>
           <div>
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0 mb-0.5">
-              Название (англ. / лат.)
+              Краткое описание
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
-              {latinName ? (
-                <>
-                  {nameEn || EMPTY}
-                  <span className="italic"> — {latinName}</span>
-                </>
-              ) : (
-                nameLine
-              )}
+              {description?.trim() || EMPTY}
             </dd>
           </div>
           <div className="flex gap-2">

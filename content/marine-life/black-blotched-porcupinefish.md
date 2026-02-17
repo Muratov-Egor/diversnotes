@@ -1,17 +1,27 @@
 ---
-title: Короткошипая рыба ёж
-nameEn: Black blotched porcupinefish
+title: Короткошипая рыба-ёж
+nameEn: Black-blotched porcupinefish
 latinName: Diodon liturosus
 slug: black-blotched-porcupinefish
-description: Рыба-ёж до 65 см с короткими шипами, песчано-коричневой окраской и способностью раздуваться. Ядовита (тетродотоксин). Индо-Тихоокеан.
-depthRange: до 40 м
+description: Крупная рыба-ёж длиной до 65 см с короткими неподвижными шипами, песчано-коричневой окраской и крупными тёмными пятнами. Способна раздуваться при опасности. Содержит тетродотоксин.
+depthRange: 1–90 м
 locations:
   - Индо-Тихоокеанский регион
+  - Красное море
+  - Восточная Африка
+  - Япония
+  - Австралия
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackBlotchedPorcupinefish/Black_Blotched_Porcupinefish_sgfh4k.png"
 tags:
   - подводный мир
+size: до 65 см
+family: Diodontidae
+category: Рыба
+activity: Ночной
+conservationStatus: Least Concern (LC) — вид широко распространён и не считается находящимся под угрозой исчезновения по оценке IUCN (2014)
 ---
+
 
 Короткошипая рыба ёж широко распространена в Индо-Тихоокеанском регионе. Обитает в реках и склонах рифов. В течение дня предпочитает прятаться, выходя на охоту лишь ночью. Её можно встретить на глубине до 40 метров, а молодь предпочитает обитать в лагунах и эстуариях.
 

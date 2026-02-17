@@ -3,18 +3,23 @@ title: Бычок Штайнитца
 nameEn: Steinitz' prawn-goby
 latinName: Amblyeleotris steinitzi
 slug: amblyeleotris-steinitzi
-description: Небольшая донная рыба до 10 см с бледной окраской и оранжево-коричневыми полосами. Живёт в симбиозе с креветкой-пистолетом в одной норе.
-depthRange: 2–20 м
+description: Небольшая донная рыба с удлинённым телом и крупными глазами, с беловатой или светлой окраской и широкими оранжево-коричневыми поперечными полосами. Обитает в симбиозе с альфеидной (пистолетной) креветкой, с которой делит нору.
 locations:
-  - Индо-Тихоокеанский регион
-  - Пхукет
+  - Индо-Тихоокеанский регион (от Красного моря через Индийский океан до западной части Тихого океана)
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_vkukxv.png"
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_2400x1350_uvkxaw.png"
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/AmblyeleotrisSteinitzi/Amblyeleotris_Steinitzi_1_rb3hyj.png"
 tags:
   - подводный мир
+size: ~13 см
+family: Gobiidae
+category: Рыба
+activity: Дневной
+conservationStatus: Least Concern (LC) — не находится под угрозой исчезновения по оценке IUCN
+depthRange: 2–43 м
 ---
+
 
 Бычок Штайнитца (Amblyeleotris steinitzi) – это небольшая рыба, обычно достигающая до 10 см в длину. Она имеет стройное, вытянутое тело с бледной окраской, которая может варьироваться от белого до светло-бежевого. Тело рыбы украшено несколькими широкими вертикальными оранжевыми или красновато-коричневыми полосами. У неё большие выразительные глаза и характерный высокий спинной плавник. Хвостовой плавник округлый, а длинные грудные плавники рыба использует для опоры на субстрате.
 
