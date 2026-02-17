@@ -156,7 +156,7 @@ export function Footer() {
               © 2023–2026 Егор Муратов
             </p>
             <p className={`mt-1.5 text-sm leading-5 ${TEXT_MUTED}`}>
-              DiversNotes — личный блог о дайвинге: заметки, описание
+              Diver's Notes — личный блог о дайвинге: заметки, описание
               дайв-сайтов, фотографии подводного мира.
             </p>
           </div>

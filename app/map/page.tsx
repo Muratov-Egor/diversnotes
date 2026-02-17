@@ -183,7 +183,6 @@ export default function MapPage() {
                       </span>
 
                       <span className="inline-flex flex-wrap items-baseline gap-x-1.5 text-neutral-500 dark:text-neutral-400">
-                        
                         {region.links.map((href) => (
                           <Link
                             key={href}
