@@ -7,6 +7,7 @@ import { SearchBox } from "@/components/search/SearchBox";
 import { NavLinks } from "@/components/layout/NavLinks";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeToggle } from "@/components/layout/ThemeToggle";
 
 const themeScript = `
@@ -88,6 +89,7 @@ export default function RootLayout({
           <div className="flex flex-1 flex-col">{children}</div>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );

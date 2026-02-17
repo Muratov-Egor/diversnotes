@@ -71,6 +71,8 @@ export default async function MarineLifeItemPage({ params }: Props) {
     components: { img: MdxImage },
   });
 
+  const tags = itemMeta?.tags ?? [];
+
   const jsonLdArticle = itemMeta
     ? {
         "@context": "https://schema.org",
@@ -81,6 +83,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
         publisher: { "@type": "Organization", name: SITE_NAME },
         url: `${SITE_URL}/marine-life/${slug}`,
         ...(itemMeta.images?.[0] && { image: itemMeta.images[0] }),
+        ...(tags.length > 0 && { keywords: tags }),
       }
     : null;
 
@@ -105,13 +108,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
   };
 
   const cover = itemMeta?.images?.[0];
-  const tags = itemMeta?.tags ?? [];
   const relatedItems = getRelatedMarineLife(slug, tags, 6);
-
-  // Добавляем теги в JSON-LD для SEO
-  if (jsonLdArticle && tags.length > 0) {
-    jsonLdArticle.keywords = tags;
-  }
 
   const articleBlock = (
     <article className="min-w-0">

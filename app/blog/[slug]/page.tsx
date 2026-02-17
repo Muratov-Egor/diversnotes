@@ -68,6 +68,8 @@ export default async function BlogPostPage({ params }: Props) {
     components: { YouTube, img: MdxImage },
   });
 
+  const tags = frontmatter.tags ?? postMeta?.tags ?? [];
+
   const jsonLdArticle = postMeta
     ? {
         "@context": "https://schema.org",
@@ -80,6 +82,7 @@ export default async function BlogPostPage({ params }: Props) {
         publisher: { "@type": "Organization", name: SITE_NAME },
         url: `${SITE_URL}/blog/${slug}`,
         ...(postMeta.cover && { image: postMeta.cover }),
+        ...(tags.length > 0 && { keywords: tags }),
       }
     : null;
 
@@ -104,18 +107,12 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   const cover = postMeta?.cover ?? frontmatter.cover;
-  const tags = frontmatter.tags ?? postMeta?.tags ?? [];
   const relatedPosts = getRelatedPosts(
     slug,
     tags,
     postMeta?.series ?? frontmatter.series,
     6,
   );
-
-  // Добавляем теги в JSON-LD для SEO
-  if (jsonLdArticle && tags.length > 0) {
-    jsonLdArticle.keywords = tags;
-  }
 
   const articleBlock = (
     <article className="min-w-0">
