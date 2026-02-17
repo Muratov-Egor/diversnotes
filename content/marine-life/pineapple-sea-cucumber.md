@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PineappleSeaCucumber/Pineapple_sea_cucumber_hcyqhh.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - Красное море
+  - иглокожие
+  - рифовые
+  - донные
+  - фильтраторы
 size: до 70 см
 family: Stichopodidae
 category: Иглокожие

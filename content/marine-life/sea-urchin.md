@@ -12,7 +12,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongSpinedBlackUrchin/Sea_Urchin_3096x1740_p0ieod.png"
 tags:
-  - подводный мир
+  - Атлантический океан
+  - Индийский океан
+  - иглокожие
+  - рифовые
+  - травоядные
+  - ночные
 size: —
 family: Diadematidae
 category: Иглокожие

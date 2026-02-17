@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ZebraShark/Zebra_Shark_1366x768_zhzag8.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
+  - охраняемые виды
+  - ночные
 size: до 3+ м
 family: Stegostomatidae
 category: Рыба

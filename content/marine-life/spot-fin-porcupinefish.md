@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpotFinPorcupinefish/spot-fin-porcupinefish_bluwhj_g6ysss.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - ядовитые
+  - ночные
 size: до 91 см
 family: Diodontidae
 category: Рыба

@@ -11,7 +11,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RaccoonButterflyfish/Raccoon_Butterflyfish_mxrwh7.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - кораллоеды
+  - дневные
 size: около 20 см
 family: Chaetodontidae
 category: Рыба

@@ -16,7 +16,13 @@ images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_qdmeja.png"
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackspottedPuffer/Blackspotted_Puffer_2_lg6ff9.png"
 tags:
-  - подводный мир
+  - Красное море
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - ядовитые
+  - дневные
 size: до 33 см
 family: Tetraodontidae
 category: Рыба

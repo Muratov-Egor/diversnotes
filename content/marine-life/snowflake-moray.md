@@ -10,7 +10,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SnowflakeMoray/Snowflake_Moray_remuuc.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
 size: до 100 см
 family: Muraenidae
 category: Рыба

@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PanulirusVersicolor/Panulirus_Versicolor_zsp0en.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - ракообразные
+  - рифовые
+  - хищные
+  - ночные
 size: до 30–40 см
 family: Palinuridae
 category: Ракообразные

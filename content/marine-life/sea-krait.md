@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowLippedSeaKrait/Sea_Kraits_3834x2157_x9ycki.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рептилии
+  - рифовые
+  - хищные
+  - ядовитые
+  - опасные для человека
 size: более 2 м
 family: Elapidae
 category: Рептилия

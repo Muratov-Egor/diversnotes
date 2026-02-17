@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhyllidiaVaricosa/Phyllidia_varicosa_2_k3squx.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - Красное море
+  - моллюски
+  - рифовые
+  - ядовитые
 size: 8–12 см
 family: Phyllidiidae
 category: Моллюск

@@ -10,7 +10,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MapPufferfish/Map_Pufferfish_idt0bd.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - ядовитые
 size: —
 family: Tetraodontidae
 category: Рыба

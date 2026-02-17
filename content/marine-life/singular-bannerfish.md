@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SingularBannerfish/4_Singular_Bannerfish_afkffn.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - кораллоеды
+  - дневные
 size: до 30 см
 family: Chaetodontidae
 category: Рыба

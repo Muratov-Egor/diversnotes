@@ -15,7 +15,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlackeyeThicklipWrasse/Blackeye_Thicklip_Wrasse_djvi2m.png"
 tags:
-  - подводный мир
+  - Красное море
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
+  - дневные
 size: до 50 см
 family: Labridae
 category: Рыба

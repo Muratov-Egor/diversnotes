@@ -1,23 +1,27 @@
 ---
 slug: coriocella-hibyae
 title: Кориоцелла Хиби
-nameEn: Coriocella hibyae
+nameEn: Hiby's coriocella (velvet snail)
 latinName: Coriocella hibyae
-description: Кориоцелла Хиби или бархатная улитка — вид морских брюхоногих моллюсков семейства Velutinidae. Хотя у этого моллюска есть раковина, она скрыта в складках мантии, поэтому внешне он больше похож на морского слизня, чем на улитку. В естественной среде его внешний вид напоминает морскую губку.
-depthRange: —
+description: Кориоцелла Хиби (бархатная улитка) — морской брюхоногий моллюск семейства Velutinidae. Раковина есть, но скрыта складками мантии, поэтому внешне животное напоминает морского слизня и в природе часто маскируется под губку.
+depthRange: 1–20 м
 locations:
-  - Индийский океан
-  - Западная часть Тихого океана
+  - Индийский океан (Мальдивы)
+  - Индийский океан (Андаманские острова)
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/CoriocellaHibyae/Coriocella_hibyae_kh5fi1.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - моллюски
+  - рифовые
+  - ночные
 size: до 10 см
 family: Velutinidae
 category: Моллюск
 activity: Ночной
-conservationStatus: —
+conservationStatus: Not Evaluated (NE) — вид не оценён в Красном списке IUCN.
 ---
+
 
 Кориоцелла Хиби (Coriocella hibyae) или бархатная улитка, — вид морских брюхоногих моллюсков семейства Velutinidae.
 

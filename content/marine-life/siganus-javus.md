@@ -10,7 +10,14 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SiganusJavus/0_Siganus_javus_lwvi25.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - травоядные
+  - стайные
+  - ядовитые
+  - дневные
 size: до 53 см
 family: Siganidae
 category: Рыба

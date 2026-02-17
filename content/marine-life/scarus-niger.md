@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ScarusNiger/Dusky_Parrotfish_ez51oy.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - Красное море
+  - рыбы
+  - рифовые
+  - травоядные
+  - дневные
 size: до 40 см
 family: Scaridae
 category: Рыба

@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/TitanTriggerfish/Titan_Triggerfish_2412x1357_ucg6dc.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
+  - опасные для человека
+  - дневные
 size: до 75 см
 family: Balistidae
 category: Рыба

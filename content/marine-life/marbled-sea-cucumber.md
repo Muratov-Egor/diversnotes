@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MarbledSeaCucumber/Marbled_Sea_Cucumber_o2q4mq.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - иглокожие
+  - рифовые
+  - донные
+  - фильтраторы
 size: 30–40 см (до 60 см)
 family: Holothuriidae
 category: Иглокожие

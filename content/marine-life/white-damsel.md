@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/WhiteDamsel/White_Damsel_3557x2001_hkqwkc.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - всеядные
+  - дневные
 size: 14–16 см
 family: Pomacentridae
 category: Рыба

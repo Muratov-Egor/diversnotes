@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhantomBannerfish/Phantom_Banerfish_pqshp1.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - стайные
+  - дневные
 size: —
 family: Chaetodontidae
 category: Рыба

@@ -10,7 +10,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlotcheyeSoldierfish/Blotcheye_Soldierfish_hq8ct5.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - ночные
 size: до 60 см
 family: Holocentridae
 category: Рыба

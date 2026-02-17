@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SpottedBoxfish/Spotted_Boxfish_ftpjiq.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - ядовитые
+  - дневные
 size: до 25 см
 family: Ostraciidae
 category: Рыба

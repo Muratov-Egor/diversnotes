@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowtailScad/Yellowtail_scad_v4i420.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
+  - стайные
 size: —
 family: Carangidae
 category: Рыба

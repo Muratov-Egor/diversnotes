@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/SingjawWrasse/1_Singjaw_Wrasse_Female_ztvncz.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - Красное море
+  - рыбы
+  - рифовые
+  - хищные
+  - одиночные
 size: до 54 см
 family: Labridae
 category: Рыба

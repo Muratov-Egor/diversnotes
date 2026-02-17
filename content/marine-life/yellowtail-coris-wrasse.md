@@ -11,7 +11,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowtailCorisWrasse/2_Yellowtail_coris_wrasse_xyhh7t.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
 size: до 40 см
 family: Labridae
 category: Рыба

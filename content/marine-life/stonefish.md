@@ -11,7 +11,14 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/Stonefish/Stonefish_1366x768_ju9bmb.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - донные
+  - хищные
+  - ядовитые
+  - опасные для человека
 size: до 40 см
 family: Scorpaenidae
 category: Рыба

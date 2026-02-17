@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/LongfinGrouper/Longfin_Grouper_2_byvmgv.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - донные
+  - хищные
 size: —
 family: Serranidae
 category: Рыба

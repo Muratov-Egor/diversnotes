@@ -15,7 +15,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/BlueringAngelfish/Blue_Ring_Angelfish_masgdm.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - дневные
 size: до 45 см
 family: Pomacanthidae
 category: Рыба

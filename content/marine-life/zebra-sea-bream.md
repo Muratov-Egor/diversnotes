@@ -11,7 +11,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/ZebraSeaBream/Zebra_Sea_Bream_wszzpi.png"
 tags:
-  - подводный мир
+  - Атлантический океан
+  - Индийский океан
+  - рыбы
+  - рифовые
+  - донные
+  - хищные
 size: до 55 см
 family: Sparidae
 category: Рыба

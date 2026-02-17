@@ -11,7 +11,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/Scorpionfish/Scorpionfish_1366x768_espggi.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
+  - ядовитые
+  - опасные для человека
 size: —
 family: Scorpaenidae
 category: Рыба

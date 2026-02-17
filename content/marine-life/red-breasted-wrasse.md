@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedBreastedWrasse/Red_Breasted_Wrasse_lc3ysz.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - Красное море
+  - рыбы
+  - рифовые
+  - хищные
 size: —
 family: Labridae
 category: Рыба

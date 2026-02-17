@@ -11,7 +11,14 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedLionfish/Red_Lionfish_2400x1350_yy8t5m.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - хищные
+  - ядовитые
+  - опасные для человека
+  - ночные
 size: до 30 см
 family: Scorpaenidae
 category: Рыба

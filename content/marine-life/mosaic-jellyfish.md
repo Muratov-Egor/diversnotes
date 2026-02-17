@@ -10,7 +10,10 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MosaicJellyfish/Blubber_Jellyfish_h6mfnd.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - беспозвоночные
+  - фильтраторы
 size: до 35 см в диаметре
 family: Catostylidae
 category: Медуза

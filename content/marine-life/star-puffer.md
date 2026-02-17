@@ -10,7 +10,13 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/StarPuffer/Star_Puffer_1366x768_ex0qsq.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - донные
+  - всеядные
+  - ядовитые
 size: до 110 см
 family: Tetraodontidae
 category: Рыба

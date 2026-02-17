@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/PhyllidiaCoelestis/6_Phyllidia_coelestis_vk6c3g.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - моллюски
+  - рифовые
+  - ядовитые
+  - дневные
 size: до 6 см
 family: Phyllidiidae
 category: Моллюск

@@ -10,7 +10,12 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/Three-spotDascullus/3_Three-spot_Dascullus_w3jd49.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - симбиоз
+  - дневные
 size: до 13 см
 family: Pomacentridae
 category: Рыба

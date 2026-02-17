@@ -10,7 +10,14 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowtailBarracuda/Yellowtail_Barracuda_r3by0p.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - Красное море
+  - рыбы
+  - рифовые
+  - хищные
+  - стайные
+  - дневные
 size: до 60 см
 family: Sphyraenidae
 category: Рыба

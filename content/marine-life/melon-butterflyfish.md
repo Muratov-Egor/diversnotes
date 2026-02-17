@@ -10,7 +10,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/MelonButterflyfish/Melon_Butterflyfish_2634x1482_hgallk.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - рыбы
+  - рифовые
+  - кораллоеды
+  - дневные
 size: до 15 см
 family: Chaetodontidae
 category: Рыба

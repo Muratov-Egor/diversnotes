@@ -10,7 +10,11 @@ locations:
 images:
   - "https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/RedtailButterflyfish/Redtail_Butterflyfish_z2kgue.png"
 tags:
-  - подводный мир
+  - Индийский океан
+  - Тихий океан
+  - рыбы
+  - рифовые
+  - дневные
 size: —
 family: Chaetodontidae
 category: Рыба
