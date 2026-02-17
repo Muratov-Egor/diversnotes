@@ -53,7 +53,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}
       >
-        <div className="mx-auto min-h-screen max-w-7xl w-full px-4 py-6 sm:px-6 lg:px-8">
+        <div className="mx-auto flex min-h-screen max-w-7xl w-full flex-col px-4 py-6 sm:px-6 lg:px-8">
           <header className="mb-8 border-b border-neutral-200/80 pb-4 dark:border-neutral-800/80">
             <nav className="flex flex-col gap-3 text-base md:flex-row md:items-center md:justify-between md:gap-x-6">
               <div className="flex items-center justify-between gap-4 md:contents">
@@ -85,7 +85,7 @@ export default function RootLayout({
               </div>
             </nav>
           </header>
-          {children}
+          <div className="flex flex-1 flex-col">{children}</div>
           <Footer />
         </div>
       </body>

@@ -2,6 +2,43 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   transpilePackages: ["next-mdx-remote"],
+
+  async redirects() {
+    return [
+      // /ru → главная
+      {
+        source: "/ru",
+        destination: "/",
+        permanent: true,
+      },
+      // /ru/blog → /blog
+      {
+        source: "/ru/blog",
+        destination: "/blog",
+        permanent: true,
+      },
+      // /ru/blog/[slug] → /blog/[slug]
+      {
+        source: "/ru/blog/:slug",
+        destination: "/blog/:slug",
+        permanent: true,
+      },
+      // /ru/marine-life → /marine-life
+      {
+        source: "/ru/marine-life",
+        destination: "/marine-life",
+        permanent: true,
+      },
+      // /ru/marine-life/[slug] → /marine-life/[slug]
+      {
+        source: "/ru/marine-life/:slug",
+        destination: "/marine-life/:slug",
+        permanent: true,
+      },
+      // /en/* — не редиректим, пусть отдаёт 404.
+      // Английская версия будет добавлена позже.
+    ];
+  },
   experimental: {
     /** Увеличиваем таймаут оптимизации изображений с 7 до 30 секунд,
      * чтобы избежать таймаутов при загрузке больших изображений с Backblaze B2. */
