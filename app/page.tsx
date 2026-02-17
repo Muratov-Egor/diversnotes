@@ -110,9 +110,7 @@ export default function HomePage() {
 
       <section className="mt-10">
         <div className="flex items-baseline justify-between gap-4">
-          <h2 className="text-2xl text-center">
-            Последние заметки
-          </h2>
+          <h2 className="text-2xl text-center">Последние заметки</h2>
         </div>
 
         <div className="mt-6 grid gap-6 sm:grid-cols-3">

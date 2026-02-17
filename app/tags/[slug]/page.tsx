@@ -56,7 +56,10 @@ export default async function TagPage({ params, searchParams }: Props) {
 
   const totalCount = allItems.length;
   const totalPages = Math.max(1, Math.ceil(totalCount / ITEMS_PER_PAGE));
-  const page = Math.max(1, Math.min(parseInt(String(pageParam ?? "1"), 10) || 1, totalPages));
+  const page = Math.max(
+    1,
+    Math.min(parseInt(String(pageParam ?? "1"), 10) || 1, totalPages),
+  );
 
   // Получаем элементы для текущей страницы
   const start = (page - 1) * ITEMS_PER_PAGE;
@@ -82,7 +85,10 @@ export default async function TagPage({ params, searchParams }: Props) {
         <>
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {currentItems.map((item) => (
-              <li key={`${item.type}-${item.data.slug}`} className="flex h-full">
+              <li
+                key={`${item.type}-${item.data.slug}`}
+                className="flex h-full"
+              >
                 {item.type === "blog" ? (
                   <BlogCard post={item.data} />
                 ) : (

@@ -49,5 +49,3 @@ conservationStatus: —
 Во время охоты желтогубые морские крайты часто отправляются в глубокие воды далеко от берега, но возвращаются на сушу, чтобы переварить пищу, сбросить кожу и размножаться. Особо
 
 ![Sea kraits](https://f003.backblazeb2.com/file/diversnotes-images/0_maineLife/YellowLippedSeaKrait/Sea_Kraits_5_oqsqkg.png "Sea kraits")
-
-

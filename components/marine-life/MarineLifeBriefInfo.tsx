@@ -90,9 +90,7 @@ export function MarineLifeBriefInfo({
                   {title && (nameEn || latinName) && " — "}
                   {nameEn && <span>{nameEn}</span>}
                   {nameEn && latinName && " — "}
-                  {latinName && (
-                    <span className="italic">{latinName}</span>
-                  )}
+                  {latinName && <span className="italic">{latinName}</span>}
                 </>
               ) : (
                 EMPTY

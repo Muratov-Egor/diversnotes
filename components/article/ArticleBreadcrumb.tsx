@@ -13,7 +13,7 @@ export function ArticleBreadcrumb({
 }: Props) {
   return (
     <p className="text-sm mb-2">
-      <Link href={'/'} className="hover:underline">
+      <Link href={"/"} className="hover:underline">
         Главная
       </Link>
       <span className="mx-2">/</span>
