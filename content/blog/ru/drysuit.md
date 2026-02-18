@@ -124,7 +124,7 @@ tags:
 
 ## Обучение дайвингу в сухом костюме
 
-Одно из главных отличий мокрого и сухого костюма – необходимость дополнительного обучения. Например, можно пройти курс [PADI Dry Suit Diver](https://store.padi.com/en-us/courses/dry-suit-diver/p/60471-1B2C/) или, как в моём случае, [SDI Dry Suit Diver](https://www.tdisdi.com/sdi/get-certified/dry-suit-diver/) (Так получилось, что я прошёл этот курс с другой [ассоциацией дайвинга](https://www.diversnotes.com/ru/blog/diving-associations)).
+Одно из главных отличий мокрого и сухого костюма – необходимость дополнительного обучения. Например, можно пройти курс [PADI Dry Suit Diver](https://store.padi.com/en-us/courses/dry-suit-diver/p/60471-1B2C/) или, как в моём случае, [SDI Dry Suit Diver](https://www.tdisdi.com/sdi/get-certified/dry-suit-diver/) (Так получилось, что я прошёл этот курс с другой [ассоциацией дайвинга](/blog/diving-associations)).
 
 С мокрым костюмом всё просто: надеваешь, подбираешь груз под толщину неопрена — и в воду. А вот с сухим костюмом всё не так просто — тут нужны дополнительные навыки.
 

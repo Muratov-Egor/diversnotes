@@ -27,7 +27,7 @@ title: Second Trip to Koh Tao
 ## Introduction
 
 In August 2024, I found myself back on Koh Tao. I wrote about my first
-trip [here](https://www.diversnotes.com/ru/blog/koh-tao) - back then
+trip [here](/blog/koh-tao) - back then
 everything was new and exciting, but also a bit chaotic: not everything
 went smoothly because of poor planning and some bad luck. This time, it
 was different.

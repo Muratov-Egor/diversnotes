@@ -40,7 +40,7 @@ The trip itself was easy: there are direct flights from Belgrade to Hurghada. We
 
 Passport control in Egypt is its own fairy tale. Local “tour operators” offer to paste the visa for $30, or you can go stand in a huge line and do it for $25. The border officer only cared about the little paper you get after paying for the visa — he didn’t even look at me.
 
-The safari was on the boat [Queen Sherry](https://www.facebook.com/p/Queen-sherry-safari-boat-100078928508398/). Compared to the boat from my [Similan Islands liveaboard](https://www.diversnotes.com/ru/blog/diving-safari-similans), this one was **much** bigger and more comfortable.
+The safari was on the boat [Queen Sherry](https://www.facebook.com/p/Queen-sherry-safari-boat-100078928508398/). Compared to the boat from my [Similan Islands liveaboard](/blog/diving-safari-similans), this one was **much** bigger and more comfortable.
 
 ![](https://f003.backblazeb2.com/file/diversnotes-images/egyptNorthAndTiran/queen_shery_hzwcwl.png)
 

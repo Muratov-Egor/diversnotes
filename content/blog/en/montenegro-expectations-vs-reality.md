@@ -53,7 +53,7 @@ has already launched its boat.
 
 As I mentioned, I arrived right at the beginning of the season. I
 thought that would be an advantage - like when I visited the [Similan
-Islands](https://www.diversnotes.com/ru/blog/diving-safari-similans)
+Islands](/blog/diving-safari-similans)
 early in the season and enjoyed almost empty boats. But here it worked
 against me. A few days before my trip, the dive center informed me the
 boat was not in the water yet. So we would dive from the shore.

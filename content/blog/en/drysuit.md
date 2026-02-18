@@ -195,7 +195,7 @@ Diver](https://store.padi.com/en-us/courses/dry-suit-diver/p/60471-1B2C/)
 or [SDI Dry Suit
 Diver](https://www.tdisdi.com/sdi/get-certified/dry-suit-diver/). In my
 case, I completed the SDI course through another [diving
-association](https://www.diversnotes.com/ru/blog/diving-associations).
+association](/blog/diving-associations).
 
 With a wetsuit, you just adjust your weights and go diving. With a dry
 suit, you must learn new skills.

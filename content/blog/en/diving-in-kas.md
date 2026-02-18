@@ -23,7 +23,7 @@ title: Diving in Kaş
 ## Preface
 
 After a diving trip to
-[Montenegro](https://www.diversnotes.com/en/blog/montenegro-expectations-vs-reality),
+[Montenegro](/blog/montenegro-expectations-vs-reality),
 I decided to check what diving in Turkey is like. I chose Kaş because it
 is considered one of the most popular diving destinations in Turkey
 (according to the Internet).
@@ -36,7 +36,7 @@ is plenty to do outside of diving. However, since the town is built on
 hills, walking around can be a bit challenging.
 
 The vibe of Kaş reminded me of [Koh
-Tao](https://www.diversnotes.com/en/blog/koh-tao) - relaxed
+Tao](/blog/koh-tao) - relaxed
 atmosphere, calm rhythm, and many dive centers along the coast.
 
 ![Kas](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/Kas_2_aiykfv.png "Kas")

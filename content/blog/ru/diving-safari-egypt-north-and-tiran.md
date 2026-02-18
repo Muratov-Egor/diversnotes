@@ -40,7 +40,7 @@ tags:
 
 Проход паспортного контроля в Египте - это отдельная сказка. Местные "туроператоры" предлагают вклеить визу за 30 долларов или отправиться отстаивать огромную очередь, чтобы сделать это за 25. Пограничника интересовала только бумажка, которую дали после оплаты визы, на меня он даже не взглянул.
 
-Сафари проходило на лодке [Queen Sherry](https://www.facebook.com/p/Queen-sherry-safari-boat-100078928508398/). По сравнению с лодкой с [сафари по Симиланским островам](https://www.diversnotes.com/ru/blog/diving-safari-similans) эта была на порядок больше и комфортнее.
+Сафари проходило на лодке [Queen Sherry](https://www.facebook.com/p/Queen-sherry-safari-boat-100078928508398/). По сравнению с лодкой с [сафари по Симиланским островам](/blog/diving-safari-similans) эта была на порядок больше и комфортнее.
 
 ![](https://f003.backblazeb2.com/file/diversnotes-images/egyptNorthAndTiran/queen_shery_hzwcwl.png)
 
