@@ -23,7 +23,7 @@ title: Diving in Kaş
 ## Preface
 
 After a diving trip to
-[Montenegro](https://www.diversnotes.com/ru/blog/montenegro-expectations-vs-reality),
+[Montenegro](https://www.diversnotes.com/en/blog/montenegro-expectations-vs-reality),
 I decided to check what diving in Turkey is like. I chose Kaş because it
 is considered one of the most popular diving destinations in Turkey
 (according to the Internet).
@@ -36,24 +36,22 @@ is plenty to do outside of diving. However, since the town is built on
 hills, walking around can be a bit challenging.
 
 The vibe of Kaş reminded me of [Koh
-Tao](https://www.diversnotes.com/ru/blog/koh-tao) --- relaxed
+Tao](https://www.diversnotes.com/en/blog/koh-tao) - relaxed
 atmosphere, calm rhythm, and many dive centers along the coast.
 
 ![Kas](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/Kas_2_aiykfv.png "Kas")
 
 I dived with [Nautilus Diving](https://www.nautilusdivingkas.com). I
 chose them using a simple rule: "Whoever replies first on Instagram,
-that's where I'll go." Overall, I was satisfied --- everything was
+that's where I'll go." Overall, I was satisfied - everything was
 organized and professional.
 
 The only thing was their relaxed attitude toward time. Meeting time was
-usually around 9:10--9:20 am, and departure was at 10. Between dives,
+usually around 9:10-9:20 am, and departure was at 10. Between dives,
 there could be a couple of hours. In Thailand, with
 [Kostya](https://www.instagram.com/seastardiving_phuket?igsh=MWxjeTl3eG1obG12bw==),
 we would have managed four dives in that time. But on the boat we had
 Turkish tea and enjoyed the sea view, so I forgive them 🙂
-
-------------------------------------------------------------------------
 
 ## Day 1. Neptune Gardens and Güvercin Island
 
@@ -72,13 +70,13 @@ instructor told me when I asked why the garden looked empty.
 
 There were many small fish around the rocks, sometimes lionfish and
 moray eels, and a lot of mussels. Marine life overall was moderate, but
-the visibility was excellent --- definitely more than 25 meters.
+the visibility was excellent - definitely more than 25 meters.
 
 Our group had five people. Before the dive, instructor Berkay said: "You
 have a camera, Sertan has a camera and loves photography. If you fall
 behind, he knows the site and will guide you back."
 
-And yes --- after 15 minutes we fell behind because we were
+And yes - after 15 minutes we fell behind because we were
 photographing a small lionfish.
 
 ![Hermodice
@@ -86,9 +84,9 @@ carunculata](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/1.
 
 There is also a small canyon (more like a crack in the wall), where many
 bearded fireworms (Hermodice carunculata) live. Luckily we were alone
-there --- with a full group it would have been crowded.
+there - with a full group it would have been crowded.
 
-------------------------------------------------------------------------
+<YouTube id="j22stmbwH4E" />
 
 ### Güvercin Island
 
@@ -109,13 +107,13 @@ definitely the highlight of the dive.
 rays](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/2._Hermodice_carunculata_-_Ray_gybbwt.png "Eagle rays")
 
 We again separated from the group and swam deeper. At one point, we were
-close to our no-decompression limit --- less than five minutes
+close to our no-decompression limit - less than five minutes
 remaining. On the way back to shallower water, time felt incredibly
 slow. It always amazes me how differently time feels at depth.
 
-Everything ended well --- no rules were broken 🙂
+Everything ended well - no rules were broken 🙂
 
-------------------------------------------------------------------------
+<YouTube id="rz_b202Y-VE" />
 
 ## Day 2. Amphora Corner and Oasis
 
@@ -127,8 +125,8 @@ by boat from Kaş.
 ![Amphora
 Corner](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/3._Amphora_Corner_qufw8q.png "Amphora Corner")
 
-This site got its name from amphoras found there --- some intact, some
-broken --- along with stone and metal anchors.
+This site got its name from amphoras found there - some intact, some
+broken - along with stone and metal anchors.
 
 Original amphoras can be identified by small tags. Instructors strongly
 advised not to touch them, as scientists monitor them.
@@ -141,23 +139,24 @@ the sea is usually calm, and visibility often exceeds 25 meters.
 The site is not ideal for beginners, especially if you want to go deeper
 or dive along the reef with current.
 
-At 15--20 meters, marine life becomes more active --- schools of small
+At 15--20 meters, marine life becomes more active - schools of small
 fish, groupers, barracudas, sometimes turtles and squid.
 
-------------------------------------------------------------------------
+<YouTube id="JjM9VOSQPXQ" />
 
 ### Oasis
 
-![Oasis](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/4._Oasis_-_FIsh_orqkgo.png "Oasis")
-
 In the middle of flat sandy bottom rises a reef rock, with its top
 around 16 meters.
+
+![Oasis](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/4._Oasis_-_FIsh_orqkgo.png "Oasis")
+
 
 Groupers confidently guard the cracks and allow divers surprisingly
 close.
 
 At the base lies a small wooden wreck. Time has damaged it, but it
-attracts life --- from larger fish to small gobies and shrimp.
+attracts life - from larger fish to small gobies and shrimp.
 
 In shallower areas, there are fields of seagrass. When the water warms
 up, these areas are full of juvenile fish, barracudas, triggerfish, and
@@ -167,11 +166,13 @@ if saying: "You humans shouldn't ascend so fast."
 Visibility was about 25 meters, currents weak or absent. It was a calm,
 relaxed dive.
 
-------------------------------------------------------------------------
+
 
 ## Day 3. Pina Banko and Wreck TCSG-119
 
-Day three was stressful --- mostly because of the group.
+![Neptun](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/Neptun_wmancd.png "Neptun")
+
+Day three was stressful - mostly because of the group.
 
 One diver started assembling rental equipment only minutes before the
 dive, delaying everyone. Another diver kept swimming away from the
@@ -196,7 +197,7 @@ wall reaching about 25 meters.
 Barracudas hunt in the blue, groupers rest in cracks, and occasionally
 you can still see pen shells.
 
-------------------------------------------------------------------------
+
 
 ### Wreck TCSG-119
 
@@ -217,7 +218,7 @@ Excellent visibility allows viewing it from above.
 ![Baby Lion
 fish](https://f003.backblazeb2.com/file/diversnotes-images/divingInKas/6._Neptun_Wreck_-_Baby__detqzf.png "Baby Lion fish")
 
-------------------------------------------------------------------------
+
 
 ## Day 4. Canyon and Plane (C-47 Dakota)
 
@@ -240,7 +241,7 @@ between 25 and 40 meters.
 Visibility varies between 15 and 30 meters. Sometimes there is current
 at the entrance.
 
-------------------------------------------------------------------------
+
 
 ### Plane (C-47 Dakota)
 
@@ -261,7 +262,7 @@ removed before sinking.
 Sometimes divers also visit nearby wooden remains ("Ottoman wreck"), but
 compared to the plane it looks modest.
 
-------------------------------------------------------------------------
+<YouTube id="rsiL25TC3eE" />
 
 ## Conclusion
 
@@ -272,8 +273,3 @@ Egypt. But Kaş offers many wrecks (natural and artificial) and excellent
 visibility.
 
 I would definitely come back.
-
-## P.S.
-
-Some videos from these dives are available here:
-https://www.youtube.com/playlist?list=PLBFIWO42SQ6My_WObJUAdbJEpciAGCYu0
