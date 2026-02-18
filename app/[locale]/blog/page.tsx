@@ -1,35 +1,45 @@
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { getPostsForPage } from "@/lib/content/blog";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { Pagination } from "@/components/blog/Pagination";
 
-export const metadata = buildMetadata({
-  title: "Блог",
-  description: "Заметки о дайвинге, обзоры дайв-сайтов и теория для дайверов.",
-  path: "/blog",
-});
-
 type Props = {
+  params: Promise<{ locale: string }>;
   searchParams: Promise<{ page?: string }>;
 };
 
-export default async function BlogPage({ searchParams }: Props) {
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "blog" });
+  return buildMetadata({
+    title: t("title"),
+    description: t("metaDescription"),
+    path: "/blog",
+    locale,
+  });
+}
+
+export default async function BlogPage({ params, searchParams }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("blog");
+
   const { page: pageParam } = await searchParams;
   const page = Math.max(1, parseInt(String(pageParam ?? "1"), 10) || 1);
-  const { posts, totalPages, currentPage } = getPostsForPage(page);
+  const { posts, totalPages, currentPage } = getPostsForPage(page, locale);
 
   return (
     <main className="mx-auto max-w-7xl">
       <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2 text-center">
-        Блог
+        {t("title")}
       </h1>
       <p className="text-neutral-500 dark:text-neutral-400 mb-8 text-center">
-        Статьи о дайвинге: теория, описание дайв-сайтов и личный опыт
-        погружений.
+        {t("subtitle")}
       </p>
       {posts.length === 0 ? (
         <p className="text-neutral-500 dark:text-neutral-400">
-          Пока нет статей.
+          {t("noArticles")}
         </p>
       ) : (
         <>

@@ -7,23 +7,27 @@ type MetaInput = {
   path?: string;
   image?: string;
   noIndex?: boolean;
+  locale?: string;
+  hasTranslation?: boolean;
 };
 
-/** Картинка по умолчанию для OG (файл в public/og-default.png) */
 const DEFAULT_OG_IMAGE = "/og-default.png";
-
-/** Рекомендуемая длина meta description для выдачи в поиске (обрезаем длиннее) */
 const META_DESCRIPTION_MAX_LENGTH = 155;
 
-/** Собирает metadata с canonical и OpenGraph */
 export function buildMetadata({
   title,
   description,
   path = "",
   image,
   noIndex = false,
+  locale = "ru",
+  hasTranslation,
 }: MetaInput): Metadata {
-  const url = `${SITE_URL}${path || ""}`;
+  const url =
+    locale === "en"
+      ? `${SITE_URL}/en${path || ""}`
+      : `${SITE_URL}${path || ""}`;
+
   const fullTitle = title.includes(SITE_NAME)
     ? title
     : `${title} | ${SITE_NAME}`;
@@ -33,17 +37,30 @@ export function buildMetadata({
       ? description.slice(0, META_DESCRIPTION_MAX_LENGTH - 3).trim() + "…"
       : description;
 
+  const alternateLanguages =
+    hasTranslation !== false
+      ? {
+          ru: `${SITE_URL}${path || "/"}`,
+          en: `${SITE_URL}/en${path || "/"}`,
+          "x-default": `${SITE_URL}${path || "/"}`,
+        }
+      : undefined;
+
   return {
     title: fullTitle,
     description: shortDescription,
     metadataBase: new URL(SITE_URL),
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: alternateLanguages,
+    },
     openGraph: {
       title: fullTitle,
       description: shortDescription,
       url,
       siteName: SITE_NAME,
       type: "website",
+      locale: locale === "en" ? "en_US" : "ru_RU",
       images: [{ url: ogImage }],
     },
     robots: noIndex

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { getTagBySlug } from "@/lib/content/tags";
+import { setRequestLocale, getTranslations } from "next-intl/server";
+import { getTagBySlug, getTagLabel } from "@/lib/content/tags";
 import { getPostsByTag, type BlogPostMeta } from "@/lib/content/blog";
 import {
   getMarineLifeByTag,
@@ -11,7 +12,7 @@ import { Pagination } from "@/components/blog/Pagination";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
   searchParams: Promise<{ page?: string }>;
 };
 
@@ -22,19 +23,25 @@ type ContentItem =
 const ITEMS_PER_PAGE = 9;
 
 export async function generateMetadata({ params }: Props) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const tag = getTagBySlug(slug);
   if (!tag) return {};
+  const t = await getTranslations({ locale, namespace: "tags" });
+  const name = getTagLabel(tag, locale);
 
   return buildMetadata({
-    title: `Тег: ${tag.ru}`,
-    description: `Все статьи и записи о подводном мире с тегом "${tag.ru}"`,
+    title: t("tagTitle", { name }),
+    description: t("tagDescription", { name }),
     path: `/tags/${slug}`,
+    locale,
   });
 }
 
 export default async function TagPage({ params, searchParams }: Props) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("tags");
+
   const { page: pageParam } = await searchParams;
   const tag = getTagBySlug(slug);
 
@@ -42,10 +49,9 @@ export default async function TagPage({ params, searchParams }: Props) {
     notFound();
   }
 
-  const posts = getPostsByTag(tag.ru);
-  const marineLife = getMarineLifeByTag(tag.ru);
+  const posts = getPostsByTag(tag.ru, locale);
+  const marineLife = getMarineLifeByTag(tag.ru, locale);
 
-  // Объединяем все материалы в один список
   const allItems: ContentItem[] = [
     ...posts.map((post) => ({ type: "blog" as const, data: post })),
     ...marineLife.map((item) => ({
@@ -61,25 +67,26 @@ export default async function TagPage({ params, searchParams }: Props) {
     Math.min(parseInt(String(pageParam ?? "1"), 10) || 1, totalPages),
   );
 
-  // Получаем элементы для текущей страницы
   const start = (page - 1) * ITEMS_PER_PAGE;
   const end = start + ITEMS_PER_PAGE;
   const currentItems = allItems.slice(start, end);
+
+  const tagName = getTagLabel(tag, locale);
 
   return (
     <main className="mx-auto max-w-7xl px-4">
       <div className="mb-8">
         <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 mb-2">
-          Тег: {tag.ru}
+          {t("tagTitle", { name: tagName })}
         </h1>
         <p className="text-neutral-500 dark:text-neutral-400">
-          Найдено материалов: {totalCount}
+          {t("foundMaterials", { count: totalCount })}
         </p>
       </div>
 
       {totalCount === 0 ? (
         <p className="text-neutral-500 dark:text-neutral-400">
-          Пока нет материалов с этим тегом.
+          {t("noMaterialsWithTag")}
         </p>
       ) : (
         <>

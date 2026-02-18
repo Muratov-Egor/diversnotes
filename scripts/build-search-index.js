@@ -4,11 +4,12 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 
-const BLOG_DIR = path.join(process.cwd(), "content/blog");
-const MARINE_LIFE_DIR = path.join(process.cwd(), "content/marine-life");
+const BLOG_BASE = path.join(process.cwd(), "content/blog");
+const MARINE_LIFE_BASE = path.join(process.cwd(), "content/marine-life");
 const OUT_PATH = path.join(process.cwd(), "public", "search-index.json");
 
-/** Та же нормализация, что в utils/textUtils.cleanText — для идентичного поиска */
+const LOCALES = ["ru", "en"];
+
 function cleanText(text) {
   if (!text || typeof text !== "string") return "";
   return text
@@ -48,16 +49,23 @@ function getEntries(dir, basePath, category) {
   return entries;
 }
 
-const blog = getEntries(BLOG_DIR, "/blog", "blog");
-const marineLife = getEntries(MARINE_LIFE_DIR, "/marine-life", "marine-life");
-const index = { all: [...blog, ...marineLife] };
+const index = {};
+for (const locale of LOCALES) {
+  const blogDir = path.join(BLOG_BASE, locale);
+  const mlDir = path.join(MARINE_LIFE_BASE, locale);
+  const blog = getEntries(blogDir, "/blog", "blog");
+  const marineLife = getEntries(mlDir, "/marine-life", "marine-life");
+  index[locale] = [...blog, ...marineLife];
+}
+
+index.all = index.ru;
 
 fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
 fs.writeFileSync(OUT_PATH, JSON.stringify(index), "utf-8");
 console.log(
   "Search index built:",
-  blog.length,
-  "blog +",
-  marineLife.length,
-  "marine-life",
+  index.ru.length,
+  "ru entries,",
+  index.en.length,
+  "en entries",
 );

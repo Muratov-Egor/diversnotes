@@ -2,7 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 
-const BLOG_DIR = path.join(process.cwd(), "content/blog");
+const BLOG_BASE = path.join(process.cwd(), "content/blog");
+
+function getBlogDir(locale: string = "ru"): string {
+  return path.join(BLOG_BASE, locale);
+}
 
 export type BlogPostMeta = {
   slug: string;
@@ -26,16 +30,16 @@ function toDateString(value: unknown): string {
   return "";
 }
 
-/** Список всех постов (только frontmatter), без draft, по дате — новые первые */
-export function getAllPosts(): BlogPostMeta[] {
-  if (!fs.existsSync(BLOG_DIR)) return [];
+export function getAllPosts(locale: string = "ru"): BlogPostMeta[] {
+  const dir = getBlogDir(locale);
+  if (!fs.existsSync(dir)) return [];
   const files = fs
-    .readdirSync(BLOG_DIR)
+    .readdirSync(dir)
     .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"));
   const posts: BlogPostMeta[] = [];
   for (const file of files) {
     const slug = getSlugFromFilename(file);
-    const raw = fs.readFileSync(path.join(BLOG_DIR, file), "utf-8");
+    const raw = fs.readFileSync(path.join(dir, file), "utf-8");
     const { data } = matter(raw);
     if (data.draft === true) continue;
     posts.push({
@@ -65,15 +69,16 @@ export type BlogPageResult = {
   perPage: number;
 };
 
-/** Число страниц: первая — 7 постов, остальные — по 6. */
 function getTotalPages(total: number): number {
   if (total <= FIRST_PAGE_SIZE) return 1;
   return 1 + Math.ceil((total - FIRST_PAGE_SIZE) / OTHER_PAGES_SIZE);
 }
 
-/** Посты для страницы пагинации (1-based). Первая страница — 7 постов, остальные — по 6. */
-export function getPostsForPage(page: number): BlogPageResult {
-  const all = getAllPosts();
+export function getPostsForPage(
+  page: number,
+  locale: string = "ru",
+): BlogPageResult {
+  const all = getAllPosts(locale);
   const total = all.length;
   const totalPages = getTotalPages(total);
   const safePage = Math.max(1, Math.min(page, totalPages));
@@ -95,26 +100,23 @@ export function getPostsForPage(page: number): BlogPageResult {
   };
 }
 
-/** Сырой контент поста по slug (frontmatter + body). null если не найден */
-export function getPostRaw(slug: string): string | null {
-  const mdxPath = path.join(BLOG_DIR, `${slug}.mdx`);
-  const mdPath = path.join(BLOG_DIR, `${slug}.md`);
+export function getPostRaw(slug: string, locale: string = "ru"): string | null {
+  const dir = getBlogDir(locale);
+  const mdxPath = path.join(dir, `${slug}.mdx`);
+  const mdPath = path.join(dir, `${slug}.md`);
   if (fs.existsSync(mdxPath)) return fs.readFileSync(mdxPath, "utf-8");
   if (fs.existsSync(mdPath)) return fs.readFileSync(mdPath, "utf-8");
   return null;
 }
 
-/**
- * Похожие посты: по тегам и серии (приоритет у серии), без текущего.
- * Если есть совпадения по тегам/серии — возвращаем до limit штук; иначе — последние по дате.
- */
 export function getRelatedPosts(
   currentSlug: string,
   currentTags: string[],
   currentSeries?: string | null,
   limit: number = 6,
+  locale: string = "ru",
 ): BlogPostMeta[] {
-  const all = getAllPosts().filter((p) => p.slug !== currentSlug);
+  const all = getAllPosts(locale).filter((p) => p.slug !== currentSlug);
   if (all.length === 0) return [];
 
   const scored = all.map((post) => {
@@ -133,7 +135,9 @@ export function getRelatedPosts(
   return toTake.slice(0, limit).map((s) => s.post);
 }
 
-/** Посты по тегу (ru название). Сортировка: новые первые */
-export function getPostsByTag(tagRu: string): BlogPostMeta[] {
-  return getAllPosts().filter((post) => post.tags.includes(tagRu));
+export function getPostsByTag(
+  tagRu: string,
+  locale: string = "ru",
+): BlogPostMeta[] {
+  return getAllPosts(locale).filter((post) => post.tags.includes(tagRu));
 }

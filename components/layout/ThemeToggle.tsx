@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 
 const STORAGE_KEY = "theme";
 
@@ -74,6 +75,7 @@ function MoonIcon() {
 }
 
 export function ThemeToggle() {
+  const t = useTranslations("theme");
   const [theme, setThemeState] = useState<"light" | "dark">("light");
   const [mounted, setMounted] = useState(false);
 
@@ -99,8 +101,8 @@ export function ThemeToggle() {
       type="button"
       onClick={toggle}
       className={ICON_BTN}
-      aria-label="Переключить тему"
-      title={isDark ? "Светлая тема" : "Тёмная тема"}
+      aria-label={t("toggle")}
+      title={isDark ? t("light") : t("dark")}
     >
       {isDark ? <SunIcon /> : <MoonIcon />}
     </button>

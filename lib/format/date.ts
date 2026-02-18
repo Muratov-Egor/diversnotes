@@ -1,9 +1,9 @@
-/** Формат даты как в статьях: "25 декабря 2025 г." (ru-RU) */
-export function formatDate(iso: string): string {
+export function formatDate(iso: string, locale: string = "ru"): string {
   if (!iso) return "";
   try {
     const d = new Date(iso);
-    return d.toLocaleDateString("ru-RU", {
+    const loc = locale === "en" ? "en-US" : "ru-RU";
+    return d.toLocaleDateString(loc, {
       day: "numeric",
       month: "long",
       year: "numeric",

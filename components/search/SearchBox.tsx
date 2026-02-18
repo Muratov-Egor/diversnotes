@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import Link from "next/link";
+import { useTranslations, useLocale } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { cleanText } from "@/utils/textUtils";
 import { findSearchSnippet } from "@/utils/searchUtils";
 
@@ -15,7 +16,7 @@ type IndexEntry = {
   contentSearch: string;
 };
 
-type SearchIndex = { all: IndexEntry[] };
+type SearchIndex = { all: IndexEntry[]; ru?: IndexEntry[]; en?: IndexEntry[] };
 
 type SearchResult = {
   title: string;
@@ -25,10 +26,6 @@ type SearchResult = {
   nameEn?: string;
   snippet: { before: string; match: string; after: string };
 };
-
-function getCategoryName(category: string): string {
-  return category === "blog" ? "Блог" : "Подводный мир";
-}
 
 const MAX_RESULTS = 12;
 
@@ -106,6 +103,8 @@ function getVisualViewportRect() {
 }
 
 export function SearchBox() {
+  const t = useTranslations("search");
+  const locale = useLocale();
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchIndex | null>(null);
   const [open, setOpen] = useState(false);
@@ -127,11 +126,17 @@ export function SearchBox() {
   }, []);
 
   const q = query.trim();
+  const entries = useMemo(() => {
+    if (!index) return [];
+    const localeEntries = locale === "en" ? index.en : index.ru;
+    return localeEntries ?? index.all ?? [];
+  }, [index, locale]);
+
   const results: SearchResult[] = useMemo(() => {
     if (!index || q.length < 2) return [];
     const cleanedQuery = cleanText(q);
     const matched: SearchResult[] = [];
-    for (const item of index.all) {
+    for (const item of entries) {
       const searchText =
         cleanText(item.title) +
         " " +
@@ -155,7 +160,7 @@ export function SearchBox() {
       if (matched.length >= MAX_RESULTS) break;
     }
     return matched;
-  }, [index, q]);
+  }, [index, q, entries]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -212,23 +217,27 @@ export function SearchBox() {
     };
   }, [mobileOpen]);
 
+  function getCategoryName(category: string): string {
+    return category === "blog" ? t("categoryBlog") : t("categoryMarineLife");
+  }
+
   const showDropdown = open && query.trim().length >= 2;
 
   const resultsContent = (
     <>
       {!index ? (
         <p className="px-4 py-3 text-base text-neutral-500 dark:text-neutral-400">
-          Загрузка...
+          {t("loading")}
         </p>
       ) : results.length === 0 ? (
         <p className="px-4 py-3 text-base text-neutral-500 dark:text-neutral-400">
-          Ничего не найдено
+          {t("noResults")}
         </p>
       ) : (
         results.map((item) => (
           <Link
             key={`${item.category}-${item.path}`}
-            href={item.path}
+            href={item.path as "/"}
             className="flex gap-3 px-4 py-3 text-base transition hover:bg-neutral-100 dark:hover:bg-neutral-800/80"
             role="option"
             onClick={() => {
@@ -282,17 +291,17 @@ export function SearchBox() {
     <>
       {!index ? (
         <p className="px-4 py-4 text-base text-neutral-500 dark:text-neutral-400">
-          Загрузка...
+          {t("loading")}
         </p>
       ) : results.length === 0 ? (
         <p className="px-4 py-4 text-base text-neutral-500 dark:text-neutral-400">
-          Ничего не найдено
+          {t("noResults")}
         </p>
       ) : (
         results.map((item) => (
           <Link
             key={`${item.category}-${item.path}`}
-            href={item.path}
+            href={item.path as "/"}
             className="flex w-full gap-3 px-4 py-3 text-left text-base transition active:bg-neutral-100 dark:active:bg-neutral-800/80"
             role="option"
             onClick={() => setMobileOpen(false)}
@@ -336,21 +345,19 @@ export function SearchBox() {
 
   return (
     <>
-      {/* Мобильный триггер */}
       <button
         type="button"
         onClick={() => setMobileOpen(true)}
         className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-neutral-200 bg-white text-neutral-600 transition hover:bg-neutral-50 hover:text-neutral-900 dark:border-neutral-700 dark:bg-neutral-900/50 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-neutral-100 md:hidden"
-        aria-label="Открыть поиск"
+        aria-label={t("openSearch")}
       >
         <SearchIcon />
       </button>
 
-      {/* Десктоп: поле + выпадающий список */}
       <div ref={wrapperRef} className="relative hidden md:block">
         <input
           type="search"
-          placeholder="Поиск..."
+          placeholder={t("placeholder")}
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
@@ -358,7 +365,7 @@ export function SearchBox() {
           }}
           onFocus={() => setOpen(true)}
           className="w-40 rounded-xl border border-neutral-200 bg-white px-3 py-2 text-base placeholder:text-neutral-400 transition focus:border-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-200 dark:border-neutral-700 dark:bg-neutral-900/50 dark:placeholder:text-neutral-500 dark:focus:border-neutral-600 dark:focus:ring-neutral-700 sm:w-52"
-          aria-label="Поиск по сайту"
+          aria-label={t("searchSite")}
         />
         {showDropdown && (
           <div
@@ -372,7 +379,6 @@ export function SearchBox() {
         )}
       </div>
 
-      {/* Мобильный поиск: полноэкранный оверлей через портал в body */}
       {mobileOpen &&
         typeof document !== "undefined" &&
         createPortal(
@@ -403,18 +409,18 @@ export function SearchBox() {
               boxSizing: "border-box",
             }}
             role="dialog"
-            aria-label="Поиск по сайту"
+            aria-label={t("searchSite")}
           >
             <div className="flex w-full shrink-0 items-center gap-2 px-4 py-3">
               <div className="relative min-w-0 flex-1">
                 <input
                   ref={mobileInputRef}
                   type="search"
-                  placeholder="Поиск..."
+                  placeholder={t("placeholder")}
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   className={`h-11 w-full rounded-xl border border-neutral-200 bg-neutral-50 py-2.5 pl-4 pr-4 text-base placeholder:text-neutral-400 focus:border-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-200 dark:border-neutral-700 dark:bg-neutral-800 dark:placeholder:text-neutral-500 dark:focus:border-neutral-600 dark:focus:ring-neutral-700 ${query.length > 0 ? "pr-11" : ""}`}
-                  aria-label="Поиск по сайту"
+                  aria-label={t("searchSite")}
                   autoComplete="off"
                 />
                 {query.length > 0 && (
@@ -422,7 +428,7 @@ export function SearchBox() {
                     type="button"
                     onClick={() => setQuery("")}
                     className="absolute right-2 top-1/2 flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-lg text-neutral-500 active:bg-neutral-200 dark:active:bg-neutral-700"
-                    aria-label="Очистить поле"
+                    aria-label={t("clearField")}
                   >
                     <ClearIcon />
                   </button>
@@ -432,7 +438,7 @@ export function SearchBox() {
                 type="button"
                 onClick={() => setMobileOpen(false)}
                 className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-neutral-500 active:bg-neutral-100 dark:text-neutral-400 dark:active:bg-neutral-800"
-                aria-label="Закрыть поиск"
+                aria-label={t("closeSearch")}
               >
                 <CloseIcon />
               </button>
@@ -446,7 +452,7 @@ export function SearchBox() {
             >
               {query.trim().length < 2 ? (
                 <p className="px-4 py-6 text-center text-sm text-neutral-400 dark:text-neutral-500">
-                  Введите минимум 2 символа
+                  {t("minChars")}
                 </p>
               ) : (
                 resultsContentMobile

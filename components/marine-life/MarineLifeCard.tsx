@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import type { MarineLifeMeta } from "@/lib/content/marine-life";
 import { ImageWithRetry } from "@/components/ImageWithRetry";
 
@@ -82,8 +82,9 @@ export function MarineLifeCard({ item, variant = "default" }: Props) {
         {!isCompact && (nameEn || latinName) && (
           <div className="mt-auto pt-2">
             <p className="text-xs text-neutral-400 dark:text-neutral-500">
-              {nameEn}
-              {latinName && <span className="italic"> — {latinName}</span>}
+              {nameEn && <span>{nameEn}</span>}
+              {nameEn && latinName && " — "}
+              {latinName && <span className="italic">{latinName}</span>}
             </p>
           </div>
         )}

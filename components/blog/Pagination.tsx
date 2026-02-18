@@ -1,10 +1,11 @@
-import Link from "next/link";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 
 type Props = {
   currentPage: number;
   totalPages: number;
-  basePath?: string; // e.g. "/blog"
-  pageParam?: string; // default "page"
+  basePath?: string;
+  pageParam?: string;
 };
 
 function pageHref(basePath: string, page: number, pageParam: string): string {
@@ -16,7 +17,6 @@ function pageHref(basePath: string, page: number, pageParam: string): string {
 type Item = number | "dots";
 
 function getItems(current: number, total: number): Item[] {
-  // boundaryCount=1, siblingCount=1 (редакционный минимализм)
   const sibling = 1;
 
   if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
@@ -38,13 +38,15 @@ function getItems(current: number, total: number): Item[] {
   return items;
 }
 
-export function Pagination({
+export async function Pagination({
   currentPage,
   totalPages,
   basePath = "/blog",
   pageParam = "page",
 }: Props) {
   if (totalPages <= 1) return null;
+
+  const t = await getTranslations("pagination");
 
   const prevPage = currentPage > 1 ? currentPage - 1 : null;
   const nextPage = currentPage < totalPages ? currentPage + 1 : null;
@@ -66,13 +68,13 @@ export function Pagination({
     "bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 font-medium";
 
   return (
-    <nav className="mt-10 pt-6" aria-label="Пагинация">
-      {/* MOBILE: ← 2 / 10 → */}
+    <nav className="mt-10 pt-6" aria-label={t("ariaLabel")}>
+      {/* MOBILE */}
       <div className="flex items-center justify-center gap-3 sm:hidden">
         {prevPage ? (
           <Link
-            href={pageHref(basePath, prevPage, pageParam)}
-            aria-label="Предыдущая страница"
+            href={pageHref(basePath, prevPage, pageParam) as "/"}
+            aria-label={t("prevPage")}
             className={`${arrowBase} ${arrowHover}`}
           >
             ←
@@ -92,8 +94,8 @@ export function Pagination({
 
         {nextPage ? (
           <Link
-            href={pageHref(basePath, nextPage, pageParam)}
-            aria-label="Следующая страница"
+            href={pageHref(basePath, nextPage, pageParam) as "/"}
+            aria-label={t("nextPage")}
             className={`${arrowBase} ${arrowHover}`}
           >
             →
@@ -105,12 +107,12 @@ export function Pagination({
         )}
       </div>
 
-      {/* DESKTOP: ← 1 … 5 6 [7] 8 9 … 20 → */}
+      {/* DESKTOP */}
       <div className="hidden items-center justify-center gap-3 sm:flex">
         {prevPage ? (
           <Link
-            href={pageHref(basePath, prevPage, pageParam)}
-            aria-label="Предыдущая страница"
+            href={pageHref(basePath, prevPage, pageParam) as "/"}
+            aria-label={t("prevPage")}
             className={`${arrowBase} ${arrowHover}`}
           >
             ←
@@ -121,7 +123,7 @@ export function Pagination({
           </span>
         )}
 
-        <ul className="flex items-center gap-2" aria-label="Номера страниц">
+        <ul className="flex items-center gap-2" aria-label={t("pageNumbers")}>
           {items.map((it, idx) => {
             if (it === "dots") {
               return (
@@ -149,8 +151,8 @@ export function Pagination({
                   </span>
                 ) : (
                   <Link
-                    href={pageHref(basePath, page, pageParam)}
-                    aria-label={`Страница ${page}`}
+                    href={pageHref(basePath, page, pageParam) as "/"}
+                    aria-label={t("page", { page })}
                     className={`${pageBase} ${pageText} ${pageHover}`}
                   >
                     {page}
@@ -163,8 +165,8 @@ export function Pagination({
 
         {nextPage ? (
           <Link
-            href={pageHref(basePath, nextPage, pageParam)}
-            aria-label="Следующая страница"
+            href={pageHref(basePath, nextPage, pageParam) as "/"}
+            aria-label={t("nextPage")}
             className={`${arrowBase} ${arrowHover}`}
           >
             →
@@ -176,9 +178,8 @@ export function Pagination({
         )}
       </div>
 
-      {/* SR-only: всегда доступно скринридеру */}
       <p className="sr-only hidden">
-        Страница {currentPage} из {totalPages}
+        {t("pageOfTotal", { current: currentPage, total: totalPages })}
       </p>
     </nav>
   );

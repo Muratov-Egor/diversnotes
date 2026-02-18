@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useTranslations } from "next-intl";
 
 export function CopyLinkButton() {
+  const t = useTranslations("copyLink");
   const [copied, setCopied] = useState(false);
 
   const handleClick = useCallback(() => {
@@ -18,9 +20,9 @@ export function CopyLinkButton() {
       type="button"
       onClick={handleClick}
       className="text-sm text-neutral-500 cursor-pointer hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors min-h-[44px] min-w-[44px] inline-flex items-center justify-center rounded-md "
-      aria-label={copied ? "Ссылка скопирована" : "Копировать ссылку"}
+      aria-label={copied ? t("copiedAriaLabel") : t("copyAriaLabel")}
     >
-      {copied ? "✔️ Ссылка скопирована" : "🔗 Копировать ссылку"}
+      {copied ? t("copied") : t("copy")}
     </button>
   );
 }

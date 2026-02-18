@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import type { BlogPostMeta } from "@/lib/content/blog";
 import { formatDate } from "@/lib/format/date";
 import { ImageWithRetry } from "@/components/ImageWithRetry";

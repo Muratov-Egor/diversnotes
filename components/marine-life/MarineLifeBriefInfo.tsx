@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const EMPTY = "—";
 
@@ -31,6 +32,7 @@ export function MarineLifeBriefInfo({
   activity,
   conservationStatus,
 }: Props) {
+  const t = useTranslations("marineLifeInfo");
   const [open, setOpen] = useState(true);
   const hasNames = title || nameEn || latinName;
   const locationsStr =
@@ -47,7 +49,7 @@ export function MarineLifeBriefInfo({
         id="marine-life-brief-trigger"
       >
         <span className="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">
-          Краткая информация
+          {t("briefInfo")}
         </span>
         <span
           className="shrink-0 text-neutral-400 dark:text-neutral-500 transition-transform duration-200"
@@ -81,7 +83,7 @@ export function MarineLifeBriefInfo({
         <dl className="space-y-2 text-sm px-4 py-3 pt-3">
           <div>
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0 mb-0.5">
-              Название (рус. / англ. / лат.)
+              {t("names")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {hasNames ? (
@@ -99,7 +101,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div>
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0 mb-0.5">
-              Краткое описание
+              {t("description")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {description?.trim() || EMPTY}
@@ -107,7 +109,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Размер:
+              {t("size")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {size?.trim() || EMPTY}
@@ -115,7 +117,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Глубина:
+              {t("depth")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {depthRange?.trim() || EMPTY}
@@ -123,7 +125,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Место обитания:
+              {t("habitat")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {locationsStr}
@@ -131,7 +133,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Семейство:
+              {t("family")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {family?.trim() || EMPTY}
@@ -139,7 +141,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Тип:
+              {t("type")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {category?.trim() || EMPTY}
@@ -147,7 +149,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Активность:
+              {t("activity")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {activity?.trim() || EMPTY}
@@ -155,7 +157,7 @@ export function MarineLifeBriefInfo({
           </div>
           <div className="flex gap-2">
             <dt className="text-neutral-500 dark:text-neutral-400 shrink-0">
-              Охранный статус:
+              {t("conservationStatus")}
             </dt>
             <dd className="text-neutral-700 dark:text-neutral-300">
               {conservationStatus?.trim() || EMPTY}

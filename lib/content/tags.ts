@@ -3,7 +3,7 @@ import path from "node:path";
 
 const TAGS_PATH = path.join(process.cwd(), "content/tags.json");
 
-export type Tag = { slug: string; ru: string };
+export type Tag = { slug: string; ru: string; en: string };
 
 let cached: Tag[] | null = null;
 
@@ -19,22 +19,22 @@ function loadTags(): Tag[] {
   return data;
 }
 
-/** Все теги из content/tags.json */
 export function getAllTags(): Tag[] {
   return loadTags();
 }
 
-/** Тег по slug (для URL /tags/[slug]) */
 export function getTagBySlug(slug: string): Tag | undefined {
   return loadTags().find((t) => t.slug === slug);
 }
 
-/** Получить slug тега по русскому названию */
 export function getTagSlugByRu(ruLabel: string): string | undefined {
   return loadTags().find((t) => t.ru === ruLabel)?.slug;
 }
 
-/** Проверка: строка — разрешённый тег (по полю ru) */
 export function isAllowedTag(ruLabel: string): boolean {
   return loadTags().some((t) => t.ru === ruLabel);
+}
+
+export function getTagLabel(tag: Tag, locale: string): string {
+  return locale === "en" ? tag.en : tag.ru;
 }

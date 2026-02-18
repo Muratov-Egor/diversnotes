@@ -97,8 +97,7 @@ Before launch:
 
 SEO loss is unacceptable.
 
-Detailed migration rules:
-→ see `/docs/migration.md`
+Migration is complete. Redirects configured in `next.config.ts`.
 
 ---
 
@@ -144,8 +143,7 @@ Details:
 - Search box in header (on every page); results in overlay/dropdown — no dedicated /search page.
 - Minimal client JS (no Fuse/flexsearch; same output as server search).
 
-Details:
-→ see `/docs/search.md`
+Search is implemented. See `scripts/build-search-index.js`, `components/search/SearchBox.tsx`.
 
 ---
 
@@ -176,8 +174,7 @@ It must:
 - link from blog articles
 - have proper metadata
 
-Details:
-→ see `/docs/marine-life.md`
+Marine Life is implemented. See `app/marine-life/`, `components/marine-life/`, `lib/content/marine-life.ts`.
 
 ---
 
@@ -232,17 +229,14 @@ Project is complete when:
 
 # Documentation References
 
-Detailed documents are located in:
+Remaining documents:
 
-/docs/architecture.md  
 /docs/content-model.md  
 /docs/tags.md  
-/docs/seo.md  
-/docs/search.md  
-/docs/migration.md  
-/docs/marine-life.md  
 /docs/analytics.md  
-/docs/roadmap.md  
-/docs/post-deploy.md
+/docs/post-deploy.md  
+/docs/ux/components/subscribe-block.md  
+/docs/ux/components/comments.md  
+/docs/ux/components/callout.md
 
 Cursor must follow .cursorrules as the source of truth.

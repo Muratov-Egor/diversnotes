@@ -2,6 +2,7 @@ import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import {
   getAllMarineLife,
   getMarineLifeRaw,
@@ -19,17 +20,20 @@ import { RelatedMarineLife } from "@/components/marine-life/RelatedMarineLife";
 import { MdxImage } from "@/components/mdx/MdxImage";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
+import { routing } from "@/i18n/routing";
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export async function generateStaticParams() {
-  const items = getAllMarineLife();
-  return items.map((item) => ({ slug: item.slug }));
+  return routing.locales.flatMap((locale) => {
+    const items = getAllMarineLife(locale);
+    return items.map((item) => ({ locale, slug: item.slug }));
+  });
 }
 
 export async function generateMetadata({ params }: Props) {
-  const { slug } = await params;
-  const items = getAllMarineLife();
+  const { locale, slug } = await params;
+  const items = getAllMarineLife(locale);
   const item = items.find((m) => m.slug === slug);
   if (!item) return {};
   return buildMetadata({
@@ -37,15 +41,28 @@ export async function generateMetadata({ params }: Props) {
     description: item.description,
     path: `/marine-life/${slug}`,
     image: item.images?.[0],
+    locale,
   });
 }
 
 export default async function MarineLifeItemPage({ params }: Props) {
-  const { slug } = await params;
-  const raw = getMarineLifeRaw(slug);
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
+  const tMarineLife = await getTranslations({
+    locale,
+    namespace: "marineLife",
+  });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+  const tBreadcrumb = await getTranslations({
+    locale,
+    namespace: "breadcrumb",
+  });
+  const tArticle = await getTranslations({ locale, namespace: "article" });
+
+  const raw = getMarineLifeRaw(slug, locale);
   if (!raw) notFound();
 
-  const items = getAllMarineLife();
+  const items = getAllMarineLife(locale);
   const itemMeta = items.find((m) => m.slug === slug);
   const { content: body } = matter(raw);
   const readingTimeMin = getReadingTimeMinutes(body);
@@ -79,7 +96,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
         "@type": "Article",
         headline: frontmatter.title,
         description: frontmatter.description,
-        author: { "@type": "Person", name: "Егор Муратов" },
+        author: { "@type": "Person", name: tArticle("author") },
         publisher: { "@type": "Organization", name: SITE_NAME },
         url: `${SITE_URL}/marine-life/${slug}`,
         ...(itemMeta.images?.[0] && { image: itemMeta.images[0] }),
@@ -91,11 +108,16 @@ export default async function MarineLifeItemPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Главная", item: SITE_URL },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: tBreadcrumb("home"),
+        item: SITE_URL,
+      },
       {
         "@type": "ListItem",
         position: 2,
-        name: "Подводный мир",
+        name: tNav("marineLife"),
         item: `${SITE_URL}/marine-life`,
       },
       {
@@ -108,7 +130,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
   };
 
   const cover = itemMeta?.images?.[0];
-  const relatedItems = getRelatedMarineLife(slug, tags, 6);
+  const relatedItems = getRelatedMarineLife(slug, tags, 6, locale);
 
   const articleBlock = (
     <article className="min-w-0">
@@ -119,11 +141,11 @@ export default async function MarineLifeItemPage({ params }: Props) {
         {cover && <ArticleCover src={cover} />}
         <ArticleBreadcrumb
           sectionHref="/marine-life"
-          sectionLabel="Подводный мир"
+          sectionLabel={tNav("marineLife")}
           currentTitle={frontmatter.title}
         />
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400 mb-2">
-          <span>{readingTimeMin} мин чтения</span>
+          <span>{tMarineLife("readingTime", { minutes: readingTimeMin })}</span>
           <CopyLinkButton />
         </div>
       </header>
@@ -149,7 +171,7 @@ export default async function MarineLifeItemPage({ params }: Props) {
       <ArticleProse>{content}</ArticleProse>
 
       <RelatedMarineLife items={relatedItems} />
-      <TagList tags={tags} className="mt-8" />
+      <TagList tags={tags} className="mt-8" locale={locale} />
     </article>
   );
 

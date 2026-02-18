@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useCallback, useEffect, useRef } from "react";
+import { useTranslations } from "next-intl";
 import type { ComponentProps } from "react";
 
 const MAX_RETRIES = 4;
@@ -10,6 +11,7 @@ const RETRY_DELAYS = [1000, 2000, 3000];
 type Props = ComponentProps<typeof Image>;
 
 export function ImageWithRetry(props: Props) {
+  const t = useTranslations("image");
   const [retryCount, setRetryCount] = useState(0);
   const [isFailed, setIsFailed] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -41,7 +43,7 @@ export function ImageWithRetry(props: Props) {
         style={props.fill ? { position: "absolute", inset: 0 } : undefined}
       >
         <span className="text-neutral-500 dark:text-neutral-400 text-sm">
-          Загрузка…
+          {t("loading")}
         </span>
       </div>
     );
@@ -54,7 +56,7 @@ export function ImageWithRetry(props: Props) {
         style={props.fill ? { position: "absolute", inset: 0 } : undefined}
       >
         <span className="text-neutral-500 dark:text-neutral-400 text-sm text-center">
-          Не удалось загрузить изображение
+          {t("loadFailed")}
         </span>
         <button
           type="button"
@@ -64,7 +66,7 @@ export function ImageWithRetry(props: Props) {
           }}
           className="text-sm underline text-neutral-600 dark:text-neutral-300 hover:no-underline"
         >
-          Повторить
+          {t("retry")}
         </button>
       </div>
     );

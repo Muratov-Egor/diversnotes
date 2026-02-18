@@ -2,6 +2,7 @@ import matter from "gray-matter";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { getAllPosts, getPostRaw, getRelatedPosts } from "@/lib/content/blog";
 import { getTableOfContents } from "@/lib/article-toc";
 import { ArticleBreadcrumb } from "@/components/article/ArticleBreadcrumb";
@@ -18,17 +19,20 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { formatDate } from "@/lib/format/date";
 import { getReadingTimeMinutes } from "@/lib/format/reading-time";
 import { SITE_URL, SITE_NAME } from "@/lib/seo/config";
+import { routing } from "@/i18n/routing";
 
-type Props = { params: Promise<{ slug: string }> };
+type Props = { params: Promise<{ locale: string; slug: string }> };
 
 export async function generateStaticParams() {
-  const posts = getAllPosts();
-  return posts.map((p) => ({ slug: p.slug }));
+  return routing.locales.flatMap((locale) => {
+    const posts = getAllPosts(locale);
+    return posts.map((p) => ({ locale, slug: p.slug }));
+  });
 }
 
 export async function generateMetadata({ params }: Props) {
-  const { slug } = await params;
-  const posts = getAllPosts();
+  const { locale, slug } = await params;
+  const posts = getAllPosts(locale);
   const post = posts.find((p) => p.slug === slug);
   if (!post) return {};
   return buildMetadata({
@@ -36,15 +40,25 @@ export async function generateMetadata({ params }: Props) {
     description: post.description,
     path: `/blog/${slug}`,
     image: post.cover,
+    locale,
   });
 }
 
 export default async function BlogPostPage({ params }: Props) {
-  const { slug } = await params;
-  const raw = getPostRaw(slug);
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
+  const tBlog = await getTranslations({ locale, namespace: "blog" });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+  const tBreadcrumb = await getTranslations({
+    locale,
+    namespace: "breadcrumb",
+  });
+  const tArticle = await getTranslations({ locale, namespace: "article" });
+
+  const raw = getPostRaw(slug, locale);
   if (!raw) notFound();
 
-  const posts = getAllPosts();
+  const posts = getAllPosts(locale);
   const postMeta = posts.find((p) => p.slug === slug);
 
   const { content: body } = matter(raw);
@@ -78,7 +92,7 @@ export default async function BlogPostPage({ params }: Props) {
         description: frontmatter.description,
         datePublished: frontmatter.date,
         dateModified: postMeta.updatedAt ?? frontmatter.date,
-        author: { "@type": "Person", name: "Егор Муратов" },
+        author: { "@type": "Person", name: tArticle("author") },
         publisher: { "@type": "Organization", name: SITE_NAME },
         url: `${SITE_URL}/blog/${slug}`,
         ...(postMeta.cover && { image: postMeta.cover }),
@@ -90,11 +104,16 @@ export default async function BlogPostPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Главная", item: SITE_URL },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: tBreadcrumb("home"),
+        item: SITE_URL,
+      },
       {
         "@type": "ListItem",
         position: 2,
-        name: "Блог",
+        name: tNav("blog"),
         item: `${SITE_URL}/blog`,
       },
       {
@@ -112,11 +131,11 @@ export default async function BlogPostPage({ params }: Props) {
     tags,
     postMeta?.series ?? frontmatter.series,
     6,
+    locale,
   );
 
   const articleBlock = (
     <article className="min-w-0">
-      {/* Заголовок и мета */}
       <header className="mb-8">
         <h1 className="text-center text-3xl font-semibold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-5xl mb-4">
           {frontmatter.title}
@@ -129,14 +148,14 @@ export default async function BlogPostPage({ params }: Props) {
         {cover && <ArticleCover src={cover} />}
         <ArticleBreadcrumb
           sectionHref="/blog"
-          sectionLabel="Блог"
+          sectionLabel={tNav("blog")}
           currentTitle={frontmatter.title}
         />
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400 mb-2">
           <time dateTime={frontmatter.date}>
-            {formatDate(frontmatter.date)}
+            {formatDate(frontmatter.date, locale)}
           </time>
-          <span>{readingTimeMin} мин чтения</span>
+          <span>{tBlog("readingTime", { minutes: readingTimeMin })}</span>
           <CopyLinkButton />
         </div>
       </header>
@@ -144,7 +163,7 @@ export default async function BlogPostPage({ params }: Props) {
       <ArticleProse>{content}</ArticleProse>
 
       <RelatedPosts posts={relatedPosts} />
-      <TagList tags={tags} className="mt-8 " />
+      <TagList tags={tags} className="mt-8 " locale={locale} />
     </article>
   );
 

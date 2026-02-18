@@ -2,7 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 
-const MARINE_LIFE_DIR = path.join(process.cwd(), "content/marine-life");
+const ML_BASE = path.join(process.cwd(), "content/marine-life");
+
+function getMarineLifeDir(locale: string = "ru"): string {
+  return path.join(ML_BASE, locale);
+}
 
 export type MarineLifeMeta = {
   slug: string;
@@ -15,15 +19,10 @@ export type MarineLifeMeta = {
   images?: string[];
   tags?: string[];
   draft?: boolean;
-  /** Размер (напр. «до 60 см») */
   size?: string;
-  /** Семейство (напр. Lutjanidae) */
   family?: string;
-  /** Тип/категория (напр. Рыба, Моллюск) */
   category?: string;
-  /** Активность (напр. Дневной, Ночной) */
   activity?: string;
-  /** Охранный статус (напр. МСОП) */
   conservationStatus?: string;
 };
 
@@ -31,16 +30,16 @@ function getSlugFromFilename(filename: string): string {
   return filename.replace(/\.mdx?$/, "");
 }
 
-/** Список всех записей (только frontmatter), без draft */
-export function getAllMarineLife(): MarineLifeMeta[] {
-  if (!fs.existsSync(MARINE_LIFE_DIR)) return [];
+export function getAllMarineLife(locale: string = "ru"): MarineLifeMeta[] {
+  const dir = getMarineLifeDir(locale);
+  if (!fs.existsSync(dir)) return [];
   const files = fs
-    .readdirSync(MARINE_LIFE_DIR)
+    .readdirSync(dir)
     .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"));
   const items: MarineLifeMeta[] = [];
   for (const file of files) {
     const slug = getSlugFromFilename(file);
-    const raw = fs.readFileSync(path.join(MARINE_LIFE_DIR, file), "utf-8");
+    const raw = fs.readFileSync(path.join(dir, file), "utf-8");
     const { data } = matter(raw);
     if (data.draft === true) continue;
     items.push({
@@ -77,9 +76,11 @@ export type MarineLifePageResult = {
   perPage: number;
 };
 
-/** Записи для страницы пагинации (1-based). По 9 карточек на странице. */
-export function getMarineLifeForPage(page: number): MarineLifePageResult {
-  const all = getAllMarineLife();
+export function getMarineLifeForPage(
+  page: number,
+  locale: string = "ru",
+): MarineLifePageResult {
+  const all = getAllMarineLife(locale);
   const total = all.length;
   const totalPages = Math.max(1, Math.ceil(total / MARINE_LIFE_PER_PAGE));
   const safePage = Math.max(1, Math.min(page, totalPages));
@@ -95,24 +96,25 @@ export function getMarineLifeForPage(page: number): MarineLifePageResult {
   };
 }
 
-/** Сырой контент записи по slug. null если не найден */
-export function getMarineLifeRaw(slug: string): string | null {
-  const mdxPath = path.join(MARINE_LIFE_DIR, `${slug}.mdx`);
-  const mdPath = path.join(MARINE_LIFE_DIR, `${slug}.md`);
+export function getMarineLifeRaw(
+  slug: string,
+  locale: string = "ru",
+): string | null {
+  const dir = getMarineLifeDir(locale);
+  const mdxPath = path.join(dir, `${slug}.mdx`);
+  const mdPath = path.join(dir, `${slug}.md`);
   if (fs.existsSync(mdxPath)) return fs.readFileSync(mdxPath, "utf-8");
   if (fs.existsSync(mdPath)) return fs.readFileSync(mdPath, "utf-8");
   return null;
 }
 
-/**
- * Похожие записи по тегам, без текущей. Если есть совпадения по тегам — до limit штук; иначе — любые последние.
- */
 export function getRelatedMarineLife(
   currentSlug: string,
   currentTags: string[],
   limit: number = 6,
+  locale: string = "ru",
 ): MarineLifeMeta[] {
-  const all = getAllMarineLife().filter((m) => m.slug !== currentSlug);
+  const all = getAllMarineLife(locale).filter((m) => m.slug !== currentSlug);
   if (all.length === 0) return [];
 
   const scored = all.map((item) => {
@@ -127,9 +129,11 @@ export function getRelatedMarineLife(
   return toTake.slice(0, limit).map((s) => s.item);
 }
 
-/** Записи по тегу (ru название) */
-export function getMarineLifeByTag(tagRu: string): MarineLifeMeta[] {
-  return getAllMarineLife().filter(
+export function getMarineLifeByTag(
+  tagRu: string,
+  locale: string = "ru",
+): MarineLifeMeta[] {
+  return getAllMarineLife(locale).filter(
     (item) => item.tags && item.tags.includes(tagRu),
   );
 }
