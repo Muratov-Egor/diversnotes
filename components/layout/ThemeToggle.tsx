@@ -100,7 +100,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggle}
-      className={ICON_BTN}
+      className={ICON_BTN + " cursor-pointer"}
       aria-label={t("toggle")}
       title={isDark ? t("light") : t("dark")}
     >
