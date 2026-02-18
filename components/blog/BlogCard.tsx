@@ -79,16 +79,16 @@ export function BlogCard({ post, variant = "default" }: Props) {
         <h2
           className={
             isFeatured
-              ? "line-clamp-1 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:text-xl"
+              ? "line-clamp-2 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:text-xl"
               : isCompact
                 ? "line-clamp-2 break-words text-sm font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 sm:line-clamp-3"
-                : "line-clamp-1 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300"
+                : "line-clamp-2 font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-neutral-700 dark:group-hover:text-neutral-300"
           }
         >
           {title}
         </h2>
         {!isCompact && description && (
-          <p className="mt-1.5 line-clamp-2 min-h-[2.5rem] text-base text-neutral-500 dark:text-neutral-400">
+          <p className="mt-1.5 line-clamp-1 text-base text-neutral-500 dark:text-neutral-400">
             {description}
           </p>
         )}
