@@ -18,10 +18,10 @@ to write a full dive briefing in text form. This is what I came up with.
 
 <blockquote>
 💡 Initial information:
-2 divers --- one with an Open Water (OW) certification and one with an
-Advanced Open Water (AOW) certification.\
-The OW diver has 59 dives and last dived two days ago.\
-The AOW diver has 20 dives, and the last one was 10 years ago.\
+2 divers - one with an Open Water (OW) certification and one with an
+Advanced Open Water (AOW) certification.
+The OW diver has 59 dives and last dived two days ago.
+The AOW diver has 20 dives, and the last one was 10 years ago.
 You are going to Racha Yai for two boat dives.
 </blockquote>
 
@@ -33,22 +33,21 @@ forgotten some skills.
 According to the instructor manual, the Discover Local Diving program
 briefing should include:
 
--   A short overview of the dive site, including conditions, potential
-    hazards, and points of interest.\
--   Responsible interaction with the underwater environment.\
--   Procedures and techniques used for diving in this area.
+- A short overview of the dive site, including conditions, potential hazards, and points of interest.
+- Responsible interaction with the underwater environment.
+- Procedures and techniques used for diving in this area.
 
 This briefing works well for divers who dive regularly, like the first
 diver. However, since the second diver has not dived for 10 years, we
 should also refresh some basic knowledge from the Discover Scuba Diving
 (DSD) program:
 
--   Breathing rules and equalization techniques.\
--   Purpose and use of equipment.\
--   Hand signals.\
--   Regulator and mask clearing techniques.\
--   Respectful behavior toward marine life.\
--   Staying close to the instructor and following signals.\
+-   Breathing rules and equalization techniques.
+-   Purpose and use of equipment.
+-   Hand signals.
+-   Regulator and mask clearing techniques.
+-   Respectful behavior toward marine life.
+-   Staying close to the instructor and following signals.
 -   Program limits and the importance of continuing education.
 
 There is no need to conduct two full briefings. We can simply emphasize
@@ -74,14 +73,14 @@ The boat has two decks.
 On the lower deck:
 
 -   At the bow is the captain's cabin. Please do not enter or disturb
-    the captain.\
+    the captain.
 -   In the center corridor, on the left side, there are four toilets
     with showers. On the right side, there is a dry air-conditioned
-    room. Please do not enter there in wet swimsuits after diving.\
+    room. Please do not enter there in wet swimsuits after diving.
 -   Near the entrance is the kitchen and the engine room. Please do not
-    enter these areas.\
+    enter these areas.
 -   At the stern, you will find tank racks where we prepare equipment,
-    gear up, and remove equipment after dives.\
+    gear up, and remove equipment after dives.
 -   Also at the stern is the water entry/exit area. There are two
     freshwater showers and two freshwater buckets. One bucket is for
     cameras only, the other is for general equipment.
@@ -99,7 +98,7 @@ One more thing: if you are prone to seasickness, take a tablet in
 advance. It takes about 30 minutes to work. If you already feel sick, it
 may be too late. In that case, go to the lower deck, to the water entry
 area, and use the sea if necessary. There is nothing embarrassing about
-seasickness --- it can happen to anyone. To avoid it, don't sit on your
+seasickness - it can happen to anyone. To avoid it, don't sit on your
 phone. Look at a fixed point like an island or the horizon, avoid
 overheating, and drink water.
 
@@ -142,8 +141,8 @@ your comfort underwater.
 Underwater we do not touch anything. If I show the danger signal (closed
 fist), keep distance from the object.
 
-Be careful with your fins near corals. Breaking corals --- even
-accidentally --- damages the reef and can lead to fines for you, me, and
+Be careful with your fins near corals. Breaking corals - even
+accidentally - damages the reef and can lead to fines for you, me, and
 the boat.
 
 ### Entry and Descent
@@ -177,12 +176,9 @@ your legs only. Breathe calmly and regularly.
 
 Remember: **We never hold our breath.**
 
-If water enters your mask, press the top of the mask and exhale through
-your nose to clear it.
+If water enters your mask, press the top of the mask and exhale through your nose to clear it.
 
-Monitor your air regularly. Show me at 100 bar. Show me again at 60 bar
---- that means we start ascending. We will make a 3-minute safety stop
-at 5 meters.
+Monitor your air regularly. Show me at 100 bar. Show me again at 60 bar - that means we start ascending. We will make a 3-minute safety stop at 5 meters.
 
 ### Ascent and Exit
 

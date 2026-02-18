@@ -19,7 +19,7 @@ When you decide that you want to get a diving certification, the next
 question is which training system to choose.
 
 Today, a future diver can choose from more than 20 international diving
-associations. I won't talk about all of them --- I don't know them all
+associations. I won't talk about all of them - I don't know them all
 myself. I'll only mention the ones I am familiar with, and later you'll
 understand why you don't need to know every single one.
 
@@ -58,10 +58,10 @@ standards. The system does not depend too much on the individual
 instructor, since all instructors must follow the same guidelines.
 
 People say that if any legal issues happen and the instructor followed
-PADI standards correctly, the case is handled by PADI lawyers --- but we
+PADI standards correctly, the case is handled by PADI lawyers - but we
 won't test that 🙂
 
-Overall, PADI is top-level --- my personal choice 👍🏻.\
+Overall, PADI is top-level - my personal choice 👍🏻.\
 However, to be fair, the Open Water theory contains a lot of marketing
 about the organization and further courses. Still, the diving theory
 itself is explained very well.
@@ -98,7 +98,7 @@ use nitrox (oxygen-enriched air). They are considered one of the leaders
 in technical diving and developed many advanced technical courses.
 
 If one day I decide to move into technical diving, I will probably
-choose them --- forgive me, PADI 🙂
+choose them - forgive me, PADI 🙂
 
 ![NDL](https://f003.backblazeb2.com/file/diversnotes-images/divingAssociations/Diving_Associations_NDL_snyhhs.png "NDL")
 
@@ -129,7 +129,7 @@ higher-level course. However, this usually applies only to recreational
 certifications. Professional-level transitions can be more complicated.
 
 For example, if you are a PADI instructor, becoming an SSI instructor is
-relatively simple --- you complete a crossover course and can work as an
+relatively simple - you complete a crossover course and can work as an
 SSI instructor within a few days.
 
 However, moving from SSI to PADI is more complex and usually requires
@@ -146,7 +146,7 @@ So here are my personal tips:
     comfortable with that person.
 
 -   Define your goal. If you plan to dive once a year during vacations,
-    be honest --- even with a certificate, a responsible instructor will
+    be honest - even with a certificate, a responsible instructor will
     give you a detailed refresher briefing and test your skills before
     diving. Diving requires practice and regularity. I have seen divers
     with AOW certification and 20 dives, all done 10 years ago, who

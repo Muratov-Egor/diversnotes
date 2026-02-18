@@ -41,7 +41,7 @@ The island became world-famous after Maya Bay was featured in the movie
 DiCaprio.
 
 Just to the left of Maya Bay, in the neighboring Malong Bay, lies the
-dive site Turtle Rock --- the subject of this article.
+dive site Turtle Rock - the subject of this article.
 
 <YouTube id="LMPOp3meIiU" />
 

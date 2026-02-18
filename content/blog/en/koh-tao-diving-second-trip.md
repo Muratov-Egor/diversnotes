@@ -27,7 +27,7 @@ title: Second Trip to Koh Tao
 ## Introduction
 
 In August 2024, I found myself back on Koh Tao. I wrote about my first
-trip [here](https://www.diversnotes.com/ru/blog/koh-tao) --- back then
+trip [here](https://www.diversnotes.com/ru/blog/koh-tao) - back then
 everything was new and exciting, but also a bit chaotic: not everything
 went smoothly because of poor planning and some bad luck. This time, it
 was different.
@@ -41,7 +41,7 @@ leave the country, and I had no idea what would happen to my diving
 journey. One thing was clear: diving every week would soon be in the
 past.
 
-That's why this trip felt special --- like a goodbye. Maybe that's also
+That's why this trip felt special - like a goodbye. Maybe that's also
 why I postponed writing about it for so long. But now it's time to share
 these memories.
 
@@ -62,7 +62,7 @@ sunset](https://f003.backblazeb2.com/file/diversnotes-images/kohTao2/2_jxpkh5.pn
 
 July and August are considered peak season on Koh Tao, and I was ready
 for crowds. Still, I was surprised that the ferry was smaller than the
-one I took in April --- and completely full. During the transfer in
+one I took in April - and completely full. During the transfer in
 Samui, it became clear that the season was in full swing. Somehow, we
 made it to the island, and the most stressful part of the journey was
 over.
@@ -79,8 +79,8 @@ Diver](https://store.padi.com/en-us/courses/night-diver/p/60481-1B2C/)
 certification. With my Assistant Instructor certification, I didn't need
 that part. We paid and agreed to meet the next morning.
 
-After my previous trip --- when I lost two days because a dive center
-simply ignored me --- this experience felt perfect. So no, this is not
+After my previous trip - when I lost two days because a dive center
+simply ignored me - this experience felt perfect. So no, this is not
 advertising. It's just an honest recommendation.
 
 One of the most important things in diving is who you dive with. Your
@@ -88,12 +88,12 @@ buddy affects safety, comfort, and mood. This time, my buddy was a
 colleague I had already dived with many times.
 
 We were lucky with our divemasters too. For several days we dived with
-Steve and James --- guys who truly love diving. They showed us as much
+Steve and James - guys who truly love diving. They showed us as much
 as possible, never rushed the dives, and were genuinely enthusiastic.
 
 ## Day 3 -- Finally Diving
 
-We woke up at 6 a.m. Quick breakfast --- onigiri, yogurt, nuts --- and
+We woke up at 6 a.m. Quick breakfast - onigiri, yogurt, nuts - and
 headed to the dive center. From there we reached the dive boat by
 longtail taxi.
 
@@ -126,13 +126,13 @@ sightings. Unfortunately, this time we were not lucky.
 
 White Rock is one of the most popular dive sites on Koh Tao.
 Coral-covered rocks rise from around 25 meters, and marine life is
-everywhere --- moray eels, triggerfish, barracudas, angelfish, turtles.
+everywhere - moray eels, triggerfish, barracudas, angelfish, turtles.
 
 <YouTube id="blZrQJ0ujvQ" />
 
 ### Junkyard Reef -- Night Dive
 
-In the evening, we went to Junkyard Reef --- an artificial reef created
+In the evening, we went to Junkyard Reef - an artificial reef created
 by [Eco Koh Tao](https://www.ecokohtao.com/). Old gym equipment and
 metal structures were placed underwater to create habitats for marine
 life.
@@ -159,7 +159,7 @@ It can be crowded in high season, but the marine life makes it worth it.
 ### HTMS Sattakut
 
 We dived again at the wreck HTMS Sattakut. Unfortunately, visibility was
-poor --- even worse than during my previous visit.
+poor - even worse than during my previous visit.
 
 ### Mango Bay
 
@@ -182,7 +182,7 @@ Only two morning dives.
 ### Green Rock
 
 This time I finally captured photos of Green Rock. Massive rocks,
-tunnels, caves --- and giant groupers almost one meter long.
+tunnels, caves - and giant groupers almost one meter long.
 
 <YouTube id="NJq9SgT1EvE" />
 
@@ -196,7 +196,7 @@ rays, and nudibranchs live. Sometimes strong currents.
 ## Day 6 -- Final Dives
 
 The last day felt emotional but calm. The first dive was at **South West
-Pinnacle** --- one of the best deep sites near Koh Tao.
+Pinnacle** - one of the best deep sites near Koh Tao.
 
 Covered with anemones, surrounded by barracudas and snappers, full of
 life.
@@ -217,7 +217,7 @@ Shallow, calm water. Perfect for beginners and photographers.
 ### Tanote Bay
 
 Our final dive. Depth 5--18 meters, mix of natural reef and artificial
-structures. Barracudas, triggerfish, turtles --- and a peaceful
+structures. Barracudas, triggerfish, turtles - and a peaceful
 atmosphere.
 
 <YouTube id="Ev5aoDL8Bik" />
@@ -231,5 +231,5 @@ trip was still a success.
 
 Great dives, great company, beautiful underwater life.
 
-Koh Tao remains an amazing diving destination --- and when the
+Koh Tao remains an amazing diving destination - and when the
 opportunity comes, I will definitely return.

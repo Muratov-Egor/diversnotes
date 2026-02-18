@@ -50,7 +50,7 @@ The walls are covered with hard corals.
 
 Along the southern wall, toward the exit of the bay, you can find an
 artificial reef made of concrete spheres. Slightly deeper, at around
-9--10 meters, there is a mushroom-shaped coral with a small cave at its
+9-10 meters, there is a mushroom-shaped coral with a small cave at its
 base that is easy to swim through.
 
 <YouTube id="yN6NhWYPv4w" />
@@ -60,7 +60,7 @@ are often seen. A bit deeper, where the bottom becomes sandy, you will
 almost always find stingrays hiding in the sand.
 
 The depth increases gradually from the shallow beach area and reaches
-20--25 meters near the exit of the bay. If you continue further, you can
+20-25 meters near the exit of the bay. If you continue further, you can
 reach depths of more than 40 meters.
 
 ![Bungalow Bay
@@ -103,7 +103,7 @@ or Bungalow Bay, but it has its own advantages.
 Large dive boats visit this site less often, so there are fewer crowds
 on the surface and underwater. There are several large gardens of soft
 and hard corals here. Along the sandy area near the shore, you can see
-scattered coral farms --- artificial metal or concrete structures where
+scattered coral farms - artificial metal or concrete structures where
 different coral species are attached. Over time, they become home to
 many small fish.
 

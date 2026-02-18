@@ -100,7 +100,7 @@ King Cruiser offers interesting diving opportunities for both
 experienced divers and beginners.
 
 More advanced divers can explore different parts of the wreck, including
-the engine room with narrow passages --- ideal for divers using
+the engine room with narrow passages - ideal for divers using
 sidemount configuration.
 
 For beginner divers, there are safe and simple routes around the

@@ -77,7 +77,7 @@ On the south side, closer to the island, there are two channels formed by boulde
 
 This time they regrouped us, and I joined a team that (in theory) breathes less and should swim at a similar pace.
 
-And yes, it worked — but with нюанс.
+And yes, it worked — but with a one thing.
 
 Visibility on this dive was bad: very murky water and strong current. Also постоянные thermoclines. At some moments the temperature felt below 25°C. Brrr. Strong current + cold water = air goes down very fast.
 

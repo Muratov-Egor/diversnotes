@@ -36,7 +36,7 @@ Phi Islands, there is a high chance this will be your first dive site.
 
 This site is rarely chosen for people who have never dived before and do
 not have at least an Open Water certification. At the same time, the
-average depth is around 6 meters --- but it is absolutely worth it.
+average depth is around 6 meters - but it is absolutely worth it.
 
 The dive usually starts in a small bay at Bida Nok. Depth in the bay
 ranges from 1 to 5 meters, and divers often spend a lot of time there.
@@ -62,7 +62,7 @@ fish moving in perfect synchrony. This phenomenon is called murmurations
 --- synchronized movement of fish or birds.
 
 Swimming next to or even inside these schools, you can easily lose track
-of time --- just don't forget to check your air pressure.
+of time - just don't forget to check your air pressure.
 
 ![Murmuration](https://f003.backblazeb2.com/file/diversnotes-images/kohBidaNok/Koh_Bida_Nok_1_jfiguw.png "Murmuration")
 
@@ -78,4 +78,4 @@ Nok](https://f003.backblazeb2.com/file/diversnotes-images/kohBidaNok/Koh_Bida_No
 
 This dive site is one of my personal favorites. No matter the conditions
 --- calm and clear water on a sunny day or low visibility with strong
-current --- there is always something new and interesting to see.
+current - there is always something new and interesting to see.

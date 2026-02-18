@@ -26,7 +26,7 @@ often...
 
 After three months without diving, I finally found a way to continue,
 even in my current situation. To do that, I had to learn how to use a
-dry suit --- without it, winter diving would be very difficult. Luckily,
+dry suit - without it, winter diving would be very difficult. Luckily,
 I like learning new things 😊
 
 I'm not an expert in dry suit diving yet, but I understand the basics
@@ -87,7 +87,7 @@ own. That's why you wear thermal undergarments underneath. The colder
 the water and the longer the dive, the warmer your undergarment should
 be.
 
-There are many options --- from simple solutions to professional
+There are many options - from simple solutions to professional
 systems.
 
 #### Valves
@@ -220,7 +220,7 @@ It sounds complicated, but with practice it becomes natural.
 basement](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/Untitled-1_xpr01e.png "Dive center basement")
 
 Belgrade has only a few dive centers. I contacted three, and only one
-replied --- luckily, that was enough.
+replied - luckily, that was enough.
 
 We met at their dive base, located in a basement but very professional
 and atmospheric. We discussed my experience, equipment, and training
@@ -230,17 +230,17 @@ sessions.
 Theory was presented in lectures. I also reviewed PADI materials I had
 access to from my Divemaster certification.
 
-Pool training was interesting --- we practiced in a public pool while
+Pool training was interesting - we practiced in a public pool while
 kids were learning to swim nearby. Diving in a dry suit felt easier than
 expected, but very different.
 
 ![Me in dry
 suit](https://f003.backblazeb2.com/file/diversnotes-images/drySuite/me_hjvpws.png "Me in dry suit")
 
-I used a rental membrane suit --- **Ursuit Softdura**. It had a front
+I used a rental membrane suit - **Ursuit Softdura**. It had a front
 zipper, thigh pockets, and built-in boots.
 
-It also had a **P-valve** --- a special valve for... physiological needs
+It also had a **P-valve** - a special valve for... physiological needs
 during long dives. I didn't test it 😅
 
 During the first session, I noticed water leaking through a wrist seal.
@@ -259,7 +259,7 @@ quiet park near the lake. Surreal moment.
 My buddy entered first and showed floating ice. I laughed nervously and
 followed.
 
-The water was freezing --- but I stayed warm inside the suit.
+The water was freezing - but I stayed warm inside the suit.
 
 Underwater life was minimal. A few crayfish, some plants, light rays
 through cold water. But the goal was simple: understand what winter
@@ -277,7 +277,7 @@ control, it becomes enjoyable.
 Yes, there are extra courses, higher costs, and more maintenance. But
 after my first cold-water dive, I realized it was worth it.
 
-Now I know that limits in diving are not about weather --- they are
+Now I know that limits in diving are not about weather - they are
 about equipment and skills.
 
 Maybe one day I'll move into technical diving. Who knows? 😉

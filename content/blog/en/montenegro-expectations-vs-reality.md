@@ -25,17 +25,17 @@ expected Montenegro to be similar. Well... not really :)
 
 Back in January, I started writing to local dive centers:
 
---- When can we dive? I'm ready to fly next weekend!
+- When can we dive? I'm ready to fly next weekend!
 
 The answer was reasonable:
 
---- It's seasonal work here. Right now we're in Belgrade teaching
-beginners in a pool. We'll go to Montenegro in early May --- if the
+- It's seasonal work here. Right now we're in Belgrade teaching
+beginners in a pool. We'll go to Montenegro in early May - if the
 weather allows. Contact us closer to the date.
 
 So I waited until the end of April. When warm weather arrived in Serbia
 and Montenegro, I wrote again. The answer: the season starts in early
-May --- come and dive.
+May - come and dive.
 
 On May 8, I flew to Tivat, rented a car, and drove to Herceg Novi for my
 first dive.
@@ -48,11 +48,11 @@ Herceg Novi is a resort town near the Croatian border and one of the
 main diving locations in Montenegro. From here you can reach famous
 sites: wrecks, caves, submarine tunnels.
 
-But there is one detail --- you can only reach them if the dive center
+But there is one detail - you can only reach them if the dive center
 has already launched its boat.
 
 As I mentioned, I arrived right at the beginning of the season. I
-thought that would be an advantage --- like when I visited the [Similan
+thought that would be an advantage - like when I visited the [Similan
 Islands](https://www.diversnotes.com/ru/blog/diving-safari-similans)
 early in the season and enjoyed almost empty boats. But here it worked
 against me. A few days before my trip, the dive center informed me the
@@ -60,11 +60,11 @@ boat was not in the water yet. So we would dive from the shore.
 
 Well, I couldn't cancel everything. And it was a new experience.
 Previously, I had always dived from boats. (Okay, I also dived from
-shore in Belgrade --- but that was in a dry suit. Here I wore a long 8
+shore in Belgrade - but that was in a dry suit. Here I wore a long 8
 mm wetsuit.)
 
 Diving in "warm water" at +20°C after Thailand felt different. Not
-terrible --- but at depth, I felt the cold.
+terrible - but at depth, I felt the cold.
 
 The dive took place at [Rafaello
 Beach](https://www.google.com/maps/search/?api=1&query=42.4568573,18.52184110).
@@ -77,7 +77,7 @@ out an octopus, but it just looked at us from its hiding spot as if
 asking, "What are you doing here?"
 
 After the dive, I spoke with the divemaster. She suggested coming in
-early September --- fewer tourists, better weather, and boats fully
+early September - fewer tourists, better weather, and boats fully
 operational. Maybe Montenegro deserves a second chance then.
 
 ## Budva: The Tunnels, St. Nicholas Island & Mogren Cove
@@ -85,7 +85,7 @@ operational. Maybe Montenegro deserves a second chance then.
 Two days later, I was in Budva diving with another center. Here dives
 were from a boat near Sveti Nikola Island.
 
-My feelings were mixed --- mostly about the organization. I saw two
+My feelings were mixed - mostly about the organization. I saw two
 different approaches: one for certified divers and another for DSD
 groups (people trying diving for the first time).
 
@@ -94,7 +94,7 @@ Even an average Thai divemaster looked very professional compared to
 what I experienced here.
 
 Briefing lasted about five minutes, two of which were spent looking for
-a mask. A DSD dive lasted only seven minutes for 80 euros --- people
+a mask. A DSD dive lasted only seven minutes for 80 euros - people
 were simply dragged underwater by their tanks. The boat trip lasted
 three hours.
 
@@ -108,22 +108,22 @@ First dive: [The Tunnels, St. Nicholas
 Island](https://www.google.com/maps/search/?api=1&query=42.2699151,18.8451467).\
 38 minutes underwater, max depth 13 meters. We explored two natural
 tunnels, saw a moray eel, many sea stars and bream. Visibility ranged
-from 15 to 7 meters. Pleasant location --- warmer water would make it
+from 15 to 7 meters. Pleasant location - warmer water would make it
 much better (temperature was 21--18°C).
 
 Second dive: [Mogren
 Cove](https://www.google.com/maps/search/?api=1&query=42.2741953,18.83018250).\
-The guide swam very fast --- more like a race than a fun dive. After 40
+The guide swam very fast - more like a race than a fun dive. After 40
 minutes on the boat without warming up properly, I felt quite cold
 underwater.
 
 We tried to reach a sunken boat but turned back halfway. At 18 meters,
-temperature dropped to 16°C. The wreck lies at 27 meters --- I would
+temperature dropped to 16°C. The wreck lies at 27 meters - I would
 have frozen there. We spent 35 minutes underwater. Visibility similar to
 the first dive. Slightly less marine life, but we explored a few small
 caves.
 
-Overall --- okay. The underwater world did not impress me deeply, but
+Overall - okay. The underwater world did not impress me deeply, but
 comparing the Adriatic Sea to the Andaman Sea was interesting.
 
 ## What I Would Do Differently
@@ -141,7 +141,7 @@ redo the trip, I would:
 
 4.  Discuss specific dive sites in advance.
 
-5.  Choose another time of year --- September or June instead of May.
+5.  Choose another time of year - September or June instead of May.
 
 <YouTube id="6KzFhK-_j9k" />
 

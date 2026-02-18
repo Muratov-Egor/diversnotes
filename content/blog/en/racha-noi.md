@@ -101,7 +101,7 @@ sometimes reef sharks. One of the highlights here is the presence of
 large parrotfish.
 
 Currents can range from moderate to strong, and visibility is usually
-good --- around 15--30 meters.
+good - around 15--30 meters.
 
 Further south from Maritas Rock, there is a small wooden fishing boat
 resting on the bottom. It has been there for several years and is now
@@ -129,7 +129,7 @@ fish, giant moray eels, and octopuses.
 
 In deeper areas along the granite boulders on the eastern side, you may
 sometimes spot small schools of chevron barracudas. Be careful near the
-end of the boulders on both sides --- there can be strong down currents
+end of the boulders on both sides - there can be strong down currents
 pushing divers deeper.
 
 ## South Tip (South Pinnacle)
@@ -143,7 +143,7 @@ giant manta rays are regularly seen here.
 
 The minimum depth is about 9 meters, and strong currents are almost
 always present. Safety stops are often done in drift. Currents here can
-be extremely strong --- both horizontal and vertical --- flowing
+be extremely strong - both horizontal and vertical - flowing
 northeast to southwest and vice versa. This site is recommended only for
 very experienced divers.
 
@@ -203,7 +203,7 @@ never found. Since then, divers have called the place Camera Bay.
 
 Plate corals covering the bottom look like a garden filled with giant
 golden stone roses. Between them hide marble crabs, hermit crabs, and
-striped shrimps. Look carefully --- you might find a well-camouflaged
+striped shrimps. Look carefully - you might find a well-camouflaged
 frogfish.
 
 The dive route usually exits the bay and follows the western edge of the

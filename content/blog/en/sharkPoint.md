@@ -92,7 +92,7 @@ In addition, Shark Point is home to
 squid that often hide in small shelters. The site is well known for its
 variety of soft corals and anemones covering the rocks. Among this
 colorful coral landscape, you can find different species of moray eels
---- from [small fimbriated
+- from [small fimbriated
 morays](https://diversnotes.com/database/fimbriated-moray/) to [giant
 morays](https://diversnotes.com/database/giant-moray/) and zebra morays.
 

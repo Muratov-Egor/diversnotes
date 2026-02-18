@@ -34,7 +34,7 @@ Large, well-preserved wrecks are often located at greater depths.
 Exploring them requires deep dives.
 
 The deep-water environment also allows you to meet marine life adapted
-to darker and deeper conditions --- species that rarely appear in
+to darker and deeper conditions - species that rarely appear in
 shallow water.
 
 Many drift dives take place in ocean currents that are weaker or absent
@@ -147,7 +147,7 @@ deep diving, limited air and bottom time make this difficult. Ascending
 usually means ending the dive.
 
 At depth, you depend on your buddy's equipment and support. Staying
-close is not just important --- it is critical.
+close is not just important - it is critical.
 
 During descent and ascent, try to stay face-to-face at the same level.
 Stay closer than you would on a shallow dive.

@@ -50,7 +50,7 @@ island](https://f003.backblazeb2.com/file/diversnotes-images/kohTao/kohTao_1_ocl
 
 On this small island of only 21 square kilometers, there are around 150
 dive centers from different associations. This is possible because more
-than 30 dive sites surround the island --- from deep pinnacles to calm
+than 30 dive sites surround the island - from deep pinnacles to calm
 sandy bays. The island truly lives on diving, freediving, and
 snorkeling.
 
@@ -89,7 +89,7 @@ Koh Tao surprised me from the beginning. A noisy crowd at the pier ---
 tourists arriving, others leaving, and locals offering taxi rides. The
 first impression was not great. But once I left the pier and walked
 toward the hotel, I started to like the island. Jungle paths, beach
-cafés with beautiful views, relaxed smiling people --- it felt like a
+cafés with beautiful views, relaxed smiling people - it felt like a
 movie scene.
 
 However, you can't simply walk peacefully drinking coconut water. Mopeds
@@ -98,7 +98,7 @@ scooter. There are no police checkpoints, and few people ask for
 licenses, so traffic can be chaotic.
 
 In the evening, I visited the dive center I had contacted earlier. My
-plans changed --- morning dives were full because priority was given to
+plans changed - morning dives were full because priority was given to
 students taking courses. Diving here is very cheap, especially fun
 dives, and dive centers earn most of their money from courses.
 
@@ -110,7 +110,7 @@ Before describing the dive sites, I want to mention the infrastructure.
 A certified diver with their own equipment pays about \$13 per dive
 here. On Phuket, prices start around \$35.
 
-Boats are simpler, older, and offer minimal comfort --- water, cheap
+Boats are simpler, older, and offer minimal comfort - water, cheap
 tea, instant coffee. No breakfasts like on Phuket boats. But because
 dive sites are close to the island, you don't spend much time on board.
 And underwater, everything is excellent.
@@ -126,7 +126,7 @@ Visibility during my dive was around 12 meters. Maximum depth is about
 18 meters.
 
 There is a small swim-through cave where only one diver can pass at a
-time. Once inside, you must continue to the end --- turning around is
+time. Once inside, you must continue to the end - turning around is
 almost impossible.
 
 Fish here are surprisingly calm and allow divers to approach closely. It
@@ -163,7 +163,7 @@ others.
 One of the largest dive sites near Koh Tao. Depth 4--22 meters.
 Excellent for both day and night dives.
 
-My dive here was at night --- intense and unforgettable. We descended
+My dive here was at night - intense and unforgettable. We descended
 immediately to 21 meters into complete darkness. 50 minutes underwater
 with several unexpected moments, including a broken torch and a curious
 giant grouper.
@@ -175,7 +175,7 @@ arranged in a circle. Visibility can change quickly because the site is
 in open sea.
 
 At the end of the dive, we saw a huge school of yellowtail scad chased
-by giant trevallies --- an incredible moment.
+by giant trevallies - an incredible moment.
 
 ### HTMS Sattakut
 
