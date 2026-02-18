@@ -35,7 +35,7 @@ Thai) is located in open sea between Phuket and [Phi
 Phi](https://diversnotes.com/tags/%D0%BF%D1%85%D0%B8-%D0%BF%D1%85%D0%B8/).
 The dive site is famous for its pink and purple coral gardens and
 frequent sightings of [zebra
-sharks](https://diversnotes.com/database/zebra-shark/). Since 1992,
+sharks](/marine-life/zebra-shark). Since 1992,
 Shark Point has been part of a marine sanctuary where fishing is
 prohibited, making it an excellent place to explore the underwater world
 of the Andaman Sea.
@@ -83,20 +83,20 @@ On the second pinnacle, you can find some of the largest gorgonian sea
 fans and barrel sponges among all dive sites around Phuket and Phi Phi.
 Because the reef is relatively isolated, it attracts large schools of
 fish such as barracudas, batfish, [giant
-trevally](https://diversnotes.com/database/giant-trevally/), yellow
+trevally](/marine-life/giant-trevally), yellow
 snappers, tuna, and groupers. The site is also rich in macro life,
 including seahorses and ghost pipefish.
 
 In addition, Shark Point is home to
-[cuttlefish](https://diversnotes.com/database/pharaoh_cuttlefish/) and
+[cuttlefish](/marine-life/pharaoh-cuttlefish) and
 squid that often hide in small shelters. The site is well known for its
 variety of soft corals and anemones covering the rocks. Among this
 colorful coral landscape, you can find different species of moray eels
 - from [small fimbriated
-morays](https://diversnotes.com/database/fimbriated-moray/) to [giant
-morays](https://diversnotes.com/database/giant-moray/) and zebra morays.
+morays](/marine-life/fimbriated-moray) to [giant
+morays](/marine-life/giant-moray) and zebra morays.
 
-Bright [lionfish](https://diversnotes.com/database/red-lionfish/),
+Bright [lionfish](/marine-life/red-lionfish),
 octopuses, clownfish ("Nemo"), parrotfish, giant clams, nudibranchs, and
 seahorses make this site a paradise for macro photographers. The
 presence of currents and plankton also attracts larger marine animals

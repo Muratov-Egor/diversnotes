@@ -46,7 +46,7 @@ dive site Turtle Rock - the subject of this article.
 <YouTube id="LMPOp3meIiU" />
 
 The dive site received its name because of the frequent sightings of sea
-[turtles](https://diversnotes.com/database/green-sea-turtle/). Turtles
+[turtles](/marine-life/green-sea-turtle). Turtles
 here are already used to divers and usually ignore them. However, you
 should not approach too closely or touch them. If disturbed, a turtle
 may swim rapidly toward the surface. While this is not dangerous for the
@@ -66,18 +66,18 @@ not deeper than 5--6 meters. The reef slopes down to 14--16 meters and
 mainly consists of rocky formations covered with hard corals. Deeper
 areas transition into sandy bottom, where you may find seahorses, rays,
 and sometimes even [zebra
-sharks](https://diversnotes.com/database/zebra-shark/).
+sharks](/marine-life/zebra-shark).
 
 The area is filled with large rocks and boulders that once fell from the
 limestone cliffs above. These create interesting swim-throughs and small
 caves.
 
 Common reef fish are everywhere. You can often see octopuses, [spiny
-lobsters](https://diversnotes.com/database/panulirus-versicolor/), and
-[cuttlefish](https://diversnotes.com/database/pharaoh_cuttlefish/).
+lobsters](/marine-life/panulirus-versicolor), and
+[cuttlefish](/marine-life/pharaoh-cuttlefish).
 There are also several
-[triggerfish](https://diversnotes.com/database/titan-triggerfish/) and
-[moray eels](https://diversnotes.com/database/giant-moray/) in the area.
+[triggerfish](/marine-life/titan-triggerfish) and
+[moray eels](/marine-life/giant-moray) in the area.
 
 Closer to the southern corner between the bays, there is a section with
 beautiful soft corals and rocky formations that attract large schools of

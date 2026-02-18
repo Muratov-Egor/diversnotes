@@ -133,7 +133,7 @@ Fish here are surprisingly calm and allow divers to approach closely. It
 seems marine life has become used to the large number of divers.
 
 Before the dive, we had a special briefing about [Titan
-Triggerfish](https://diversnotes.com/database/titan-triggerfish/), as
+Triggerfish](/marine-life/titan-triggerfish), as
 April is their breeding season. Fortunately, no aggressive behavior
 occurred.
 
