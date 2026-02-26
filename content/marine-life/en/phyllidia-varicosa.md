@@ -2,7 +2,7 @@
 slug: phyllidia-varicosa
 title: Phyllidia varicosa
 latinName: Phyllidia varicosa
-description: Phyllidia varicosa is a large, colourful sea slug (nudibranch) of the family Phyllidiidae. The body is elongated-oval with 3–6 longitudinal ridges on the back bearing yellow-tipped tubercles; the ridges and tubercle bases are usually bluish-grey or blue with dark lines between them. The foot sole often has a clear dark longitudinal stripe. It lives on coral reefs and rocky areas, feeds on sponges and uses their chemicals for defence; it is considered toxic and has warning coloration.
+description: "Phyllidia varicosa is a large, colourful sea slug (nudibranch) of the family Phyllidiidae. The body is elongated-oval with 3–6 longitudinal ridges on the back bearing yellow-tipped tubercles; the ridges and tubercle bases are usually bluish-grey or blue with dark lines between them. The foot sole often has a clear dark longitudinal stripe. It lives on coral reefs and rocky areas, feeds on sponges and uses their chemicals for defence; it is considered toxic and has warning coloration."
 depthRange: 1–30 m
 locations:
   - Indian Ocean

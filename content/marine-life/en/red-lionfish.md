@@ -2,7 +2,7 @@
 slug: red-lionfish
 title: Red lionfish
 latinName: Pterois volitans
-description: The red lionfish (zebra lionfish) is a venomous reef fish of the family Scorpaenidae. It is easily recognised by its long, fan-like pectoral fins and dorsal spines with venom glands. Coloration is contrasting: white vertical stripes alternate with red, maroon or dark brown. By day it often hides in crevices and under reef overhangs; it hunts mainly at dusk and at night, ambushing small fish and crustaceans. A sting from its spines is very painful and can cause a severe reaction.
+description: "The red lionfish (zebra lionfish) is a venomous reef fish of the family Scorpaenidae. It is easily recognised by its long, fan-like pectoral fins and dorsal spines with venom glands. Coloration is contrasting: white vertical stripes alternate with red, maroon or dark brown. By day it often hides in crevices and under reef overhangs; it hunts mainly at dusk and at night, ambushing small fish and crustaceans. A sting from its spines is very painful and can cause a severe reaction."
 depthRange: 2–55 m
 locations:
   - Indian Ocean

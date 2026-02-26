@@ -2,7 +2,7 @@
 slug: melon-butterflyfish
 title: Melon butterflyfish
 latinName: Chaetodon trifasciatus
-description: The melon butterflyfish is a reef butterflyfish of the Indian Ocean, usually up to 15 cm. The body is strongly flattened; main colour is light yellow to yellowish with thin oblique bluish-blue lines on the sides. It has dark bands: one through the eye ("mask"), a broad band just behind the head and a dark area at the tail base. Adults are often seen in pairs and feed mainly on hard coral polyps.
+description: "The melon butterflyfish is a reef butterflyfish of the Indian Ocean, usually up to 15 cm. The body is strongly flattened; main colour is light yellow to yellowish with thin oblique bluish-blue lines on the sides. It has dark bands: one through the eye (\"mask\"), a broad band just behind the head and a dark area at the tail base. Adults are often seen in pairs and feed mainly on hard coral polyps."
 depthRange: 2–20 m
 locations:
   - Indian Ocean

@@ -2,7 +2,7 @@
 slug: scarus-niger
 title: Dusky parrotfish
 latinName: Scarus niger
-description: The dusky parrotfish (Scarus niger) is a reef fish of the family Scaridae, found across the Indo-Pacific region including the Red Sea. It has a typical parrotfish "beak" of fused teeth used to scrape algae. Coloration varies greatly with age and sex and may include shades of blue, green, purple and almost black; it is often seen alone. It feeds mainly on benthic algae on hard substrate and dead coral, grazing actively on the reef by day.
+description: "The dusky parrotfish (Scarus niger) is a reef fish of the family Scaridae, found across the Indo-Pacific region including the Red Sea. It has a typical parrotfish \"beak\" of fused teeth used to scrape algae. Coloration varies greatly with age and sex and may include shades of blue, green, purple and almost black; it is often seen alone. It feeds mainly on benthic algae on hard substrate and dead coral, grazing actively on the reef by day."
 depthRange: down to 25 m
 locations:
   - Indian Ocean

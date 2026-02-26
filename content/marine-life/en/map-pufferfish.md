@@ -2,7 +2,7 @@
 slug: map-pufferfish
 title: Map pufferfish
 latinName: Arothron mappa
-description: The map pufferfish (also known as the scribbled puffer) is a large pufferfish with a "map-like" or maze-like pattern of light wavy lines on a grey to greenish-brown background. The skin has no scales but small skin spines. The teeth are fused into a strong "beak" used to crush hard prey (molluscs and crustaceans). When threatened it inflates to look larger; its tissues may contain tetrodotoxin.
+description: "The map pufferfish (also known as the scribbled puffer) is a large pufferfish with a \"map-like\" or maze-like pattern of light wavy lines on a grey to greenish-brown background. The skin has no scales but small skin spines. The teeth are fused into a strong \"beak\" used to crush hard prey (molluscs and crustaceans). When threatened it inflates to look larger; its tissues may contain tetrodotoxin."
 depthRange: 4–30 m
 locations:
   - Indo-Pacific region

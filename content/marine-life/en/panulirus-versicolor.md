@@ -2,7 +2,7 @@
 slug: panulirus-versicolor
 title: Painted spiny lobster
 latinName: Panulirus versicolor
-description: The painted spiny lobster (also known as the blue-spotted or multicoloured lobster) is a spiny lobster that lives on coral reefs in the Indo-Pacific. By day it hides in crevices and under reef overhangs and is mainly active at night. It grows to 40 cm in length but is usually seen at about 30 cm. Coloration is white, pink and black with horizontal bands and a net-like pattern; the legs are dark with white bands and the long antennae are often whitish.
+description: "The painted spiny lobster (also known as the blue-spotted or multicoloured lobster) is a spiny lobster that lives on coral reefs in the Indo-Pacific. By day it hides in crevices and under reef overhangs and is mainly active at night. It grows to 40 cm in length but is usually seen at about 30 cm. Coloration is white, pink and black with horizontal bands and a net-like pattern; the legs are dark with white bands and the long antennae are often whitish."
 depthRange: 1–18 m
 locations:
   - Indian Ocean

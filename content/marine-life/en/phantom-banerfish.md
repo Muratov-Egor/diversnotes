@@ -2,7 +2,7 @@
 slug: phantom-banerfish
 title: Phantom bannerfish
 latinName: Heniochus pleurotaenia
-description: The phantom bannerfish is a reef fish of the family Chaetodontidae from the central Indo-Pacific. The body is deep and strongly flattened; the first dorsal ray is elongated into a "banner". Coloration is light with contrasting dark areas: a "mask" through the eye, a broad dark band behind the head and a dark patch or zone at the tail base; the upper body and back are often yellowish. It lives in coral-rich lagoons and on outer reef slopes, in pairs or groups (sometimes large schools in some areas), often on reef crests in the surge zone.
+description: "The phantom bannerfish is a reef fish of the family Chaetodontidae from the central Indo-Pacific. The body is deep and strongly flattened; the first dorsal ray is elongated into a \"banner\". Coloration is light with contrasting dark areas: a \"mask\" through the eye, a broad dark band behind the head and a dark patch or zone at the tail base; the upper body and back are often yellowish. It lives in coral-rich lagoons and on outer reef slopes, in pairs or groups (sometimes large schools in some areas), often on reef crests in the surge zone."
 depthRange: 1–25 m
 locations:
   - Indian Ocean

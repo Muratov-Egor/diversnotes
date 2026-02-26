@@ -2,7 +2,7 @@
 slug: longfin-grouper
 title: Longfin grouper
 latinName: Epinephelus quoyanus
-description: The longfin grouper is a small reef predator with a light "honey" colour and a dense pattern of dark hexagonal or rounded spots on the head, body and fins. On the upper body the pattern looks more like a network; lower down the spots are fewer and less distinct. It is usually sluggish and often "sits" on the bottom resting on its long, fleshy pectoral fins; it feeds on small fish, crustaceans and worms.
+description: "The longfin grouper is a small reef predator with a light \"honey\" colour and a dense pattern of dark hexagonal or rounded spots on the head, body and fins. On the upper body the pattern looks more like a network; lower down the spots are fewer and less distinct. It is usually sluggish and often \"sits\" on the bottom resting on its long, fleshy pectoral fins; it feeds on small fish, crustaceans and worms."
 depthRange: down to 50 m
 locations:
   - Indo-Pacific region

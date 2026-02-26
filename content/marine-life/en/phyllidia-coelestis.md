@@ -2,7 +2,7 @@
 slug: phyllidia-coelestis
 title: Phyllidia coelestis
 latinName: Phyllidia coelestis
-description: Phyllidia coelestis is a nudibranch (sea slug) of the family Phyllidiidae. The body is oval, up to 6 cm. Coloration is grey-blue with three longitudinal black lines: two on the sides and one in the centre that forms a characteristic Y-shaped pattern in front of the rhinophores. The back is covered with bright yellow tubercles; the rhinophores are usually yellow. By day it crawls actively over the reef and feeds on sponges; the colour is warning coloration, and many phyllidiids are toxic to predators.
+description: "Phyllidia coelestis is a nudibranch (sea slug) of the family Phyllidiidae. The body is oval, up to 6 cm. Coloration is grey-blue with three longitudinal black lines: two on the sides and one in the centre that forms a characteristic Y-shaped pattern in front of the rhinophores. The back is covered with bright yellow tubercles; the rhinophores are usually yellow. By day it crawls actively over the reef and feeds on sponges; the colour is warning coloration, and many phyllidiids are toxic to predators."
 depthRange: down to 30 m
 locations:
   - Indian Ocean

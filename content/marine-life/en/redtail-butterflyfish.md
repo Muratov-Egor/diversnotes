@@ -2,7 +2,7 @@
 slug: redtail-butterflyfish
 title: Redtail butterflyfish
 latinName: Chaetodon collare
-description: The redtail butterflyfish (also known as the Pakistani butterflyfish or collare butterflyfish) is a reef fish of the family Chaetodontidae from the Indo-West Pacific. It has a deep body and short snout; coloration is brownish-olive with a "netted" pattern (pale scale centres and dark edges). The head is dark with white marks near the snout and a broad white vertical band behind the eye ("collar"); the tail fin is bright red or orange-red. It is usually seen in pairs or small groups on the reef edge and upper slope, and feeds on coral polyps and other invertebrates.
+description: "The redtail butterflyfish (also known as the Pakistani butterflyfish or collare butterflyfish) is a reef fish of the family Chaetodontidae from the Indo-West Pacific. It has a deep body and short snout; coloration is brownish-olive with a \"netted\" pattern (pale scale centres and dark edges). The head is dark with white marks near the snout and a broad white vertical band behind the eye (\"collar\"); the tail fin is bright red or orange-red. It is usually seen in pairs or small groups on the reef edge and upper slope, and feeds on coral polyps and other invertebrates."
 depthRange: down to 20 m
 locations:
   - Indian Ocean

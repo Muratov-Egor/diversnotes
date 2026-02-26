@@ -2,7 +2,7 @@
 slug: pharaoh-cuttlefish
 title: Pharaoh cuttlefish
 latinName: Sepia pharaonis
-description: The pharaoh cuttlefish is a large cuttlefish from the Sepia pharaonis group, found in the warm waters of the Indo-Pacific. Mantle length reaches about 42 cm and weight up to 5 kg. Like other cuttlefish, it has a well-developed nervous system and complex behaviour: it uses jet propulsion (including quick backward bursts), releases ink and changes colour and skin pattern instantly using chromatophores; it can also change the "texture" of its body surface with skin papillae for camouflage.
+description: "The pharaoh cuttlefish is a large cuttlefish from the Sepia pharaonis group, found in the warm waters of the Indo-Pacific. Mantle length reaches about 42 cm and weight up to 5 kg. Like other cuttlefish, it has a well-developed nervous system and complex behaviour: it uses jet propulsion (including quick backward bursts), releases ink and changes colour and skin pattern instantly using chromatophores; it can also change the \"texture\" of its body surface with skin papillae for camouflage."
 depthRange: down to 130 m
 locations:
   - Indian Ocean

@@ -2,7 +2,7 @@
 slug: mosaic-jellyfish
 title: Mosaic jellyfish
 latinName: Catostylus mosaicus
-description: The mosaic jellyfish (also known as jelly blubber or blue blubber jellyfish) is a rhizostome scyphozoan jellyfish common in coastal waters (shallow bays and estuaries). The bell is dome-shaped, usually 30–35 cm in diameter, and colour ranges from milky white and cream to bluish; the surface may be finely granular and the overall pattern looks "mosaic-like". There are no long marginal tentacles; instead, under the bell there are large oral arms and eight short, thick, fringed mouth arms. It feeds on plankton and small organic particles by filtering water; it sometimes forms large blooms.
+description: "The mosaic jellyfish (also known as jelly blubber or blue blubber jellyfish) is a rhizostome scyphozoan jellyfish common in coastal waters (shallow bays and estuaries). The bell is dome-shaped, usually 30–35 cm in diameter, and colour ranges from milky white and cream to bluish; the surface may be finely granular and the overall pattern looks \"mosaic-like\". There are no long marginal tentacles; instead, under the bell there are large oral arms and eight short, thick, fringed mouth arms. It feeds on plankton and small organic particles by filtering water; it sometimes forms large blooms."
 depthRange: 0–30 m
 locations:
   - Indian Ocean

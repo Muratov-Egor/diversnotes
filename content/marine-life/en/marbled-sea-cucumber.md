@@ -2,7 +2,7 @@
 slug: marbled-sea-cucumber
 title: Marbled sea cucumber
 latinName: Pearsonothuria graeffei
-description: The marbled sea cucumber (Pearsonothuria graeffei) is a bottom-dwelling holothurian of the tropical Indo-Pacific. The body is elongated and cylindrical, with light (creamy or greyish-brown) colour and many dark dots and patches forming a "marbled" pattern; low papillae are visible on the skin. It feeds by sifting the surface layer of sediment and extracting organic matter (detritus). Under strong stress it may release sticky threads (Cuvierian tubules) that contain toxic substances.
+description: "The marbled sea cucumber (Pearsonothuria graeffei) is a bottom-dwelling holothurian of the tropical Indo-Pacific. The body is elongated and cylindrical, with light (creamy or greyish-brown) colour and many dark dots and patches forming a \"marbled\" pattern; low papillae are visible on the skin. It feeds by sifting the surface layer of sediment and extracting organic matter (detritus). Under strong stress it may release sticky threads (Cuvierian tubules) that contain toxic substances."
 depthRange: 1–25 m
 locations:
   - Indian Ocean

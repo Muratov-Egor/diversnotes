@@ -2,7 +2,7 @@
 slug: pineapple-sea-cucumber
 title: Pineapple sea cucumber
 latinName: Thelenota ananas
-description: The pineapple sea cucumber is a very large holothurian of the family Stichopodidae, living on sandy areas and among coral reefs in the Indo-Pacific. It is notable for its size and firm, "armoured" body with many pointed star-shaped papillae in rows of 2–3. Coloration is usually warm grey-brown to reddish-orange with darker patches. It feeds on organic matter from the sediment by passing the surface layer of the bottom through its mouth.
+description: "The pineapple sea cucumber is a very large holothurian of the family Stichopodidae, living on sandy areas and among coral reefs in the Indo-Pacific. It is notable for its size and firm, \"armoured\" body with many pointed star-shaped papillae in rows of 2–3. Coloration is usually warm grey-brown to reddish-orange with darker patches. It feeds on organic matter from the sediment by passing the surface layer of the bottom through its mouth."
 depthRange: 2–30 m
 locations:
   - Indian Ocean

@@ -2,7 +2,7 @@
 slug: red-breasted-wrasse
 title: Red-breasted wrasse
 latinName: Cheilinus fasciatus
-description: The red-breasted wrasse (redbreast wrasse) is a reef fish of the family Labridae, found in the Indian Ocean and western Pacific, including the Red Sea. It has a deep, moderately flattened body and a large head with thick lips. Coloration changes with age and phase: juveniles are usually pale with several dark vertical stripes; adults and terminal males are more contrasting, with a reddish-orange "breast" on the head and forebody and broad black-and-white horizontal bands behind. It lives on lagoon and outer reefs among coral, sand and rubble, feeding mainly on hard-shelled invertebrates (crustaceans, molluscs, sea urchins).
+description: "The red-breasted wrasse (redbreast wrasse) is a reef fish of the family Labridae, found in the Indian Ocean and western Pacific, including the Red Sea. It has a deep, moderately flattened body and a large head with thick lips. Coloration changes with age and phase: juveniles are usually pale with several dark vertical stripes; adults and terminal males are more contrasting, with a reddish-orange \"breast\" on the head and forebody and broad black-and-white horizontal bands behind. It lives on lagoon and outer reefs among coral, sand and rubble, feeding mainly on hard-shelled invertebrates (crustaceans, molluscs, sea urchins)."
 depthRange: 4–60 m
 locations:
   - Indian Ocean

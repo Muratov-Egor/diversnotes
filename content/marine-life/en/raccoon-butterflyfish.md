@@ -2,7 +2,7 @@
 slug: raccoon-butterflyfish
 title: Raccoon butterflyfish
 latinName: Chaetodon lunula
-description: The raccoon butterflyfish (lunula) is a reef fish of the family Chaetodontidae, widespread in the tropical waters of the Indian and Pacific Oceans. It is recognised by its "raccoon mask" — a black band through the eye with a white edge — and a black spot on the tail base. The body is oval and strongly flattened; main colour is yellow with white areas and oblique dark reddish or brown streaks on the sides. It is usually seen alone, in pairs or small groups on reefs and in lagoons, and feeds on various invertebrates and sometimes coral polyps.
+description: "The raccoon butterflyfish (lunula) is a reef fish of the family Chaetodontidae, widespread in the tropical waters of the Indian and Pacific Oceans. It is recognised by its \"raccoon mask\" — a black band through the eye with a white edge — and a black spot on the tail base. The body is oval and strongly flattened; main colour is yellow with white areas and oblique dark reddish or brown streaks on the sides. It is usually seen alone, in pairs or small groups on reefs and in lagoons, and feeds on various invertebrates and sometimes coral polyps."
 depthRange: 1–60 m
 locations:
   - Indian Ocean
