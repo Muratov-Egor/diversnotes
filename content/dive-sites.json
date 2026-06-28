@@ -1565,6 +1565,110 @@
             "max": null
           }
         }
+      },
+      {
+        "name": "Jakubic Cave",
+        "dives": 1,
+        "type": "cave",
+        "coordinates": {
+          "lat": 42.4032,
+          "lng": 18.56238
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.4032,18.56238",
+        "id": "montenegro-herceg-novi-jakubic-cave",
+        "slugs": {
+          "site": "jakubic-cave"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Jakubic Grotto",
+        "dives": 1,
+        "type": "cave",
+        "coordinates": {
+          "lat": 42.40338,
+          "lng": 18.56469
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.40338,18.56469",
+        "id": "montenegro-herceg-novi-jakubic-grotto",
+        "slugs": {
+          "site": "jakubic-grotto"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Cape Kobila",
+        "dives": 1,
+        "type": "default",
+        "coordinates": {
+          "lat": 42.42293,
+          "lng": 18.52907
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.42293,18.52907",
+        "id": "montenegro-herceg-novi-cape-kobila",
+        "slugs": {
+          "site": "cape-kobila"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      {
+        "name": "Submarines tunnels",
+        "dives": 1,
+        "type": "default",
+        "coordinates": {
+          "lat": 42.42378,
+          "lng": 18.54904
+        },
+        "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=42.42378,18.54904",
+        "id": "montenegro-herceg-novi-submarines-tunnels",
+        "slugs": {
+          "site": "submarines-tunnels"
+        },
+        "seo": {
+          "summary": {
+            "en": "",
+            "ru": ""
+          },
+          "tags": [],
+          "difficulty": null,
+          "depth": {
+            "min": null,
+            "max": null
+          }
+        }
       }
     ]
   },
